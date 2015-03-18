@@ -8,6 +8,8 @@ import tml.storage.Repository;
 import tml.vectorspace.operations.CmmProcess;
 import tml.corpus.SearchResultsCorpus;
 import tml.conceptmap.*;
+import tml.vectorspace.operations.results.ConceptMapResult;
+
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -47,9 +49,9 @@ public class ConceptMapExtract {
         extraction.setCorpus(corpus);
         extraction.start();
 
-        FileOutputStream output = new FileOutputStream(new File("./output.xml"));
-        output.write(extraction.getResultsXML().getBytes());
-        output.close();
+        ConceptMapResult result = extraction.getResults().get(0);
+        ConceptMap conceptMap = result.getConceptMap();
+        conceptMap.writeToXML("./output.xml");
     }
 
     public static void importDocumentIntoRepository(File documentFile, Repository repository) throws IOException {
