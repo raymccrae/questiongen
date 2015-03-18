@@ -8,6 +8,12 @@ import tml.storage.Repository;
 import tml.vectorspace.operations.CmmProcess;
 import tml.corpus.SearchResultsCorpus;
 import tml.conceptmap.*;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -67,7 +73,7 @@ public class ConceptMapExtract {
         System.out.println("exit code " + exitValue);
     }
 
-    public static void enrichConceptMapWithStanford(File conceptMap, File stanfordFile) throws IOException, SAXException, ParserConfigurationException {
+    public static void enrichConceptMapWithStanford(File conceptMap, File stanfordFile) throws IOException, SAXException, ParserConfigurationException, TransformerException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
 
@@ -101,7 +107,11 @@ public class ConceptMapExtract {
             }
         }
 
-
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        DOMSource source = new DOMSource(conceptMapDocument);
+        StreamResult result = new StreamResult(new File("/Users/raymond/Documents/OpenUniversity/T802/tml/enhance.xml"));
+        transformer.transform(source, result);
     }
 
     public static ConceptAttributes tokenElementToConceptAttributes(Element token) {
