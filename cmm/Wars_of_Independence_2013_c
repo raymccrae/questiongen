@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="7000 inhabitants"/>
+  <concept id="2" label="april"/>
+  <concept id="3" label="berwick"/>
+  <concept id="4" label="besieged castle"/>
+  <concept id="5" label="borders"/>
+  <concept id="6" label="bruces"/>
+  <concept id="7" label="campaign"/>
+  <concept id="8" label="course"/>
+  <concept id="9" label="danger"/>
+  <concept id="10" label="disappointed scottish nobles"/>
+  <concept id="11" label="dunbar"/>
+  <concept id="12" label="edward"/>
+  <concept id="13" label="england"/>
+  <concept id="14" label="english king"/>
+  <concept id="15" label="ensuing battle"/>
+  <concept id="16" label="experienced army"/>
+  <concept id="17" label="fight"/>
+  <concept id="18" label="full force"/>
+  <concept id="19" label="king john"/>
+  <concept id="20" label="large army"/>
+  <concept id="21" label="march"/>
+  <concept id="22" label="outset"/>
+  <concept id="23" label="scotland"/>
+  <concept id="24" label="scots"/>
+  <concept id="25" label="small scottish force"/>
+  <concept id="26" label="town"/>
+  <relationship id="1" sourceWord="campaign" linkingWord="carried using " targetWord="full force" source="7" target="18"/>
+  <relationship id="2" sourceWord="campaign" linkingWord="to" targetWord="scotland" source="7" target="23"/>
+  <relationship id="3" sourceWord="full force" linkingWord="of" targetWord="experienced army" source="18" target="16"/>
+  <relationship id="4" sourceWord="borders" linkingWord="feared included " targetWord="bruces" source="5" target="6"/>
+  <relationship id="5" sourceWord="borders" linkingWord="from" targetWord="disappointed scottish nobles" source="5" target="10"/>
+  <relationship id="6" sourceWord="course" linkingWord="this included " targetWord="bruces" source="8" target="6"/>
+  <relationship id="7" sourceWord="ensuing battle" linkingWord="at" targetWord="dunbar" source="15" target="11"/>
+  <relationship id="8" sourceWord="besieged castle" linkingWord="of" targetWord="dunbar" source="4" target="11"/>
+  <relationship id="9" sourceWord="besieged castle" linkingWord="relieve attempted absent " targetWord="king john" source="4" target="19"/>
+  <relationship id="10" sourceWord="small scottish force" linkingWord="attempted relieve " targetWord="besieged castle" source="25" target="4"/>
+  <relationship id="11" sourceWord="large army" linkingWord="made slaughtering " targetWord="7000 inhabitants" source="20" target="1"/>
+  <relationship id="12" sourceWord="town" linkingWord="of" targetWord="berwick" source="26" target="3"/>
+  <relationship id="13" sourceWord="march" linkingWord="30 made " targetWord="large army" source="21" target="20"/>
+</conceptmap>

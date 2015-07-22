@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="birgham"/>
+  <concept id="2" label="chief"/>
+  <concept id="3" label="clergy"/>
+  <concept id="4" label="community"/>
+  <concept id="5" label="country"/>
+  <concept id="6" label="court"/>
+  <concept id="7" label="crime"/>
+  <concept id="8" label="document"/>
+  <concept id="9" label="elections"/>
+  <concept id="10" label="endeavor"/>
+  <concept id="11" label="england"/>
+  <concept id="12" label="external interference"/>
+  <concept id="13" label="guardians"/>
+  <concept id="14" label="harmony"/>
+  <concept id="15" label="high-watermark"/>
+  <concept id="16" label="homage"/>
+  <concept id="17" label="lands"/>
+  <concept id="18" label="law"/>
+  <concept id="19" label="scotland"/>
+  <concept id="20" label="scots"/>
+  <concept id="21" label="scots crown need"/>
+  <concept id="22" label="scottish kingdom"/>
+  <concept id="23" label="subjugation"/>
+  <concept id="24" label="treaty"/>
+  <concept id="25" label="whole course"/>
+  <concept id="26" label="wise statesmanship"/>
+  <relationship id="1" sourceWord="treaty" linkingWord="of" targetWord="birgham" source="24" target="1"/>
+  <relationship id="2" sourceWord="high-watermark" linkingWord="by" targetWord="guardians" source="15" target="13"/>
+  <relationship id="3" sourceWord="whole course" linkingWord="called treaty " targetWord="birgham" source="25" target="1"/>
+  <relationship id="4" sourceWord="document" linkingWord="of" targetWord="wise statesmanship" source="8" target="26"/>
+  <relationship id="5" sourceWord="chief" linkingWord="do not have answer " targetWord="court" source="2" target="6"/>
+  <relationship id="6" sourceWord="elections" linkingWord="were do " targetWord="chief" source="9" target="2"/>
+  <relationship id="7" sourceWord="chief" linkingWord="of" targetWord="scots crown need" source="2" target="21"/>
+  <relationship id="8" sourceWord="elections" linkingWord="to" targetWord="clergy" source="9" target="3"/>
+  <relationship id="9" sourceWord="clergy" linkingWord="in" targetWord="scotland" source="3" target="19"/>
+  <relationship id="10" sourceWord="court" linkingWord="outside" targetWord="country" source="6" target="5"/>
+  <relationship id="11" sourceWord="crime" linkingWord="accused sued " targetWord="law" source="7" target="18"/>
+  <relationship id="12" sourceWord="elections" linkingWord="were free " targetWord="external interference" source="9" target="12"/>
+  <relationship id="13" sourceWord="homage" linkingWord="for" targetWord="lands" source="16" target="17"/>
+  <relationship id="14" sourceWord="scottish kingdom" linkingWord="was remain demanded " targetWord="scots" source="22" target="20"/>
+  <relationship id="15" sourceWord="scots" linkingWord="demanded remain without " targetWord="subjugation" source="20" target="23"/>
+  <relationship id="16" sourceWord="scottish kingdom" linkingWord="was remain without " targetWord="subjugation" source="22" target="23"/>
+  <relationship id="17" sourceWord="treaty" linkingWord="envisaged ruled " targetWord="england" source="24" target="11"/>
+</conceptmap>

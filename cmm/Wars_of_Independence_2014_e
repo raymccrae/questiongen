@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="associations"/>
+  <concept id="2" label="balliol"/>
+  <concept id="3" label="bannockburn"/>
+  <concept id="4" label="battle"/>
+  <concept id="5" label="bruce"/>
+  <concept id="6" label="cambuskenneth abbey"/>
+  <concept id="7" label="comyn"/>
+  <concept id="8" label="disinherited"/>
+  <concept id="9" label="end"/>
+  <concept id="10" label="england"/>
+  <concept id="11" label="english side"/>
+  <concept id="12" label="estates"/>
+  <concept id="13" label="few battles"/>
+  <concept id="14" label="history"/>
+  <concept id="15" label="hopes"/>
+  <concept id="16" label="king"/>
+  <concept id="17" label="land"/>
+  <concept id="18" label="landowners"/>
+  <concept id="19" label="lands"/>
+  <concept id="20" label="men"/>
+  <concept id="21" label="new class"/>
+  <concept id="22" label="new realities"/>
+  <concept id="23" label="next step"/>
+  <concept id="24" label="one side"/>
+  <concept id="25" label="other words"/>
+  <concept id="26" label="parliament"/>
+  <relationship id="1" sourceWord="end" linkingWord="was continue " targetWord="hopes" source="9" target="15"/>
+  <relationship id="2" sourceWord="men" linkingWord="with" targetWord="associations" source="20" target="1"/>
+  <relationship id="3" sourceWord="associations" linkingWord="refused accept " targetWord="new realities" source="1" target="22"/>
+  <relationship id="4" sourceWord="new class" linkingWord="of" targetWord="disinherited" source="21" target="8"/>
+  <relationship id="5" sourceWord="men" linkingWord="on" targetWord="english side" source="20" target="11"/>
+  <relationship id="6" sourceWord="other words" linkingWord="wished loyal " targetWord="king" source="25" target="16"/>
+  <relationship id="7" sourceWord="men" linkingWord="in" targetWord="other words" source="20" target="25"/>
+  <relationship id="8" sourceWord="few battles" linkingWord="in" targetWord="history" source="13" target="14"/>
+  <relationship id="9" sourceWord="landowners" linkingWord="divided had choose " targetWord="one side" source="18" target="24"/>
+  <relationship id="10" sourceWord="land" linkingWord="held continued fight " targetWord="king" source="17" target="16"/>
+  <relationship id="11" sourceWord="king" linkingWord="fight continued held all lose " targetWord="lands" source="16" target="19"/>
+  <relationship id="12" sourceWord="parliament" linkingWord="passed lose all held " targetWord="land" source="26" target="17"/>
+  <relationship id="13" sourceWord="battle" linkingWord="ready take " targetWord="next step" source="4" target="23"/>
+</conceptmap>

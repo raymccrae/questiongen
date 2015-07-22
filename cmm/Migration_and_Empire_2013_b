@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="benefit"/>
+  <concept id="2" label="charity"/>
+  <concept id="3" label="contact"/>
+  <concept id="4" label="country"/>
+  <concept id="5" label="deprived thousands"/>
+  <concept id="6" label="doubt"/>
+  <concept id="7" label="efforts"/>
+  <concept id="8" label="employment"/>
+  <concept id="9" label="greatest numbers"/>
+  <concept id="10" label="hard work"/>
+  <concept id="11" label="increasing poverty"/>
+  <concept id="12" label="irish"/>
+  <concept id="13" label="jails"/>
+  <concept id="14" label="latter"/>
+  <concept id="15" label="own country"/>
+  <concept id="16" label="past ten years"/>
+  <concept id="17" label="poor rates"/>
+  <concept id="18" label="proper channels"/>
+  <concept id="19" label="railways"/>
+  <concept id="20" label="rapidly"/>
+  <concept id="21" label="scotch"/>
+  <concept id="22" label="scotland"/>
+  <concept id="23" label="sources"/>
+  <concept id="24" label="wages"/>
+  <concept id="25" label="wealth"/>
+  <concept id="26" label="working people"/>
+  <relationship id="1" sourceWord="hard work" linkingWord="formed opened " targetWord="sources" source="10" target="23"/>
+  <relationship id="2" sourceWord="sources" linkingWord="of" targetWord="wealth" source="23" target="25"/>
+  <relationship id="3" sourceWord="efforts" linkingWord="keep redouble let keep scotland " targetWord="scotch" source="7" target="21"/>
+  <relationship id="4" sourceWord="scotland" linkingWord="for" targetWord="scotch" source="22" target="21"/>
+  <relationship id="5" sourceWord="increasing poverty" linkingWord="in" targetWord="own country" source="11" target="15"/>
+  <relationship id="6" sourceWord="contact" linkingWord="with" targetWord="scotch" source="3" target="21"/>
+  <relationship id="7" sourceWord="deprived thousands" linkingWord="of" targetWord="working people" source="5" target="26"/>
+  <relationship id="8" sourceWord="charity" linkingWord="directed swallowed filled " targetWord="jails" source="2" target="13"/>
+  <relationship id="9" sourceWord="poor rates" linkingWord="increasing swallowed directed " targetWord="charity" source="17" target="2"/>
+  <relationship id="10" sourceWord="poor rates" linkingWord="increasing swallowed filled " targetWord="jails" source="17" target="13"/>
+  <relationship id="11" sourceWord="rapidly" linkingWord="swallowed increasing " targetWord="poor rates" source="20" target="17"/>
+  <relationship id="12" sourceWord="past ten years" linkingWord="irish inundated " targetWord="country" source="16" target="4"/>
+  <relationship id="13" sourceWord="irish" linkingWord="during" targetWord="past ten years" source="12" target="16"/>
+</conceptmap>

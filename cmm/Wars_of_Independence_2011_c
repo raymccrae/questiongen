@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="alive boys"/>
+  <concept id="2" label="army"/>
+  <concept id="3" label="battle"/>
+  <concept id="4" label="certain scot"/>
+  <concept id="5" label="churches"/>
+  <concept id="6" label="death"/>
+  <concept id="7" label="end"/>
+  <concept id="8" label="england"/>
+  <concept id="9" label="falkirk"/>
+  <concept id="10" label="four quarters"/>
+  <concept id="11" label="great numbers"/>
+  <concept id="12" label="head"/>
+  <concept id="13" label="innumerable wickednesses"/>
+  <concept id="14" label="king"/>
+  <concept id="15" label="london"/>
+  <concept id="16" label="london bridge"/>
+  <concept id="17" label="merciless man"/>
+  <concept id="18" label="name"/>
+  <concept id="19" label="outcast"/>
+  <concept id="20" label="people"/>
+  <concept id="21" label="pity"/>
+  <concept id="22" label="powerful army"/>
+  <concept id="23" label="robber"/>
+  <concept id="24" label="scotland"/>
+  <concept id="25" label="scots"/>
+  <concept id="26" label="sword"/>
+  <relationship id="1" sourceWord="four quarters" linkingWord="sent four quarters " targetWord="scotland" source="10" target="24"/>
+  <relationship id="2" sourceWord="four quarters" linkingWord="of" targetWord="scotland" source="10" target="24"/>
+  <relationship id="3" sourceWord="head" linkingWord="fixed set " targetWord="london bridge" source="12" target="16"/>
+  <relationship id="4" sourceWord="innumerable wickednesses" linkingWord="taken brought " targetWord="king" source="13" target="14"/>
+  <relationship id="5" sourceWord="army" linkingWord="collected fled " targetWord="battle" source="2" target="3"/>
+  <relationship id="6" sourceWord="army" linkingWord="collected king " targetWord="england" source="2" target="8"/>
+  <relationship id="7" sourceWord="army" linkingWord="collected seen not resist " targetWord="powerful army" source="2" target="22"/>
+  <relationship id="8" sourceWord="army" linkingWord="of" targetWord="scots" source="2" target="25"/>
+  <relationship id="9" sourceWord="battle" linkingWord="fled leaving " targetWord="people" source="3" target="20"/>
+  <relationship id="10" sourceWord="people" linkingWord="leaving slain " targetWord="sword" source="20" target="26"/>
+  <relationship id="11" sourceWord="end" linkingWord="of" targetWord="merciless man" source="7" target="17"/>
+  <relationship id="12" sourceWord="robber" linkingWord="man burnt " targetWord="alive boys" source="23" target="1"/>
+  <relationship id="13" sourceWord="name" linkingWord="by" targetWord="outcast" source="18" target="19"/>
+  <relationship id="14" sourceWord="outcast" linkingWord="from" targetWord="pity" source="19" target="21"/>
+</conceptmap>

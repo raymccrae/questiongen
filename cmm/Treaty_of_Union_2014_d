@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="access"/>
+  <concept id="2" label="association"/>
+  <concept id="3" label="attempt"/>
+  <concept id="4" label="breaches"/>
+  <concept id="5" label="colonies"/>
+  <concept id="6" label="continuing prosperity"/>
+  <concept id="7" label="delays"/>
+  <concept id="8" label="effort"/>
+  <concept id="9" label="empire"/>
+  <concept id="10" label="enterprise"/>
+  <concept id="11" label="equivalent"/>
+  <concept id="12" label="favourable"/>
+  <concept id="13" label="golden opportunity"/>
+  <concept id="14" label="immediate reaction"/>
+  <concept id="15" label="largest commercial market"/>
+  <concept id="16" label="military force"/>
+  <concept id="17" label="offer"/>
+  <concept id="18" label="opportunities"/>
+  <concept id="19" label="parliament"/>
+  <concept id="20" label="personal advancement"/>
+  <concept id="21" label="scots"/>
+  <concept id="22" label="scottish landowners"/>
+  <concept id="23" label="spirit"/>
+  <concept id="24" label="treaty"/>
+  <concept id="25" label="union"/>
+  <concept id="26" label="ways"/>
+  <relationship id="1" sourceWord="association" linkingWord="allowed free " targetWord="access" source="2" target="1"/>
+  <relationship id="2" sourceWord="association" linkingWord="with" targetWord="military force" source="2" target="16"/>
+  <relationship id="3" sourceWord="largest commercial market" linkingWord="on" targetWord="offer" source="15" target="17"/>
+  <relationship id="4" sourceWord="breaches" linkingWord="growing paying " targetWord="equivalent" source="4" target="11"/>
+  <relationship id="5" sourceWord="favourable" linkingWord="was growing " targetWord="breaches" source="12" target="4"/>
+  <relationship id="6" sourceWord="immediate reaction" linkingWord="to" targetWord="union" source="14" target="25"/>
+  <relationship id="7" sourceWord="spirit" linkingWord="of" targetWord="treaty" source="23" target="24"/>
+  <relationship id="8" sourceWord="scottish landowners" linkingWord="realized presented " targetWord="empire" source="22" target="9"/>
+  <relationship id="9" sourceWord="empire" linkingWord="presented learned " targetWord="ways" source="9" target="26"/>
+  <relationship id="10" sourceWord="ways" linkingWord="of" targetWord="enterprise" source="26" target="10"/>
+  <relationship id="11" sourceWord="golden opportunity" linkingWord="for" targetWord="personal advancement" source="13" target="20"/>
+  <relationship id="12" sourceWord="union" linkingWord="survived realized " targetWord="scottish landowners" source="25" target="22"/>
+  <relationship id="13" sourceWord="opportunities" linkingWord="for" targetWord="scots" source="18" target="21"/>
+  <relationship id="14" sourceWord="effort" linkingWord="led debated " targetWord="parliament" source="8" target="19"/>
+  <relationship id="15" sourceWord="effort" linkingWord="led reverse " targetWord="union" source="8" target="25"/>
+</conceptmap>

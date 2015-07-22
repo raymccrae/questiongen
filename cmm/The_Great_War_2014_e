@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="batons"/>
+  <concept id="2" label="blows"/>
+  <concept id="3" label="communism"/>
+  <concept id="4" label="crowd"/>
+  <concept id="5" label="curious bystanders"/>
+  <concept id="6" label="emanuel shinwell"/>
+  <concept id="7" label="fears"/>
+  <concept id="8" label="five months imprisonment"/>
+  <concept id="9" label="gallacher"/>
+  <concept id="10" label="george square"/>
+  <concept id="11" label="government"/>
+  <concept id="12" label="ground"/>
+  <concept id="13" label="horrified reaction"/>
+  <concept id="14" label="kirkwood"/>
+  <concept id="15" label="people"/>
+  <concept id="16" label="photographic evidence"/>
+  <concept id="17" label="police"/>
+  <concept id="18" label="police truncheons"/>
+  <concept id="19" label="possibility"/>
+  <concept id="20" label="prices"/>
+  <concept id="21" label="revolution"/>
+  <concept id="22" label="revolutionary plot"/>
+  <concept id="23" label="riot"/>
+  <concept id="24" label="situation"/>
+  <concept id="25" label="tramlines"/>
+  <concept id="26" label="violence"/>
+  <relationship id="1" sourceWord="government" linkingWord="plagued fears " targetWord="communism" source="11" target="3"/>
+  <relationship id="2" sourceWord="fears" linkingWord="brought seems " targetWord="government" source="7" target="11"/>
+  <relationship id="3" sourceWord="fears" linkingWord="of" targetWord="prices" source="7" target="20"/>
+  <relationship id="4" sourceWord="government" linkingWord="seems taken " targetWord="possibility" source="11" target="19"/>
+  <relationship id="5" sourceWord="riot" linkingWord="in" targetWord="george square" source="23" target="10"/>
+  <relationship id="6" sourceWord="riot" linkingWord="not planned erupted of " targetWord="revolutionary plot" source="23" target="22"/>
+  <relationship id="7" sourceWord="riot" linkingWord="not planned misread " targetWord="situation" source="23" target="24"/>
+  <relationship id="8" sourceWord="situation" linkingWord="misread not planned erupted " targetWord="violence" source="24" target="26"/>
+  <relationship id="9" sourceWord="batons" linkingWord="raised try clear " targetWord="tramlines" source="1" target="25"/>
+  <relationship id="10" sourceWord="horrified reaction" linkingWord="was try get " targetWord="crowd" source="13" target="4"/>
+  <relationship id="11" sourceWord="photographic evidence" linkingWord="provide able found sentenced " targetWord="five months imprisonment" source="16" target="8"/>
+  <relationship id="12" sourceWord="five months imprisonment" linkingWord="sentenced incitement " targetWord="riot" source="8" target="23"/>
+  <relationship id="13" sourceWord="crowd" linkingWord="pacify beaten " targetWord="ground" source="4" target="12"/>
+  <relationship id="14" sourceWord="kirkwood" linkingWord="trying pacify " targetWord="crowd" source="14" target="4"/>
+</conceptmap>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="area"/>
+  <concept id="2" label="assistant"/>
+  <concept id="3" label="commerce"/>
+  <concept id="4" label="dunedin"/>
+  <concept id="5" label="edinburgh"/>
+  <concept id="6" label="education"/>
+  <concept id="7" label="efficient manner"/>
+  <concept id="8" label="emigrants"/>
+  <concept id="9" label="enterprise"/>
+  <concept id="10" label="field"/>
+  <concept id="11" label="fifty hands"/>
+  <concept id="12" label="finest retail business"/>
+  <concept id="13" label="geological survey"/>
+  <concept id="14" label="health"/>
+  <concept id="15" label="immigrant"/>
+  <concept id="16" label="land"/>
+  <concept id="17" label="local population"/>
+  <concept id="18" label="new zealand"/>
+  <concept id="19" label="otago"/>
+  <concept id="20" label="premier scientific society"/>
+  <concept id="21" label="scot"/>
+  <concept id="22" label="scotland"/>
+  <concept id="23" label="three years"/>
+  <concept id="24" label="type"/>
+  <concept id="25" label="wages"/>
+  <concept id="26" label="welcome one"/>
+  <relationship id="1" sourceWord="local population" linkingWord="in" targetWord="efficient manner" source="17" target="7"/>
+  <relationship id="2" sourceWord="health" linkingWord="of" targetWord="local population" source="14" target="17"/>
+  <relationship id="3" sourceWord="land" linkingWord="made setting " targetWord="area" source="16" target="1"/>
+  <relationship id="4" sourceWord="land" linkingWord="not only in " targetWord="commerce" source="16" target="3"/>
+  <relationship id="5" sourceWord="field" linkingWord="of" targetWord="education" source="10" target="6"/>
+  <relationship id="6" sourceWord="commerce" linkingWord="of" targetWord="otago" source="3" target="19"/>
+  <relationship id="7" sourceWord="enterprise" linkingWord="done commerce " targetWord="otago" source="9" target="19"/>
+  <relationship id="8" sourceWord="type" linkingWord="of" targetWord="immigrant" source="24" target="15"/>
+  <relationship id="9" sourceWord="assistant" linkingWord="in" targetWord="scotland" source="2" target="22"/>
+  <relationship id="10" sourceWord="finest retail business" linkingWord="owns employs " targetWord="fifty hands" source="12" target="11"/>
+  <relationship id="11" sourceWord="fifty hands" linkingWord="employs owns pays # 250 weekly " targetWord="wages" source="11" target="25"/>
+  <relationship id="12" sourceWord="emigrants" linkingWord="not all made " targetWord="welcome one" source="8" target="26"/>
+  <relationship id="13" sourceWord="welcome one" linkingWord="in" targetWord="land" source="26" target="16"/>
+  <relationship id="14" sourceWord="edinburgh" linkingWord="scot born arrived " targetWord="dunedin" source="5" target="4"/>
+  <relationship id="15" sourceWord="dunedin" linkingWord="arrived born conduct " targetWord="geological survey" source="4" target="13"/>
+  <relationship id="16" sourceWord="dunedin" linkingWord="arrived born appointed found " targetWord="geological survey" source="4" target="13"/>
+  <relationship id="17" sourceWord="dunedin" linkingWord="arrived born appointed later " targetWord="three years" source="4" target="23"/>
+  <relationship id="18" sourceWord="edinburgh" linkingWord="scot born conduct " targetWord="geological survey" source="5" target="13"/>
+  <relationship id="19" sourceWord="edinburgh" linkingWord="scot born appointed found " targetWord="geological survey" source="5" target="13"/>
+  <relationship id="20" sourceWord="scot" linkingWord="from" targetWord="edinburgh" source="21" target="5"/>
+  <relationship id="21" sourceWord="edinburgh" linkingWord="scot born appointed later " targetWord="three years" source="5" target="23"/>
+  <relationship id="22" sourceWord="geological survey" linkingWord="conduct born appointed found geological survey " targetWord="new zealand" source="13" target="18"/>
+  <relationship id="23" sourceWord="geological survey" linkingWord="of" targetWord="new zealand" source="13" target="18"/>
+  <relationship id="24" sourceWord="geological survey" linkingWord="conduct born appointed found managing " targetWord="premier scientific society" source="13" target="20"/>
+  <relationship id="25" sourceWord="geological survey" linkingWord="conduct born appointed later " targetWord="three years" source="13" target="23"/>
+  <relationship id="26" sourceWord="three years" linkingWord="later appointed found " targetWord="geological survey" source="23" target="13"/>
+  <relationship id="27" sourceWord="new zealand" linkingWord="geological survey found managing " targetWord="premier scientific society" source="18" target="20"/>
+</conceptmap>

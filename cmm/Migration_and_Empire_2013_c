@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="adequate funds"/>
+  <concept id="2" label="catholic irish"/>
+  <concept id="3" label="class"/>
+  <concept id="4" label="competition"/>
+  <concept id="5" label="dependence"/>
+  <concept id="6" label="doubt"/>
+  <concept id="7" label="evils"/>
+  <concept id="8" label="general"/>
+  <concept id="9" label="habits"/>
+  <concept id="10" label="harvest"/>
+  <concept id="11" label="irish immigration"/>
+  <concept id="12" label="irish labourers"/>
+  <concept id="13" label="laboring poor"/>
+  <concept id="14" label="newcomers"/>
+  <concept id="15" label="opinion"/>
+  <concept id="16" label="own poor"/>
+  <concept id="17" label="parish"/>
+  <concept id="18" label="point"/>
+  <concept id="19" label="poor rates"/>
+  <concept id="20" label="presence"/>
+  <concept id="21" label="wages"/>
+  <concept id="22" label="wave"/>
+  <concept id="23" label="work"/>
+  <concept id="24" label="year"/>
+  <relationship id="1" sourceWord="evils" linkingWord="said magnified arise " targetWord="irish immigration" source="7" target="11"/>
+  <relationship id="2" sourceWord="opinion" linkingWord="are said " targetWord="evils" source="15" target="7"/>
+  <relationship id="3" sourceWord="doubt" linkingWord="have got " targetWord="competition" source="6" target="4"/>
+  <relationship id="4" sourceWord="competition" linkingWord="from" targetWord="irish labourers" source="4" target="12"/>
+  <relationship id="5" sourceWord="doubt" linkingWord="have done " targetWord="work" source="6" target="23"/>
+  <relationship id="6" sourceWord="work" linkingWord="of" targetWord="parish" source="23" target="17"/>
+  <relationship id="7" sourceWord="point" linkingWord="of" targetWord="habits" source="18" target="9"/>
+  <relationship id="8" sourceWord="newcomers" linkingWord="in" targetWord="point" source="14" target="18"/>
+  <relationship id="9" sourceWord="dependence" linkingWord="on" targetWord="adequate funds" source="5" target="1"/>
+  <relationship id="10" sourceWord="adequate funds" linkingWord="within" targetWord="poor rates" source="1" target="19"/>
+  <relationship id="11" sourceWord="catholic irish" linkingWord="invade are " targetWord="class" source="2" target="3"/>
+  <relationship id="12" sourceWord="catholic irish" linkingWord="wants principally restricted " targetWord="dependence" source="2" target="5"/>
+  <relationship id="13" sourceWord="wave" linkingWord="restricted principally wants " targetWord="catholic irish" source="22" target="2"/>
+  <relationship id="14" sourceWord="wave" linkingWord="of" targetWord="irish immigration" source="22" target="11"/>
+</conceptmap>

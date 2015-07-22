@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="america"/>
+  <concept id="2" label="benefit"/>
+  <concept id="3" label="bengal"/>
+  <concept id="4" label="british colonies"/>
+  <concept id="5" label="canada"/>
+  <concept id="6" label="career openings"/>
+  <concept id="7" label="cases"/>
+  <concept id="8" label="colonial trade"/>
+  <concept id="9" label="crucial lifeline"/>
+  <concept id="10" label="customs officers"/>
+  <concept id="11" label="customs records"/>
+  <concept id="12" label="decades"/>
+  <concept id="13" label="eager caledonians"/>
+  <concept id="14" label="elites"/>
+  <concept id="15" label="employment"/>
+  <concept id="16" label="english naval protection"/>
+  <concept id="17" label="golden opportunity"/>
+  <concept id="18" label="increasing amounts"/>
+  <concept id="19" label="point"/>
+  <concept id="20" label="possibilities"/>
+  <concept id="21" label="result"/>
+  <concept id="22" label="scots"/>
+  <concept id="23" label="streams"/>
+  <concept id="24" label="trade"/>
+  <concept id="25" label="union"/>
+  <concept id="26" label="violent assaults"/>
+  <relationship id="1" sourceWord="point" linkingWord="from" targetWord="canada" source="19" target="5"/>
+  <relationship id="2" sourceWord="streams" linkingWord="of" targetWord="eager caledonians" source="23" target="13"/>
+  <relationship id="3" sourceWord="result" linkingWord="of" targetWord="union" source="21" target="25"/>
+  <relationship id="4" sourceWord="possibilities" linkingWord="fundamental presenting landed " targetWord="elites" source="20" target="14"/>
+  <relationship id="5" sourceWord="possibilities" linkingWord="of" targetWord="union" source="20" target="25"/>
+  <relationship id="6" sourceWord="scots" linkingWord="in" targetWord="colonial trade" source="22" target="8"/>
+  <relationship id="7" sourceWord="employment" linkingWord="of" targetWord="scots" source="15" target="22"/>
+  <relationship id="8" sourceWord="career openings" linkingWord="greater keen " targetWord="scots" source="6" target="22"/>
+  <relationship id="9" sourceWord="increasing amounts" linkingWord="of" targetWord="cases" source="18" target="7"/>
+  <relationship id="10" sourceWord="violent assaults" linkingWord="on" targetWord="customs officers" source="26" target="10"/>
+  <relationship id="11" sourceWord="trade" linkingWord="with" targetWord="america" source="24" target="1"/>
+  <relationship id="12" sourceWord="benefit" linkingWord="of" targetWord="english naval protection" source="2" target="16"/>
+  <relationship id="13" sourceWord="english naval protection" linkingWord="for" targetWord="trade" source="16" target="24"/>
+</conceptmap>

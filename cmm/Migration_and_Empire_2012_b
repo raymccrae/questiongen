@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="canada"/>
+  <concept id="2" label="depressed state"/>
+  <concept id="3" label="domestic work"/>
+  <concept id="4" label="doubt"/>
+  <concept id="5" label="employment"/>
+  <concept id="6" label="experienced men"/>
+  <concept id="7" label="families"/>
+  <concept id="8" label="farmers"/>
+  <concept id="9" label="great interest"/>
+  <concept id="10" label="hunger"/>
+  <concept id="11" label="inability"/>
+  <concept id="12" label="lack"/>
+  <concept id="13" label="landing"/>
+  <concept id="14" label="lewis"/>
+  <concept id="15" label="men"/>
+  <concept id="16" label="month"/>
+  <concept id="17" label="number"/>
+  <concept id="18" label="ontario agent"/>
+  <concept id="19" label="ontario government"/>
+  <concept id="20" label="own farms"/>
+  <concept id="21" label="owners"/>
+  <concept id="22" label="pay"/>
+  <concept id="23" label="prospect"/>
+  <concept id="24" label="scheme"/>
+  <concept id="25" label="trade"/>
+  <concept id="26" label="very start"/>
+  <relationship id="1" sourceWord="great interest" linkingWord="taken emigrate " targetWord="canada" source="9" target="1"/>
+  <relationship id="2" sourceWord="scheme" linkingWord="of" targetWord="ontario government" source="24" target="19"/>
+  <relationship id="3" sourceWord="owners" linkingWord="of" targetWord="own farms" source="21" target="20"/>
+  <relationship id="4" sourceWord="experienced men" linkingWord="earn 5 6 " targetWord="month" source="6" target="16"/>
+  <relationship id="5" sourceWord="pay" linkingWord="good earn " targetWord="experienced men" source="22" target="6"/>
+  <relationship id="6" sourceWord="employment" linkingWord="found find " targetWord="domestic work" source="5" target="3"/>
+  <relationship id="7" sourceWord="depressed state" linkingWord="owing satisfy " targetWord="hunger" source="2" target="10"/>
+  <relationship id="8" sourceWord="number" linkingWord="authorised enlist owing " targetWord="depressed state" source="17" target="2"/>
+  <relationship id="9" sourceWord="depressed state" linkingWord="of" targetWord="trade" source="2" target="25"/>
+  <relationship id="10" sourceWord="ontario agent" linkingWord="finds treble " targetWord="number" source="18" target="17"/>
+</conceptmap>

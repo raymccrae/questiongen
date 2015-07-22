@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="1860s"/>
+  <concept id="2" label="baxter brothers"/>
+  <concept id="3" label="big mansions"/>
+  <concept id="4" label="bulk goods"/>
+  <concept id="5" label="camperdown factory"/>
+  <concept id="6" label="city"/>
+  <concept id="7" label="construction"/>
+  <concept id="8" label="dundee"/>
+  <concept id="9" label="empire"/>
+  <concept id="10" label="empire trade"/>
+  <concept id="11" label="great days"/>
+  <concept id="12" label="jute"/>
+  <concept id="13" label="jute capital"/>
+  <concept id="14" label="jute imports"/>
+  <concept id="15" label="jute mills"/>
+  <concept id="16" label="largest jute factory"/>
+  <concept id="17" label="lochee"/>
+  <concept id="18" label="money"/>
+  <concept id="19" label="profit levels"/>
+  <concept id="20" label="temporary boom"/>
+  <concept id="21" label="textiles"/>
+  <concept id="22" label="war"/>
+  <concept id="23" label="west ferry"/>
+  <concept id="24" label="world"/>
+  <concept id="25" label="world demand"/>
+  <concept id="26" label="world trade"/>
+  <relationship id="1" sourceWord="construction" linkingWord="of" targetWord="big mansions" source="7" target="3"/>
+  <relationship id="2" sourceWord="city" linkingWord="in" targetWord="west ferry" source="6" target="23"/>
+  <relationship id="3" sourceWord="1860s" linkingWord="by" targetWord="largest jute factory" source="1" target="16"/>
+  <relationship id="4" sourceWord="camperdown factory" linkingWord="at" targetWord="lochee" source="5" target="17"/>
+  <relationship id="5" sourceWord="world demand" linkingWord="for" targetWord="textiles" source="25" target="21"/>
+  <relationship id="6" sourceWord="money" linkingWord="used purchase " targetWord="dundee" source="18" target="8"/>
+  <relationship id="7" sourceWord="great days" linkingWord="such_as" targetWord="baxter brothers" source="11" target="2"/>
+  <relationship id="8" sourceWord="great days" linkingWord="for" targetWord="jute" source="11" target="12"/>
+  <relationship id="9" sourceWord="temporary boom" linkingWord="of" targetWord="empire trade" source="20" target="10"/>
+  <relationship id="10" sourceWord="temporary boom" linkingWord="to" targetWord="jute mills" source="20" target="15"/>
+  <relationship id="11" sourceWord="temporary boom" linkingWord="after" targetWord="war" source="20" target="22"/>
+  <relationship id="12" sourceWord="world trade" linkingWord="expanded did " targetWord="bulk goods" source="26" target="4"/>
+  <relationship id="13" sourceWord="world trade" linkingWord="with" targetWord="empire" source="26" target="9"/>
+  <relationship id="14" sourceWord="dundee" linkingWord="boast exporting world " targetWord="empire" source="8" target="9"/>
+  <relationship id="15" sourceWord="jute capital" linkingWord="of" targetWord="world" source="13" target="24"/>
+  <relationship id="16" sourceWord="profit levels" linkingWord="of" targetWord="1860s" source="19" target="1"/>
+  <relationship id="17" sourceWord="jute imports" linkingWord="peaked never matched " targetWord="profit levels" source="14" target="19"/>
+</conceptmap>

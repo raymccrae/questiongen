@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="9th february"/>
+  <concept id="2" label="abbey"/>
+  <concept id="3" label="air"/>
+  <concept id="4" label="bed"/>
+  <concept id="5" label="chance"/>
+  <concept id="6" label="force"/>
+  <concept id="7" label="god"/>
+  <concept id="8" label="gunpowder"/>
+  <concept id="9" label="hand"/>
+  <concept id="10" label="head"/>
+  <concept id="11" label="holyrood"/>
+  <concept id="12" label="house"/>
+  <concept id="13" label="instant"/>
+  <concept id="14" label="king"/>
+  <concept id="15" label="last night"/>
+  <concept id="16" label="last week"/>
+  <concept id="17" label="lords"/>
+  <concept id="18" label="masque"/>
+  <concept id="19" label="midnight"/>
+  <concept id="20" label="mine"/>
+  <concept id="21" label="most part"/>
+  <concept id="22" label="night"/>
+  <concept id="23" label="reason"/>
+  <concept id="24" label="such force"/>
+  <concept id="25" label="two hours"/>
+  <concept id="26" label="wicked enterprise"/>
+  <relationship id="1" sourceWord="force" linkingWord="of" targetWord="gunpowder" source="6" target="8"/>
+  <relationship id="2" sourceWord="force" linkingWord="done appears " targetWord="mine" source="6" target="20"/>
+  <relationship id="3" sourceWord="masque" linkingWord="in" targetWord="abbey" source="18" target="2"/>
+  <relationship id="4" sourceWord="chance" linkingWord="was believe chance put " targetWord="god" source="5" target="7"/>
+  <relationship id="5" sourceWord="chance" linkingWord="was not stay " targetWord="night" source="5" target="22"/>
+  <relationship id="6" sourceWord="night" linkingWord="not stay was believe " targetWord="chance" source="22" target="5"/>
+  <relationship id="7" sourceWord="reason" linkingWord="of" targetWord="masque" source="23" target="18"/>
+  <relationship id="8" sourceWord="air" linkingWord="blown lying sleeping " targetWord="bed" source="3" target="4"/>
+  <relationship id="9" sourceWord="bed" linkingWord="sleeping lying blown " targetWord="such force" source="4" target="24"/>
+  <relationship id="10" sourceWord="two hours" linkingWord="after" targetWord="midnight" source="25" target="19"/>
+  <relationship id="11" sourceWord="wicked enterprise" linkingWord="in" targetWord="hand" source="26" target="9"/>
+  <relationship id="12" sourceWord="most part" linkingWord="of" targetWord="last week" source="21" target="16"/>
+  <relationship id="13" sourceWord="most part" linkingWord="lay attended " targetWord="lords" source="21" target="17"/>
+</conceptmap>

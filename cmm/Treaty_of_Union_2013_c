@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="addresses"/>
+  <concept id="2" label="beginning"/>
+  <concept id="3" label="behalf"/>
+  <concept id="4" label="campaign"/>
+  <concept id="5" label="common concerns"/>
+  <concept id="6" label="constitution"/>
+  <concept id="7" label="country party"/>
+  <concept id="8" label="defense"/>
+  <concept id="9" label="eight weeks"/>
+  <concept id="10" label="fundamental laws"/>
+  <concept id="11" label="honor"/>
+  <concept id="12" label="illiterate"/>
+  <concept id="13" label="independent sovereignty"/>
+  <concept id="14" label="kingdom"/>
+  <concept id="15" label="language"/>
+  <concept id="16" label="nature"/>
+  <concept id="17" label="ninety-plus addresses"/>
+  <concept id="18" label="november"/>
+  <concept id="19" label="parliament"/>
+  <concept id="20" label="period"/>
+  <concept id="21" label="result"/>
+  <concept id="22" label="scotland"/>
+  <concept id="23" label="signatories"/>
+  <concept id="24" label="union"/>
+  <concept id="25" label="very act"/>
+  <concept id="26" label="widespread public opposition"/>
+  <relationship id="1" sourceWord="illiterate" linkingWord="made sure represented aware " targetWord="addresses" source="12" target="1"/>
+  <relationship id="2" sourceWord="addresses" linkingWord="aware said " targetWord="union" source="1" target="24"/>
+  <relationship id="3" sourceWord="union" linkingWord="on" targetWord="behalf" source="24" target="3"/>
+  <relationship id="4" sourceWord="beginning" linkingWord="of" targetWord="november" source="2" target="18"/>
+  <relationship id="5" sourceWord="ninety-plus addresses" linkingWord="against" targetWord="union" source="17" target="24"/>
+  <relationship id="6" sourceWord="parliament" linkingWord="over" targetWord="period" source="19" target="20"/>
+  <relationship id="7" sourceWord="very act" linkingWord="indicates had " targetWord="common concerns" source="25" target="5"/>
+  <relationship id="8" sourceWord="addresses" linkingWord="reveal only much " targetWord="nature" source="1" target="16"/>
+  <relationship id="9" sourceWord="widespread public opposition" linkingWord="to" targetWord="union" source="26" target="24"/>
+  <relationship id="10" sourceWord="result" linkingWord="of" targetWord="campaign" source="21" target="4"/>
+  <relationship id="11" sourceWord="result" linkingWord="by" targetWord="country party" source="21" target="7"/>
+  <relationship id="12" sourceWord="defense" linkingWord="of" targetWord="honor" source="8" target="11"/>
+</conceptmap>

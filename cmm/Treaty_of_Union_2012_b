@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="advantages"/>
+  <concept id="2" label="alliance"/>
+  <concept id="3" label="country"/>
+  <concept id="4" label="court"/>
+  <concept id="5" label="crowns"/>
+  <concept id="6" label="disadvantages"/>
+  <concept id="7" label="empire"/>
+  <concept id="8" label="england"/>
+  <concept id="9" label="english"/>
+  <concept id="10" label="free access"/>
+  <concept id="11" label="hundred years"/>
+  <concept id="12" label="influence"/>
+  <concept id="13" label="inhabitants"/>
+  <concept id="14" label="joint monarchy"/>
+  <concept id="15" label="kings"/>
+  <concept id="16" label="london"/>
+  <concept id="17" label="loss"/>
+  <concept id="18" label="markets"/>
+  <concept id="19" label="nation"/>
+  <concept id="20" label="one way"/>
+  <concept id="21" label="scots"/>
+  <concept id="22" label="scottish commerce"/>
+  <concept id="23" label="scottish economy"/>
+  <concept id="24" label="tariffs"/>
+  <concept id="25" label="terms"/>
+  <concept id="26" label="union"/>
+  <relationship id="1" sourceWord="union" linkingWord="incorporating unstable " targetWord="scottish economy" source="26" target="23"/>
+  <relationship id="2" sourceWord="crowns" linkingWord="union sensitive " targetWord="scots" source="5" target="21"/>
+  <relationship id="3" sourceWord="union" linkingWord="of" targetWord="crowns" source="26" target="5"/>
+  <relationship id="4" sourceWord="joint monarchy" linkingWord="with" targetWord="england" source="14" target="8"/>
+  <relationship id="5" sourceWord="court" linkingWord="in" targetWord="london" source="4" target="16"/>
+  <relationship id="6" sourceWord="disadvantages" linkingWord="of" targetWord="tariffs" source="6" target="24"/>
+  <relationship id="7" sourceWord="advantages" linkingWord="to" targetWord="markets" source="1" target="18"/>
+  <relationship id="8" sourceWord="advantages" linkingWord="for" targetWord="scottish commerce" source="1" target="22"/>
+  <relationship id="9" sourceWord="scottish commerce" linkingWord="of" targetWord="free access" source="22" target="10"/>
+  <relationship id="10" sourceWord="inhabitants" linkingWord="of" targetWord="country" source="13" target="3"/>
+  <relationship id="11" sourceWord="alliance" linkingWord="union incorporating " targetWord="england" source="2" target="8"/>
+  <relationship id="12" sourceWord="terms" linkingWord="incorporating union " targetWord="alliance" source="25" target="2"/>
+  <relationship id="13" sourceWord="one way" linkingWord="for" targetWord="scots" source="20" target="21"/>
+  <relationship id="14" sourceWord="one way" linkingWord="restore was " targetWord="terms" source="20" target="25"/>
+</conceptmap>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="1690s"/>
+  <concept id="2" label="ally"/>
+  <concept id="3" label="ambitious scheme"/>
+  <concept id="4" label="certain scottish goods"/>
+  <concept id="5" label="colony"/>
+  <concept id="6" label="countries"/>
+  <concept id="7" label="crisis"/>
+  <concept id="8" label="damaging loss"/>
+  <concept id="9" label="darien"/>
+  <concept id="10" label="decade"/>
+  <concept id="11" label="different result"/>
+  <concept id="12" label="disaster"/>
+  <concept id="13" label="economic abyss"/>
+  <concept id="14" label="edge"/>
+  <concept id="15" label="effects"/>
+  <concept id="16" label="england"/>
+  <concept id="17" label="erection"/>
+  <concept id="18" label="export"/>
+  <concept id="19" label="france"/>
+  <concept id="20" label="french trade"/>
+  <concept id="21" label="harvest failures"/>
+  <concept id="22" label="history"/>
+  <concept id="23" label="nation"/>
+  <concept id="24" label="profound political consequences"/>
+  <concept id="25" label="protective tariffs"/>
+  <concept id="26" label="south america"/>
+  <relationship id="1" sourceWord="edge" linkingWord="of" targetWord="economic abyss" source="14" target="13"/>
+  <relationship id="2" sourceWord="economic abyss" linkingWord="was have " targetWord="profound political consequences" source="13" target="24"/>
+  <relationship id="3" sourceWord="profound political consequences" linkingWord="for" targetWord="history" source="24" target="22"/>
+  <relationship id="4" sourceWord="export" linkingWord="of" targetWord="certain scottish goods" source="18" target="4"/>
+  <relationship id="5" sourceWord="protective tariffs" linkingWord="by" targetWord="countries" source="25" target="6"/>
+  <relationship id="6" sourceWord="decade" linkingWord="of" targetWord="crisis" source="10" target="7"/>
+  <relationship id="7" sourceWord="england" linkingWord="incorporating produced " targetWord="decade" source="16" target="10"/>
+  <relationship id="8" sourceWord="damaging loss" linkingWord="of" targetWord="french trade" source="8" target="20"/>
+  <relationship id="9" sourceWord="colony" linkingWord="in" targetWord="south america" source="5" target="26"/>
+  <relationship id="10" sourceWord="disaster" linkingWord="of" targetWord="darien" source="12" target="9"/>
+</conceptmap>

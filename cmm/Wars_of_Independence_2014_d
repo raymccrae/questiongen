@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="allegiance"/>
+  <concept id="2" label="cambuskenneth"/>
+  <concept id="3" label="date"/>
+  <concept id="4" label="edwards"/>
+  <concept id="5" label="english"/>
+  <concept id="6" label="feudatories"/>
+  <concept id="7" label="homage"/>
+  <concept id="8" label="increased confidence"/>
+  <concept id="9" label="knights"/>
+  <concept id="10" label="many scottish barons"/>
+  <concept id="11" label="nationality"/>
+  <concept id="12" label="november 1314 bruce"/>
+  <concept id="13" label="opportunity"/>
+  <concept id="14" label="parliament"/>
+  <concept id="15" label="peace"/>
+  <concept id="16" label="reconciliation"/>
+  <concept id="17" label="robert bruce"/>
+  <concept id="18" label="scottish landowners"/>
+  <concept id="19" label="scottish lands"/>
+  <concept id="20" label="scottish nobles"/>
+  <concept id="21" label="sole aim"/>
+  <concept id="22" label="two countries"/>
+  <concept id="23" label="two kings"/>
+  <concept id="24" label="victory"/>
+  <concept id="25" label="war"/>
+  <concept id="26" label="wish"/>
+  <relationship id="1" sourceWord="edwards" linkingWord="offered him " targetWord="allegiance" source="4" target="1"/>
+  <relationship id="2" sourceWord="allegiance" linkingWord="him offered received " targetWord="peace" source="1" target="15"/>
+  <relationship id="3" sourceWord="many scottish barons" linkingWord="bannockburn after offered " targetWord="edwards" source="10" target="4"/>
+  <relationship id="4" sourceWord="opportunity" linkingWord="for" targetWord="reconciliation" source="13" target="16"/>
+  <relationship id="5" sourceWord="feudatories" linkingWord="in" targetWord="two countries" source="6" target="22"/>
+  <relationship id="6" sourceWord="scottish lands" linkingWord="regain wished those do " targetWord="homage" source="19" target="7"/>
+  <relationship id="7" sourceWord="sole aim" linkingWord="was do " targetWord="homage" source="21" target="7"/>
+  <relationship id="8" sourceWord="scottish landowners" linkingWord="failed offer " targetWord="allegiance" source="18" target="1"/>
+  <relationship id="9" sourceWord="parliament" linkingWord="adjudged disinherited " targetWord="scottish landowners" source="14" target="18"/>
+</conceptmap>

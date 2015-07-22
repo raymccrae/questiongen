@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="1915"/>
+  <concept id="2" label="anti-conscription rallies"/>
+  <concept id="3" label="august 20,000"/>
+  <concept id="4" label="belief"/>
+  <concept id="5" label="brisk business"/>
+  <concept id="6" label="cockburn street"/>
+  <concept id="7" label="committed anti-war protestors sylvia pankhurst"/>
+  <concept id="8" label="compulsory military service"/>
+  <concept id="9" label="compulsory service"/>
+  <concept id="10" label="conscription"/>
+  <concept id="11" label="day"/>
+  <concept id="12" label="declaration"/>
+  <concept id="13" label="edinburgh"/>
+  <concept id="14" label="end"/>
+  <concept id="15" label="first weekend"/>
+  <concept id="16" label="increasing concerns"/>
+  <concept id="17" label="july 1915"/>
+  <concept id="18" label="military services act"/>
+  <concept id="19" label="national registration act"/>
+  <concept id="20" label="national registration scheme"/>
+  <concept id="21" label="news"/>
+  <concept id="22" label="number"/>
+  <concept id="23" label="possible service"/>
+  <concept id="24" label="recruitment"/>
+  <concept id="25" label="volunteers"/>
+  <concept id="26" label="war"/>
+  <relationship id="1" sourceWord="compulsory service" linkingWord="inevitable resulting " targetWord="military services act" source="9" target="18"/>
+  <relationship id="2" sourceWord="national registration scheme" linkingWord="proved inevitable " targetWord="compulsory service" source="20" target="9"/>
+  <relationship id="3" sourceWord="national registration scheme" linkingWord="proved continued " targetWord="recruitment" source="20" target="24"/>
+  <relationship id="4" sourceWord="end" linkingWord="of" targetWord="august 20,000" source="14" target="3"/>
+  <relationship id="5" sourceWord="brisk business" linkingWord="doing processed " targetWord="end" source="5" target="14"/>
+  <relationship id="6" sourceWord="number" linkingWord="began fall " targetWord="1915" source="22" target="1"/>
+  <relationship id="7" sourceWord="number" linkingWord="of" targetWord="volunteers" source="22" target="25"/>
+  <relationship id="8" sourceWord="first weekend" linkingWord="enlisted came " targetWord="news" source="15" target="21"/>
+  <relationship id="9" sourceWord="first weekend" linkingWord="of" targetWord="war" source="15" target="26"/>
+  <relationship id="10" sourceWord="belief" linkingWord="maintain opposed " targetWord="conscription" source="4" target="10"/>
+  <relationship id="11" sourceWord="possible service" linkingWord="helped maintain " targetWord="belief" source="23" target="4"/>
+  <relationship id="12" sourceWord="national registration act" linkingWord="of" targetWord="july 1915" source="19" target="17"/>
+  <relationship id="13" sourceWord="national registration act" linkingWord="required register " targetWord="possible service" source="19" target="23"/>
+  <relationship id="14" sourceWord="anti-conscription rallies" linkingWord="held end " targetWord="1915" source="2" target="1"/>
+  <relationship id="15" sourceWord="end" linkingWord="of" targetWord="1915" source="14" target="1"/>
+  <relationship id="16" sourceWord="compulsory military service" linkingWord="introduced were held " targetWord="anti-conscription rallies" source="8" target="2"/>
+  <relationship id="17" sourceWord="increasing concerns" linkingWord="were introduced " targetWord="compulsory military service" source="16" target="8"/>
+</conceptmap>

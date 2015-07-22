@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="article xv"/>
+  <concept id="2" label="attractive inducement"/>
+  <concept id="3" label="country party"/>
+  <concept id="4" label="court party"/>
+  <concept id="5" label="crucial"/>
+  <concept id="6" label="disarray"/>
+  <concept id="7" label="equivalent"/>
+  <concept id="8" label="events"/>
+  <concept id="9" label="exotic name"/>
+  <concept id="10" label="formidable political management machine"/>
+  <concept id="11" label="group"/>
+  <concept id="12" label="ill-fated darien company"/>
+  <concept id="13" label="investors"/>
+  <concept id="14" label="key role"/>
+  <concept id="15" label="members"/>
+  <concept id="16" label="new party"/>
+  <concept id="17" label="order"/>
+  <concept id="18" label="outcome"/>
+  <concept id="19" label="overall position"/>
+  <concept id="20" label="parliament"/>
+  <concept id="21" label="parliamentary opposition"/>
+  <concept id="22" label="small party"/>
+  <concept id="23" label="squadrone"/>
+  <concept id="24" label="squadrone volante"/>
+  <concept id="25" label="support"/>
+  <concept id="26" label="two dozen members"/>
+  <relationship id="1" sourceWord="equivalent" linkingWord="some was used compensate " targetWord="ill-fated darien company" source="7" target="12"/>
+  <relationship id="2" sourceWord="formidable political management machine" linkingWord="of" targetWord="court party" source="10" target="4"/>
+  <relationship id="3" sourceWord="events" linkingWord="were was " targetWord="group" source="8" target="11"/>
+  <relationship id="4" sourceWord="group" linkingWord="was have " targetWord="key role" source="11" target="14"/>
+  <relationship id="5" sourceWord="group" linkingWord="of" targetWord="two dozen members" source="11" target="26"/>
+  <relationship id="6" sourceWord="key role" linkingWord="in" targetWord="outcome" source="14" target="18"/>
+  <relationship id="7" sourceWord="attractive inducement" linkingWord="to" targetWord="squadrone volante" source="2" target="24"/>
+  <relationship id="8" sourceWord="court party" linkingWord="had retain achieve " targetWord="order" source="4" target="17"/>
+  <relationship id="9" sourceWord="members" linkingWord="of" targetWord="squadrone" source="15" target="23"/>
+  <relationship id="10" sourceWord="exotic name" linkingWord="known emerged " targetWord="country party" source="9" target="3"/>
+  <relationship id="11" sourceWord="new party" linkingWord="emerged known " targetWord="exotic name" source="16" target="9"/>
+  <relationship id="12" sourceWord="exotic name" linkingWord="of" targetWord="squadrone volante" source="9" target="24"/>
+</conceptmap>

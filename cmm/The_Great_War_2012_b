@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="15th division"/>
+  <concept id="2" label="absolute assurance"/>
+  <concept id="3" label="bank holiday crowd"/>
+  <concept id="4" label="beginning"/>
+  <concept id="5" label="costs"/>
+  <concept id="6" label="crest"/>
+  <concept id="7" label="german guns"/>
+  <concept id="8" label="german machine gunners"/>
+  <concept id="9" label="ground"/>
+  <concept id="10" label="hill 70"/>
+  <concept id="11" label="kind"/>
+  <concept id="12" label="men"/>
+  <concept id="13" label="new bombardment"/>
+  <concept id="14" label="open"/>
+  <concept id="15" label="orders"/>
+  <concept id="16" label="pipes"/>
+  <concept id="17" label="promise"/>
+  <concept id="18" label="redoubt"/>
+  <concept id="19" label="reinforcements"/>
+  <concept id="20" label="scottish troops"/>
+  <concept id="21" label="scream"/>
+  <concept id="22" label="seven-forty"/>
+  <concept id="23" label="shriller"/>
+  <concept id="24" label="skirl"/>
+  <concept id="25" label="troops"/>
+  <concept id="26" label="two assaulting brigades"/>
+  <relationship id="1" sourceWord="promise" linkingWord="of" targetWord="reinforcements" source="17" target="19"/>
+  <relationship id="2" sourceWord="beginning" linkingWord="of" targetWord="new bombardment" source="4" target="13"/>
+  <relationship id="3" sourceWord="orders" linkingWord="were go press " targetWord="absolute assurance" source="15" target="2"/>
+  <relationship id="4" sourceWord="absolute assurance" linkingWord="held supporting " targetWord="troops" source="2" target="25"/>
+  <relationship id="5" sourceWord="orders" linkingWord="of" targetWord="scottish troops" source="15" target="20"/>
+  <relationship id="6" sourceWord="redoubt" linkingWord="on" targetWord="crest" source="18" target="6"/>
+  <relationship id="7" sourceWord="german machine gunners" linkingWord="knowing held " targetWord="men" source="8" target="12"/>
+  <relationship id="8" sourceWord="skirl" linkingWord="of" targetWord="pipes" source="24" target="16"/>
+  <relationship id="9" sourceWord="shriller" linkingWord="than" targetWord="scream" source="23" target="21"/>
+  <relationship id="10" sourceWord="costs" linkingWord="hold come " targetWord="reinforcements" source="5" target="19"/>
+  <relationship id="11" sourceWord="kind" linkingWord="of" targetWord="bank holiday crowd" source="11" target="3"/>
+  <relationship id="12" sourceWord="two assaulting brigades" linkingWord="of" targetWord="15th division" source="26" target="1"/>
+  <relationship id="13" sourceWord="seven-forty" linkingWord="left were " targetWord="open" source="22" target="14"/>
+</conceptmap>

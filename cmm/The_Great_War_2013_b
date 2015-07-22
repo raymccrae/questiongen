@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="25 %"/>
+  <concept id="2" label="arms"/>
+  <concept id="3" label="call"/>
+  <concept id="4" label="cannon fodder"/>
+  <concept id="5" label="compulsory military service"/>
+  <concept id="6" label="conscription"/>
+  <concept id="7" label="daily record"/>
+  <concept id="8" label="december 1914"/>
+  <concept id="9" label="decision"/>
+  <concept id="10" label="editors"/>
+  <concept id="11" label="foregone conclusion"/>
+  <concept id="12" label="forward"/>
+  <concept id="13" label="issue"/>
+  <concept id="14" label="january 1916"/>
+  <concept id="15" label="male labor force"/>
+  <concept id="16" label="matters"/>
+  <concept id="17" label="month"/>
+  <concept id="18" label="national registration act"/>
+  <concept id="19" label="numbers"/>
+  <concept id="20" label="october"/>
+  <concept id="21" label="outbreak"/>
+  <concept id="22" label="press"/>
+  <concept id="23" label="recruitment"/>
+  <concept id="24" label="serious side"/>
+  <concept id="25" label="slight fall"/>
+  <concept id="26" label="topic"/>
+  <relationship id="1" sourceWord="compulsory military service" linkingWord="introduce left " targetWord="foregone conclusion" source="5" target="11"/>
+  <relationship id="2" sourceWord="matters" linkingWord="left introduce " targetWord="compulsory military service" source="16" target="5"/>
+  <relationship id="3" sourceWord="topic" linkingWord="of" targetWord="conscription" source="26" target="6"/>
+  <relationship id="4" sourceWord="serious side" linkingWord="to" targetWord="issue" source="24" target="13"/>
+  <relationship id="5" sourceWord="slight fall" linkingWord="in" targetWord="recruitment" source="25" target="23"/>
+  <relationship id="6" sourceWord="serious side" linkingWord="was meant " targetWord="slight fall" source="24" target="25"/>
+  <relationship id="7" sourceWord="slight fall" linkingWord="meant raised " targetWord="topic" source="25" target="26"/>
+  <relationship id="8" sourceWord="daily record" linkingWord="ran promoting " targetWord="conscription" source="7" target="6"/>
+  <relationship id="9" sourceWord="month" linkingWord="80,000 fell " targetWord="january 1916" source="17" target="14"/>
+  <relationship id="10" sourceWord="national registration act" linkingWord="fell 80,000 " targetWord="month" source="18" target="17"/>
+  <relationship id="11" sourceWord="call" linkingWord="responded signed " targetWord="25 %" source="3" target="1"/>
+  <relationship id="12" sourceWord="25 %" linkingWord="of" targetWord="male labor force" source="1" target="15"/>
+  <relationship id="13" sourceWord="call" linkingWord="to" targetWord="arms" source="3" target="2"/>
+  <relationship id="14" sourceWord="arms" linkingWord="at" targetWord="outbreak" source="2" target="21"/>
+  <relationship id="15" sourceWord="call" linkingWord="by" targetWord="december 1914" source="3" target="8"/>
+  <relationship id="16" sourceWord="editors" linkingWord="seemed was " targetWord="cannon fodder" source="10" target="4"/>
+  <relationship id="17" sourceWord="editors" linkingWord="of" targetWord="forward" source="10" target="12"/>
+  <relationship id="18" sourceWord="october" linkingWord="early from reported falling " targetWord="numbers" source="20" target="19"/>
+  <relationship id="19" sourceWord="press" linkingWord="reported from early " targetWord="october" source="22" target="20"/>
+</conceptmap>

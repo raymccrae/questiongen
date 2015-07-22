@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="admission"/>
+  <concept id="2" label="church"/>
+  <concept id="3" label="commandments"/>
+  <concept id="4" label="common heart"/>
+  <concept id="5" label="common swearing"/>
+  <concept id="6" label="confession"/>
+  <concept id="7" label="congregation"/>
+  <concept id="8" label="deacons"/>
+  <concept id="9" label="discipline"/>
+  <concept id="10" label="drunkenness"/>
+  <concept id="11" label="elders"/>
+  <concept id="12" label="election"/>
+  <concept id="13" label="examination"/>
+  <concept id="14" label="faith"/>
+  <concept id="15" label="faults"/>
+  <concept id="16" label="fighting"/>
+  <concept id="17" label="god"/>
+  <concept id="18" label="individuals"/>
+  <concept id="19" label="law"/>
+  <concept id="20" label="minister"/>
+  <concept id="21" label="persons"/>
+  <concept id="22" label="psalms"/>
+  <concept id="23" label="sin"/>
+  <concept id="24" label="society"/>
+  <concept id="25" label="things"/>
+  <concept id="26" label="year individuals"/>
+  <relationship id="1" sourceWord="faults" linkingWord="such_as" targetWord="drunkenness" source="15" target="10"/>
+  <relationship id="2" sourceWord="faults" linkingWord="called admit " targetWord="sin" source="15" target="23"/>
+  <relationship id="3" sourceWord="church" linkingWord="of" targetWord="god" source="2" target="17"/>
+  <relationship id="4" sourceWord="persons" linkingWord="encouraged god able " targetWord="common heart" source="21" target="4"/>
+  <relationship id="5" sourceWord="psalms" linkingWord="learn encouraged " targetWord="god" source="22" target="17"/>
+  <relationship id="6" sourceWord="persons" linkingWord="encouraged learn " targetWord="psalms" source="21" target="22"/>
+  <relationship id="7" sourceWord="persons" linkingWord="encouraged god sung " targetWord="psalms" source="21" target="22"/>
+  <relationship id="8" sourceWord="confession" linkingWord="give rehearse " targetWord="commandments" source="6" target="3"/>
+  <relationship id="9" sourceWord="commandments" linkingWord="of" targetWord="law" source="3" target="19"/>
+  <relationship id="10" sourceWord="commandments" linkingWord="rehearse give declare " targetWord="things" source="3" target="25"/>
+  <relationship id="11" sourceWord="elders" linkingWord="minister stand give " targetWord="confession" source="11" target="6"/>
+  <relationship id="12" sourceWord="year individuals" linkingWord="stand minister " targetWord="elders" source="26" target="11"/>
+  <relationship id="13" sourceWord="minister" linkingWord="stand give declare " targetWord="things" source="20" target="25"/>
+  <relationship id="14" sourceWord="society" linkingWord="of" targetWord="church" source="24" target="2"/>
+  <relationship id="15" sourceWord="individuals" linkingWord="appear received " targetWord="society" source="18" target="24"/>
+</conceptmap>

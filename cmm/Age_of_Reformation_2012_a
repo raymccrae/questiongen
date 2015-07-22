@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="anyone"/>
+  <concept id="2" label="arms"/>
+  <concept id="3" label="articles"/>
+  <concept id="4" label="christian king francis"/>
+  <concept id="5" label="conventions"/>
+  <concept id="6" label="edinburgh"/>
+  <concept id="7" label="england"/>
+  <concept id="8" label="following terms"/>
+  <concept id="9" label="france"/>
+  <concept id="10" label="ireland"/>
+  <concept id="11" label="july 1560"/>
+  <concept id="12" label="king"/>
+  <concept id="13" label="king francis"/>
+  <concept id="14" label="kingdom"/>
+  <concept id="15" label="kingdoms"/>
+  <concept id="16" label="military forces"/>
+  <concept id="17" label="name"/>
+  <concept id="18" label="nobility"/>
+  <concept id="19" label="party"/>
+  <concept id="20" label="people"/>
+  <concept id="21" label="queen"/>
+  <concept id="22" label="queen elizabeth"/>
+  <concept id="23" label="said title"/>
+  <concept id="24" label="scotland"/>
+  <concept id="25" label="use"/>
+  <concept id="26" label="warlike operations"/>
+  <relationship id="1" sourceWord="anyone" linkingWord="to" targetWord="use" source="1" target="25"/>
+  <relationship id="2" sourceWord="king" linkingWord="of" targetWord="england" source="12" target="7"/>
+  <relationship id="3" sourceWord="name" linkingWord="call called named " targetWord="king" source="17" target="12"/>
+  <relationship id="4" sourceWord="queen elizabeth" linkingWord="belong allowed call " targetWord="name" source="22" target="17"/>
+  <relationship id="5" sourceWord="scotland" linkingWord="provided fulfil " targetWord="nobility" source="24" target="18"/>
+  <relationship id="6" sourceWord="people" linkingWord="of" targetWord="scotland" source="20" target="24"/>
+  <relationship id="7" sourceWord="warlike operations" linkingWord="in" targetWord="england" source="26" target="7"/>
+  <relationship id="8" sourceWord="military forces" linkingWord="of" targetWord="party" source="16" target="19"/>
+  <relationship id="9" sourceWord="military forces" linkingWord="withdraw cease " targetWord="warlike operations" source="16" target="26"/>
+  <relationship id="10" sourceWord="arms" linkingWord="of" targetWord="kingdom" source="2" target="14"/>
+  <relationship id="11" sourceWord="christian king francis" linkingWord="most abstain using " targetWord="said title" source="4" target="23"/>
+</conceptmap>

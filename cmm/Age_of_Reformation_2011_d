@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="april"/>
+  <concept id="2" label="assembly"/>
+  <concept id="3" label="chief towns"/>
+  <concept id="4" label="consent"/>
+  <concept id="5" label="course"/>
+  <concept id="6" label="date"/>
+  <concept id="7" label="edinburgh"/>
+  <concept id="8" label="february"/>
+  <concept id="9" label="freedom"/>
+  <concept id="10" label="general assembly"/>
+  <concept id="11" label="individuals"/>
+  <concept id="12" label="king"/>
+  <concept id="13" label="laws"/>
+  <concept id="14" label="meeting"/>
+  <concept id="15" label="ministers"/>
+  <concept id="16" label="objections"/>
+  <concept id="17" label="pattern"/>
+  <concept id="18" label="perth"/>
+  <concept id="19" label="place"/>
+  <concept id="20" label="plain reluctance"/>
+  <concept id="21" label="politics"/>
+  <concept id="22" label="power"/>
+  <concept id="23" label="preference"/>
+  <concept id="24" label="st andrews"/>
+  <concept id="25" label="towns"/>
+  <concept id="26" label="traditional north"/>
+  <relationship id="1" sourceWord="assembly" linkingWord="conceded appointed " targetWord="chief towns" source="2" target="3"/>
+  <relationship id="2" sourceWord="chief towns" linkingWord="appointed passed censure " targetWord="individuals" source="3" target="11"/>
+  <relationship id="3" sourceWord="consent" linkingWord="of" targetWord="king" source="4" target="12"/>
+  <relationship id="4" sourceWord="course" linkingWord="curbing attack " targetWord="laws" source="5" target="13"/>
+  <relationship id="5" sourceWord="individuals" linkingWord="censure comment " targetWord="politics" source="11" target="21"/>
+  <relationship id="6" sourceWord="february" linkingWord="met appointed " targetWord="april" source="8" target="1"/>
+  <relationship id="7" sourceWord="april" linkingWord="at" targetWord="st andrews" source="1" target="24"/>
+  <relationship id="8" sourceWord="assembly" linkingWord="have showed had " targetWord="ministers" source="2" target="15"/>
+  <relationship id="9" sourceWord="plain reluctance" linkingWord="showed have " targetWord="assembly" source="20" target="2"/>
+  <relationship id="10" sourceWord="place" linkingWord="of" targetWord="meeting" source="19" target="14"/>
+  <relationship id="11" sourceWord="power" linkingWord="challenge hard showed had " targetWord="ministers" source="22" target="15"/>
+  <relationship id="12" sourceWord="ministers" linkingWord="from" targetWord="traditional north" source="15" target="26"/>
+  <relationship id="13" sourceWord="plain reluctance" linkingWord="showed had ministers " targetWord="traditional north" source="20" target="26"/>
+  <relationship id="14" sourceWord="preference" linkingWord="for" targetWord="towns" source="23" target="25"/>
+  <relationship id="15" sourceWord="date" linkingWord="of" targetWord="assembly" source="6" target="2"/>
+  <relationship id="16" sourceWord="date" linkingWord="bring chose admitted hard challenge right postpone " targetWord="assembly" source="6" target="2"/>
+  <relationship id="17" sourceWord="objections" linkingWord="raise chose admitted hard challenge right postpone " targetWord="assembly" source="16" target="2"/>
+  <relationship id="18" sourceWord="king" linkingWord="chose bring " targetWord="date" source="12" target="6"/>
+</conceptmap>

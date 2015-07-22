@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="angus-the first headmistress"/>
+  <concept id="2" label="burt brothers"/>
+  <concept id="3" label="clothing"/>
+  <concept id="4" label="continuing impact"/>
+  <concept id="5" label="contribution"/>
+  <concept id="6" label="country"/>
+  <concept id="7" label="daughter"/>
+  <concept id="8" label="dunedin entrepreneurs"/>
+  <concept id="9" label="economic development"/>
+  <concept id="10" label="edinburgh"/>
+  <concept id="11" label="education"/>
+  <concept id="12" label="education act"/>
+  <concept id="13" label="fact"/>
+  <concept id="14" label="first high school"/>
+  <concept id="15" label="girls open"/>
+  <concept id="16" label="glasgow"/>
+  <concept id="17" label="iron-merchant"/>
+  <concept id="18" label="medical school"/>
+  <concept id="19" label="model"/>
+  <concept id="20" label="new zealand"/>
+  <concept id="21" label="over-represented"/>
+  <concept id="22" label="science"/>
+  <concept id="23" label="scot"/>
+  <concept id="24" label="scots"/>
+  <concept id="25" label="scots-born people"/>
+  <concept id="26" label="vast majority"/>
+  <relationship id="1" sourceWord="medical school" linkingWord="helps explain " targetWord="continuing impact" source="18" target="4"/>
+  <relationship id="2" sourceWord="continuing impact" linkingWord="of" targetWord="scots-born people" source="4" target="25"/>
+  <relationship id="3" sourceWord="model" linkingWord="for" targetWord="education act" source="19" target="12"/>
+  <relationship id="4" sourceWord="angus-the first headmistress" linkingWord="from" targetWord="scot" source="1" target="23"/>
+  <relationship id="5" sourceWord="daughter" linkingWord="of" targetWord="iron-merchant" source="7" target="17"/>
+  <relationship id="6" sourceWord="daughter" linkingWord="thanks_to" targetWord="scot" source="7" target="23"/>
+  <relationship id="7" sourceWord="first high school" linkingWord="for" targetWord="girls open" source="14" target="15"/>
+  <relationship id="8" sourceWord="over-represented" linkingWord="those noted " targetWord="contribution" source="21" target="5"/>
+  <relationship id="9" sourceWord="contribution" linkingWord="noted involved " targetWord="science" source="5" target="22"/>
+  <relationship id="10" sourceWord="edinburgh" linkingWord="around from came playing " targetWord="economic development" source="10" target="9"/>
+  <relationship id="11" sourceWord="vast majority" linkingWord="came from around " targetWord="edinburgh" source="26" target="10"/>
+  <relationship id="12" sourceWord="vast majority" linkingWord="scots emigrated " targetWord="new zealand" source="26" target="20"/>
+  <relationship id="13" sourceWord="vast majority" linkingWord="of" targetWord="scots" source="26" target="24"/>
+</conceptmap>

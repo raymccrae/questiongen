@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="career stability"/>
+  <concept id="2" label="cases"/>
+  <concept id="3" label="disciplinary system"/>
+  <concept id="4" label="discipline"/>
+  <concept id="5" label="drunkenness"/>
+  <concept id="6" label="early 1560s"/>
+  <concept id="7" label="elders"/>
+  <concept id="8" label="evidence"/>
+  <concept id="9" label="famous milestones"/>
+  <concept id="10" label="ministers"/>
+  <concept id="11" label="ministry"/>
+  <concept id="12" label="minor offences"/>
+  <concept id="13" label="moral failings"/>
+  <concept id="14" label="need"/>
+  <concept id="15" label="ones"/>
+  <concept id="16" label="parish churches"/>
+  <concept id="17" label="parishes"/>
+  <concept id="18" label="people"/>
+  <concept id="19" label="preaching"/>
+  <concept id="20" label="protestant doctrines"/>
+  <concept id="21" label="protestant ministers"/>
+  <concept id="22" label="psalm"/>
+  <concept id="23" label="role"/>
+  <concept id="24" label="scottish history"/>
+  <concept id="25" label="signs"/>
+  <concept id="26" label="strict program"/>
+  <relationship id="1" sourceWord="strict program" linkingWord="of" targetWord="discipline" source="26" target="4"/>
+  <relationship id="2" sourceWord="minor offences" linkingWord="such_as" targetWord="drunkenness" source="12" target="5"/>
+  <relationship id="3" sourceWord="career stability" linkingWord="enjoyed educated disciplined " targetWord="moral failings" source="1" target="13"/>
+  <relationship id="4" sourceWord="protestant ministers" linkingWord="educated enjoyed " targetWord="career stability" source="21" target="1"/>
+  <relationship id="5" sourceWord="role" linkingWord="important spreading " targetWord="protestant doctrines" source="23" target="20"/>
+  <relationship id="6" sourceWord="role" linkingWord="of" targetWord="psalm" source="23" target="22"/>
+  <relationship id="7" sourceWord="signs" linkingWord="are important " targetWord="role" source="25" target="23"/>
+  <relationship id="8" sourceWord="parish churches" linkingWord="achieved much aimed " targetWord="early 1560s" source="16" target="6"/>
+  <relationship id="9" sourceWord="early 1560s" linkingWord="in" targetWord="preaching" source="6" target="19"/>
+  <relationship id="10" sourceWord="evidence" linkingWord="suggests accepted " targetWord="disciplinary system" source="8" target="3"/>
+  <relationship id="11" sourceWord="disciplinary system" linkingWord="accepted content " targetWord="ones" source="3" target="15"/>
+  <relationship id="12" sourceWord="famous milestones" linkingWord="in" targetWord="scottish history" source="9" target="24"/>
+</conceptmap>

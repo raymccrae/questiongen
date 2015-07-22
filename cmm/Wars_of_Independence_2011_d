@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="arrows"/>
+  <concept id="2" label="band"/>
+  <concept id="3" label="battle"/>
+  <concept id="4" label="capture"/>
+  <concept id="5" label="death"/>
+  <concept id="6" label="discharges"/>
+  <concept id="7" label="elderslie"/>
+  <concept id="8" label="english garrison"/>
+  <concept id="9" label="english justiciar"/>
+  <concept id="10" label="english mounted knights"/>
+  <concept id="11" label="falkirk"/>
+  <concept id="12" label="head"/>
+  <concept id="13" label="help"/>
+  <concept id="14" label="horse"/>
+  <concept id="15" label="laird"/>
+  <concept id="16" label="lanark"/>
+  <concept id="17" label="liberty"/>
+  <concept id="18" label="mentieth"/>
+  <concept id="19" label="miles"/>
+  <concept id="20" label="mistress"/>
+  <concept id="21" label="outlaws"/>
+  <concept id="22" label="ragman rolls"/>
+  <concept id="23" label="revenge"/>
+  <concept id="24" label="sir john stewart"/>
+  <concept id="25" label="tail"/>
+  <concept id="26" label="victory"/>
+  <relationship id="1" sourceWord="discharges" linkingWord="of" targetWord="arrows" source="6" target="1"/>
+  <relationship id="2" sourceWord="victory" linkingWord="for" targetWord="english mounted knights" source="26" target="10"/>
+  <relationship id="3" sourceWord="head" linkingWord="of" targetWord="band" source="12" target="2"/>
+  <relationship id="4" sourceWord="revenge" linkingWord="killed set " targetWord="head" source="23" target="12"/>
+  <relationship id="5" sourceWord="english garrison" linkingWord="of" targetWord="lanark" source="8" target="16"/>
+  <relationship id="6" sourceWord="miles" linkingWord="dragged smithfield put " targetWord="death" source="19" target="5"/>
+  <relationship id="7" sourceWord="tail" linkingWord="of" targetWord="horse" source="25" target="14"/>
+  <relationship id="8" sourceWord="miles" linkingWord="at" targetWord="tail" source="19" target="25"/>
+  <relationship id="9" sourceWord="laird" linkingWord="of" targetWord="elderslie" source="15" target="7"/>
+  <relationship id="10" sourceWord="ragman rolls" linkingWord="not signed outlawed " targetWord="english justiciar" source="22" target="9"/>
+  <relationship id="11" sourceWord="liberty" linkingWord="remained betrayed " targetWord="sir john stewart" source="17" target="24"/>
+  <relationship id="12" sourceWord="sir john stewart" linkingWord="of" targetWord="mentieth" source="24" target="18"/>
+</conceptmap>

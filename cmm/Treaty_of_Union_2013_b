@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="addresses"/>
+  <concept id="2" label="awareness"/>
+  <concept id="3" label="country"/>
+  <concept id="4" label="democracy"/>
+  <concept id="5" label="event"/>
+  <concept id="6" label="expression"/>
+  <concept id="7" label="favor"/>
+  <concept id="8" label="flood"/>
+  <concept id="9" label="government policy"/>
+  <concept id="10" label="honor"/>
+  <concept id="11" label="important political issue"/>
+  <concept id="12" label="impressive reaction"/>
+  <concept id="13" label="independence"/>
+  <concept id="14" label="issues"/>
+  <concept id="15" label="kingdom"/>
+  <concept id="16" label="matters"/>
+  <concept id="17" label="milestone"/>
+  <concept id="18" label="none"/>
+  <concept id="19" label="not landowners"/>
+  <concept id="20" label="november"/>
+  <concept id="21" label="parliament"/>
+  <concept id="22" label="political history"/>
+  <concept id="23" label="previous instance"/>
+  <concept id="24" label="shires"/>
+  <concept id="25" label="time"/>
+  <concept id="26" label="widespread literacy"/>
+  <relationship id="1" sourceWord="previous instance" linkingWord="of" targetWord="expression" source="23" target="6"/>
+  <relationship id="2" sourceWord="previous instance" linkingWord="on" targetWord="important political issue" source="23" target="11"/>
+  <relationship id="3" sourceWord="addresses" linkingWord="protested contrary " targetWord="honor" source="1" target="10"/>
+  <relationship id="4" sourceWord="honor" linkingWord="of" targetWord="kingdom" source="10" target="15"/>
+  <relationship id="5" sourceWord="flood" linkingWord="of" targetWord="addresses" source="8" target="1"/>
+  <relationship id="6" sourceWord="addresses" linkingWord="to" targetWord="parliament" source="1" target="21"/>
+  <relationship id="7" sourceWord="november" linkingWord="known was " targetWord="flood" source="20" target="8"/>
+  <relationship id="8" sourceWord="parliament" linkingWord="from" targetWord="shires" source="21" target="24"/>
+  <relationship id="9" sourceWord="milestone" linkingWord="in" targetWord="political history" source="17" target="22"/>
+  <relationship id="10" sourceWord="widespread literacy" linkingWord="of" targetWord="issues" source="26" target="14"/>
+  <relationship id="11" sourceWord="democracy" linkingWord="not exist held had express " targetWord="matters" source="4" target="16"/>
+  <relationship id="12" sourceWord="democracy" linkingWord="not exist held had people " targetWord="not landowners" source="4" target="19"/>
+  <relationship id="13" sourceWord="time" linkingWord="remarkable not exist " targetWord="democracy" source="25" target="4"/>
+  <relationship id="14" sourceWord="matters" linkingWord="of" targetWord="government policy" source="16" target="9"/>
+  <relationship id="15" sourceWord="not landowners" linkingWord="people had express " targetWord="matters" source="19" target="16"/>
+  <relationship id="16" sourceWord="addresses" linkingWord="all opposed was " targetWord="none" source="1" target="18"/>
+  <relationship id="17" sourceWord="none" linkingWord="in" targetWord="favor" source="18" target="7"/>
+</conceptmap>

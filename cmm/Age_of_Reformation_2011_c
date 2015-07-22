@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="answer"/>
+  <concept id="2" label="articles"/>
+  <concept id="3" label="assembly"/>
+  <concept id="4" label="brethren"/>
+  <concept id="5" label="complaints"/>
+  <concept id="6" label="consent"/>
+  <concept id="7" label="doctrine"/>
+  <concept id="8" label="fault"/>
+  <concept id="9" label="general assembly"/>
+  <concept id="10" label="god"/>
+  <concept id="11" label="king"/>
+  <concept id="12" label="kirk"/>
+  <concept id="13" label="knowledge"/>
+  <concept id="14" label="laws"/>
+  <concept id="15" label="long conference"/>
+  <concept id="16" label="majesty"/>
+  <concept id="17" label="man"/>
+  <concept id="18" label="mature deliberation"/>
+  <concept id="19" label="meetings"/>
+  <concept id="20" label="minister"/>
+  <concept id="21" label="ministers"/>
+  <concept id="22" label="name"/>
+  <concept id="23" label="own flock"/>
+  <concept id="24" label="perth"/>
+  <concept id="25" label="presbytery"/>
+  <concept id="26" label="principal towns"/>
+  <relationship id="1" sourceWord="consent" linkingWord="of" targetWord="own flock" source="6" target="23"/>
+  <relationship id="2" sourceWord="complaints" linkingWord="present report " targetWord="answer" source="5" target="1"/>
+  <relationship id="3" sourceWord="assembly" linkingWord="ordains criticise " targetWord="laws" source="3" target="14"/>
+  <relationship id="4" sourceWord="long conference" linkingWord="agree ordains " targetWord="assembly" source="15" target="3"/>
+  <relationship id="5" sourceWord="assembly" linkingWord="ordains seek " targetWord="presbytery" source="3" target="25"/>
+  <relationship id="6" sourceWord="brethren" linkingWord="ordains agree " targetWord="long conference" source="4" target="15"/>
+  <relationship id="7" sourceWord="knowledge" linkingWord="apart_from" targetWord="meetings" source="13" target="19"/>
+  <relationship id="8" sourceWord="articles" linkingWord="concerning meeting proposed " targetWord="king" source="2" target="11"/>
+  <relationship id="9" sourceWord="perth" linkingWord="meeting concerning " targetWord="articles" source="24" target="2"/>
+  <relationship id="10" sourceWord="presbytery" linkingWord="watch agreeable " targetWord="doctrine" source="25" target="7"/>
+</conceptmap>

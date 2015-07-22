@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="addition"/>
+  <concept id="2" label="aftermath"/>
+  <concept id="3" label="air"/>
+  <concept id="4" label="anyone"/>
+  <concept id="5" label="attendance"/>
+  <concept id="6" label="bothwell"/>
+  <concept id="7" label="canongate"/>
+  <concept id="8" label="chamber"/>
+  <concept id="9" label="council"/>
+  <concept id="10" label="darnley"/>
+  <concept id="11" label="death"/>
+  <concept id="12" label="earl"/>
+  <concept id="13" label="force"/>
+  <concept id="14" label="gunpowder"/>
+  <concept id="15" label="holyrood"/>
+  <concept id="16" label="lodging"/>
+  <concept id="17" label="lords"/>
+  <concept id="18" label="mary"/>
+  <concept id="19" label="masquing costume"/>
+  <concept id="20" label="midnight"/>
+  <concept id="21" label="much speculation"/>
+  <concept id="22" label="murder"/>
+  <concept id="23" label="mystery"/>
+  <concept id="24" label="poison"/>
+  <concept id="25" label="rich attire"/>
+  <concept id="26" label="two years"/>
+  <relationship id="1" sourceWord="aftermath" linkingWord="of" targetWord="death" source="2" target="11"/>
+  <relationship id="2" sourceWord="darnley" linkingWord="disliked seen " targetWord="murder" source="10" target="22"/>
+  <relationship id="3" sourceWord="anyone" linkingWord="bothwell choose kill " targetWord="darnley" source="4" target="10"/>
+  <relationship id="4" sourceWord="bothwell" linkingWord="choose kill darnley using " targetWord="gunpowder" source="6" target="14"/>
+  <relationship id="5" sourceWord="gunpowder" linkingWord="using darnley " targetWord="poison" source="14" target="24"/>
+  <relationship id="6" sourceWord="lords" linkingWord="concluded blown " targetWord="air" source="17" target="3"/>
+  <relationship id="7" sourceWord="lords" linkingWord="of" targetWord="council" source="17" target="9"/>
+  <relationship id="8" sourceWord="addition" linkingWord="4pm returned " targetWord="holyrood" source="1" target="15"/>
+  <relationship id="9" sourceWord="addition" linkingWord="was dressed " targetWord="masquing costume" source="1" target="19"/>
+  <relationship id="10" sourceWord="two years" linkingWord="after" targetWord="murder" source="26" target="22"/>
+  <relationship id="11" sourceWord="earl" linkingWord="of" targetWord="bothwell" source="12" target="6"/>
+  <relationship id="12" sourceWord="murder" linkingWord="bent made visible walking " targetWord="rich attire" source="22" target="25"/>
+</conceptmap>

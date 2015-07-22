@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="attack"/>
+  <concept id="2" label="batons"/>
+  <concept id="3" label="bloody friday"/>
+  <concept id="4" label="city chambers"/>
+  <concept id="5" label="clyde workers"/>
+  <concept id="6" label="committee"/>
+  <concept id="7" label="conflict"/>
+  <concept id="8" label="crowd"/>
+  <concept id="9" label="davie kirkwood"/>
+  <concept id="10" label="george square"/>
+  <concept id="11" label="glasgow"/>
+  <concept id="12" label="government"/>
+  <concept id="13" label="ground"/>
+  <concept id="14" label="january 31st 1919"/>
+  <concept id="15" label="leaders"/>
+  <concept id="16" label="lord provost"/>
+  <concept id="17" label="order"/>
+  <concept id="18" label="own dirty work"/>
+  <concept id="19" label="police"/>
+  <concept id="20" label="prearranged affair"/>
+  <concept id="21" label="sheer brutality"/>
+  <concept id="22" label="sounds"/>
+  <concept id="23" label="strike committee"/>
+  <concept id="24" label="strike leaders"/>
+  <concept id="25" label="strikers"/>
+  <concept id="26" label="willie gallacher"/>
+  <relationship id="1" sourceWord="prearranged affair" linkingWord="with" targetWord="attack" source="20" target="1"/>
+  <relationship id="2" sourceWord="attack" linkingWord="on" targetWord="strikers" source="1" target="25"/>
+  <relationship id="3" sourceWord="attack" linkingWord="made thrown " targetWord="davie kirkwood" source="1" target="9"/>
+  <relationship id="4" sourceWord="davie kirkwood" linkingWord="of" targetWord="committee" source="9" target="6"/>
+  <relationship id="5" sourceWord="sheer brutality" linkingWord="by" targetWord="police" source="21" target="19"/>
+  <relationship id="6" sourceWord="government" linkingWord="afraid do " targetWord="own dirty work" source="12" target="18"/>
+  <relationship id="7" sourceWord="leaders" linkingWord="returned meeting " targetWord="lord provost" source="15" target="16"/>
+  <relationship id="8" sourceWord="strike committee" linkingWord="addressed returned " targetWord="leaders" source="23" target="15"/>
+  <relationship id="9" sourceWord="willie gallacher" linkingWord="of" targetWord="committee" source="26" target="6"/>
+  <relationship id="10" sourceWord="order" linkingWord="restore urging " targetWord="crowd" source="17" target="8"/>
+  <relationship id="11" sourceWord="sounds" linkingWord="hearing rushed help restore " targetWord="order" source="22" target="17"/>
+  <relationship id="12" sourceWord="city chambers" linkingWord="waiting kept ordered draw " targetWord="batons" source="4" target="2"/>
+  <relationship id="13" sourceWord="batons" linkingWord="draw disperse " targetWord="crowd" source="2" target="8"/>
+  <relationship id="14" sourceWord="strike leaders" linkingWord="kept waiting " targetWord="city chambers" source="24" target="4"/>
+</conceptmap>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="7500 souls"/>
+  <concept id="2" label="aforesaid king"/>
+  <concept id="3" label="age"/>
+  <concept id="4" label="april"/>
+  <concept id="5" label="balliol"/>
+  <concept id="6" label="battle"/>
+  <concept id="7" label="berwick"/>
+  <concept id="8" label="bruce"/>
+  <concept id="9" label="castle"/>
+  <concept id="10" label="country"/>
+  <concept id="11" label="defeat"/>
+  <concept id="12" label="dunbar"/>
+  <concept id="13" label="dunbar castle"/>
+  <concept id="14" label="earl"/>
+  <concept id="15" label="england"/>
+  <concept id="16" label="graham"/>
+  <concept id="17" label="great many other knights"/>
+  <concept id="18" label="king"/>
+  <concept id="19" label="large force"/>
+  <concept id="20" label="party"/>
+  <concept id="21" label="sex"/>
+  <concept id="22" label="sheep"/>
+  <concept id="23" label="supporters"/>
+  <concept id="24" label="town"/>
+  <concept id="25" label="war"/>
+  <concept id="26" label="warden"/>
+  <relationship id="1" sourceWord="april" linkingWord="fought fell wounded " targetWord="defeat" source="4" target="11"/>
+  <relationship id="2" sourceWord="april" linkingWord="fought fled " targetWord="dunbar castle" source="4" target="13"/>
+  <relationship id="3" sourceWord="battle" linkingWord="of" targetWord="dunbar" source="6" target="12"/>
+  <relationship id="4" sourceWord="sex" linkingWord="sparing put " targetWord="7500 souls" source="21" target="1"/>
+  <relationship id="5" sourceWord="aforesaid king" linkingWord="of" targetWord="england" source="2" target="15"/>
+  <relationship id="6" sourceWord="town" linkingWord="put sparing " targetWord="sex" source="24" target="21"/>
+  <relationship id="7" sourceWord="king" linkingWord="of" targetWord="england" source="18" target="15"/>
+  <relationship id="8" sourceWord="supporters" linkingWord="considered king " targetWord="country" source="23" target="10"/>
+  <relationship id="9" sourceWord="war" linkingWord="this considered " targetWord="king" source="25" target="18"/>
+  <relationship id="10" sourceWord="supporters" linkingWord="of" targetWord="party" source="23" target="20"/>
+  <relationship id="11" sourceWord="warden" linkingWord="of" targetWord="castle" source="26" target="9"/>
+  <relationship id="12" sourceWord="earl" linkingWord="70 betrayed handed king " targetWord="england" source="14" target="15"/>
+  <relationship id="13" sourceWord="england" linkingWord="king handed " targetWord="sheep" source="15" target="22"/>
+</conceptmap>

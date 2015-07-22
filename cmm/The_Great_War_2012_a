@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="6th cameron highlanders"/>
+  <concept id="2" label="attempt"/>
+  <concept id="3" label="awful hillside"/>
+  <concept id="4" label="brave old colonel"/>
+  <concept id="5" label="cameron"/>
+  <concept id="6" label="enemy"/>
+  <concept id="7" label="evening"/>
+  <concept id="8" label="hand"/>
+  <concept id="9" label="help"/>
+  <concept id="10" label="hill 70"/>
+  <concept id="11" label="machine gun fire"/>
+  <concept id="12" label="motto"/>
+  <concept id="13" label="murderous rifle"/>
+  <concept id="14" label="order"/>
+  <concept id="15" label="other weapon"/>
+  <concept id="16" label="promised reinforcements"/>
+  <concept id="17" label="regiment"/>
+  <concept id="18" label="reserves"/>
+  <concept id="19" label="ridge"/>
+  <concept id="20" label="shells"/>
+  <concept id="21" label="situation"/>
+  <concept id="22" label="sound"/>
+  <concept id="23" label="stage"/>
+  <concept id="24" label="third time"/>
+  <concept id="25" label="top"/>
+  <concept id="26" label="walking stick"/>
+  <relationship id="1" sourceWord="top" linkingWord="made desperate " targetWord="promised reinforcements" source="25" target="16"/>
+  <relationship id="2" sourceWord="hill 70" linkingWord="top made " targetWord="murderous rifle" source="10" target="13"/>
+  <relationship id="3" sourceWord="sound" linkingWord="made top " targetWord="hill 70" source="22" target="10"/>
+  <relationship id="4" sourceWord="top" linkingWord="of" targetWord="hill 70" source="25" target="10"/>
+  <relationship id="5" sourceWord="murderous rifle" linkingWord="made crashed " targetWord="shells" source="13" target="20"/>
+  <relationship id="6" sourceWord="other weapon" linkingWord="than" targetWord="walking stick" source="15" target="26"/>
+  <relationship id="7" sourceWord="situation" linkingWord="at" targetWord="hill 70" source="21" target="10"/>
+  <relationship id="8" sourceWord="stage" linkingWord="numbered all knew all left " targetWord="6th cameron highlanders" source="23" target="1"/>
+  <relationship id="9" sourceWord="awful hillside" linkingWord="many fell holding " targetWord="motto" source="3" target="12"/>
+  <relationship id="10" sourceWord="third time" linkingWord="given attack many " targetWord="awful hillside" source="24" target="3"/>
+  <relationship id="11" sourceWord="enemy" linkingWord="with" targetWord="reserves" source="6" target="18"/>
+  <relationship id="12" sourceWord="motto" linkingWord="of" targetWord="regiment" source="12" target="17"/>
+  <relationship id="13" sourceWord="evening" linkingWord="drew made " targetWord="attempt" source="7" target="2"/>
+  <relationship id="14" sourceWord="attempt" linkingWord="made win " targetWord="ridge" source="2" target="19"/>
+</conceptmap>

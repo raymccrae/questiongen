@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="best way"/>
+  <concept id="2" label="brothers"/>
+  <concept id="3" label="canada"/>
+  <concept id="4" label="cheap land"/>
+  <concept id="5" label="circumstances-i"/>
+  <concept id="6" label="family"/>
+  <concept id="7" label="farm"/>
+  <concept id="8" label="farmer"/>
+  <concept id="9" label="insane person"/>
+  <concept id="10" label="land"/>
+  <concept id="11" label="mental anxiety"/>
+  <concept id="12" label="mind"/>
+  <concept id="13" label="money"/>
+  <concept id="14" label="morning"/>
+  <concept id="15" label="much land"/>
+  <concept id="16" label="night"/>
+  <concept id="17" label="noonday"/>
+  <concept id="18" label="part"/>
+  <concept id="19" label="parts"/>
+  <concept id="20" label="scotland"/>
+  <concept id="21" label="short time"/>
+  <concept id="22" label="slightest hesitation"/>
+  <concept id="23" label="sun"/>
+  <concept id="24" label="value"/>
+  <concept id="25" label="year"/>
+  <relationship id="1" sourceWord="circumstances-i" linkingWord="say unemployed lies " targetWord="canada" source="5" target="3"/>
+  <relationship id="2" sourceWord="canada" linkingWord="lies unemployed say better unable upon worry occupying acts " targetWord="part" source="3" target="18"/>
+  <relationship id="3" sourceWord="family" linkingWord="support unable better say " targetWord="circumstances-i" source="6" target="5"/>
+  <relationship id="4" sourceWord="farm" linkingWord="occupying worry upon unable better say " targetWord="circumstances-i" source="7" target="5"/>
+  <relationship id="5" sourceWord="farm" linkingWord="occupying worry upon unable support " targetWord="family" source="7" target="6"/>
+  <relationship id="6" sourceWord="family" linkingWord="support unable upon worry occupying acts " targetWord="part" source="6" target="18"/>
+  <relationship id="7" sourceWord="farmer" linkingWord="acts occupying " targetWord="farm" source="8" target="7"/>
+  <relationship id="8" sourceWord="farm" linkingWord="occupying struggling " targetWord="morning" source="7" target="14"/>
+  <relationship id="9" sourceWord="mind" linkingWord="upon unable better say unemployed " targetWord="farmer" source="12" target="8"/>
+  <relationship id="10" sourceWord="slightest hesitation" linkingWord="declaring acts " targetWord="farmer" source="22" target="8"/>
+  <relationship id="11" sourceWord="part" linkingWord="of" targetWord="insane person" source="18" target="9"/>
+  <relationship id="12" sourceWord="night" linkingWord="with" targetWord="mental anxiety" source="16" target="11"/>
+  <relationship id="13" sourceWord="morning" linkingWord="struggling occupying worry upon " targetWord="mind" source="14" target="12"/>
+  <relationship id="14" sourceWord="morning" linkingWord="struggling occupying acts " targetWord="part" source="14" target="18"/>
+  <relationship id="15" sourceWord="sun" linkingWord="at" targetWord="noonday" source="23" target="17"/>
+  <relationship id="16" sourceWord="slightest hesitation" linkingWord="declaring appears " targetWord="sun" source="22" target="23"/>
+  <relationship id="17" sourceWord="best way" linkingWord="for" targetWord="brothers" source="1" target="2"/>
+  <relationship id="18" sourceWord="best way" linkingWord="is buying " targetWord="land" source="1" target="10"/>
+  <relationship id="19" sourceWord="short time" linkingWord="in" targetWord="cheap land" source="21" target="4"/>
+</conceptmap>

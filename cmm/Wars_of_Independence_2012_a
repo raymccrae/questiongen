@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="agreement"/>
+  <concept id="2" label="borders"/>
+  <concept id="3" label="crime"/>
+  <concept id="4" label="customs"/>
+  <concept id="5" label="edward i"/>
+  <concept id="6" label="england"/>
+  <concept id="7" label="fealty"/>
+  <concept id="8" label="homage"/>
+  <concept id="9" label="king"/>
+  <concept id="10" label="kingdom"/>
+  <concept id="11" label="kingdoms"/>
+  <concept id="12" label="lands"/>
+  <concept id="13" label="laws"/>
+  <concept id="14" label="matters"/>
+  <concept id="15" label="mutual friendship"/>
+  <concept id="16" label="name"/>
+  <concept id="17" label="one"/>
+  <concept id="18" label="other cause contrary"/>
+  <concept id="19" label="parliament"/>
+  <concept id="20" label="peoples"/>
+  <concept id="21" label="position"/>
+  <concept id="22" label="rightful boundaries"/>
+  <concept id="23" label="rights"/>
+  <concept id="24" label="scotland"/>
+  <concept id="25" label="tenant-in-chief"/>
+  <concept id="26" label="time"/>
+  <relationship id="1" sourceWord="kingdom" linkingWord="separate divided kingdom " targetWord="england" source="10" target="6"/>
+  <relationship id="2" sourceWord="england" linkingWord="kingdom divided " targetWord="rightful boundaries" source="6" target="22"/>
+  <relationship id="3" sourceWord="kingdom" linkingWord="of" targetWord="scotland" source="10" target="24"/>
+  <relationship id="4" sourceWord="customs" linkingWord="of" targetWord="scotland" source="4" target="24"/>
+  <relationship id="5" sourceWord="kingdoms" linkingWord="considered doing continue " targetWord="mutual friendship" source="11" target="15"/>
+  <relationship id="6" sourceWord="kingdoms" linkingWord="considered granted " targetWord="name" source="11" target="16"/>
+  <relationship id="7" sourceWord="name" linkingWord="granted preserved " targetWord="rights" source="16" target="23"/>
+  <relationship id="8" sourceWord="peoples" linkingWord="for" targetWord="time" source="20" target="26"/>
+  <relationship id="9" sourceWord="agreement" linkingWord="kingdom entered committed " targetWord="crime" source="1" target="3"/>
+  <relationship id="10" sourceWord="kingdom" linkingWord="for" targetWord="agreement" source="10" target="1"/>
+  <relationship id="11" sourceWord="one" linkingWord="held answer entered kingdom " targetWord="agreement" source="17" target="1"/>
+  <relationship id="12" sourceWord="one" linkingWord="held answer entered committed " targetWord="crime" source="17" target="3"/>
+  <relationship id="13" sourceWord="crime" linkingWord="committed in " targetWord="other cause contrary" source="3" target="18"/>
+  <relationship id="14" sourceWord="laws" linkingWord="of" targetWord="kingdom" source="13" target="10"/>
+  <relationship id="15" sourceWord="other cause contrary" linkingWord="in committed " targetWord="laws" source="18" target="13"/>
+  <relationship id="16" sourceWord="borders" linkingWord="kingdom outwith " targetWord="matters" source="2" target="14"/>
+  <relationship id="17" sourceWord="parliament" linkingWord="held outwith kingdom " targetWord="borders" source="19" target="2"/>
+  <relationship id="18" sourceWord="matters" linkingWord="concerning" targetWord="kingdom" source="14" target="10"/>
+  <relationship id="19" sourceWord="position" linkingWord="those live " targetWord="kingdom" source="21" target="10"/>
+  <relationship id="20" sourceWord="homage" linkingWord="do pay " targetWord="lands" source="8" target="12"/>
+  <relationship id="21" sourceWord="tenant-in-chief" linkingWord="forced go kingdom do " targetWord="homage" source="25" target="8"/>
+  <relationship id="22" sourceWord="king" linkingWord="of" targetWord="scotland" source="9" target="24"/>
+</conceptmap>

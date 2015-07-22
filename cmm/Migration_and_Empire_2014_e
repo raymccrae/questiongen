@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<conceptmap>
+  <concept id="1" label="1914 bengal"/>
+  <concept id="2" label="alisdair forbes"/>
+  <concept id="3" label="bengal"/>
+  <concept id="4" label="boom"/>
+  <concept id="5" label="broughty ferry"/>
+  <concept id="6" label="confidence"/>
+  <concept id="7" label="country estates"/>
+  <concept id="8" label="display"/>
+  <concept id="9" label="dundee"/>
+  <concept id="10" label="elegant suburbs"/>
+  <concept id="11" label="empire"/>
+  <concept id="12" label="employment"/>
+  <concept id="13" label="example"/>
+  <concept id="14" label="exporting jute"/>
+  <concept id="15" label="families"/>
+  <concept id="16" label="first world war"/>
+  <concept id="17" label="handful"/>
+  <concept id="18" label="indian textile trade"/>
+  <concept id="19" label="jute industry"/>
+  <concept id="20" label="levels"/>
+  <concept id="21" label="money"/>
+  <concept id="22" label="prices"/>
+  <concept id="23" label="producing sand bags"/>
+  <concept id="24" label="scottish producers"/>
+  <concept id="25" label="serious competitors"/>
+  <concept id="26" label="wealth"/>
+  <relationship id="1" sourceWord="serious competitors" linkingWord="for" targetWord="scottish producers" source="25" target="24"/>
+  <relationship id="2" sourceWord="money" linkingWord="from" targetWord="empire" source="21" target="11"/>
+  <relationship id="3" sourceWord="money" linkingWord="helped landed " targetWord="families" source="21" target="15"/>
+  <relationship id="4" sourceWord="handful" linkingWord="of" targetWord="families" source="17" target="15"/>
+  <relationship id="5" sourceWord="alisdair forbes" linkingWord="used purchase " targetWord="country estates" source="2" target="7"/>
+  <relationship id="6" sourceWord="indian textile trade" linkingWord="money used " targetWord="alisdair forbes" source="18" target="2"/>
+  <relationship id="7" sourceWord="example" linkingWord="used money " targetWord="indian textile trade" source="13" target="18"/>
+  <relationship id="8" sourceWord="money" linkingWord="from" targetWord="indian textile trade" source="21" target="18"/>
+  <relationship id="9" sourceWord="levels" linkingWord="in" targetWord="jute industry" source="20" target="19"/>
+  <relationship id="10" sourceWord="prices" linkingWord="fell fell " targetWord="levels" source="22" target="20"/>
+  <relationship id="11" sourceWord="broughty ferry" linkingWord="near" targetWord="dundee" source="5" target="9"/>
+  <relationship id="12" sourceWord="display" linkingWord="of" targetWord="wealth" source="8" target="26"/>
+  <relationship id="13" sourceWord="dundee" linkingWord="jute mills worked " targetWord="producing sand bags" source="9" target="23"/>
+</conceptmap>
