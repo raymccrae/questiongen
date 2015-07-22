@@ -32,17 +32,19 @@ import java.util.Map;
 public class ConceptMapExtract {
 
     public static void main(String[] args) throws Exception {
-//        extractConceptMap();
+//        extractConceptMap("Age_of_Reformation_2012_a");
 //        invokeNLP(new File("/Users/raymond/Documents/OpenUniversity/T802/samples/tablet.txt"));
         enrichConceptMapWithStanford(
                 new File("/Users/raymond/Documents/OpenUniversity/T802/tml/output.xml"),
                 new File("/Users/raymond/Documents/OpenUniversity/T802/stanford-corenlp-full-2015-01-30/tablet.txt.xml"));
     }
 
-    public static void extractConceptMap() throws Exception {
+    public static void extractConceptMap(String filename) throws Exception {
         Repository repository = new Repository("/Users/raymond/Dropbox/Documents/Open University/T802/tml/lucene");
 
-        SearchResultsCorpus corpus = new SearchResultsCorpus("type:sentence AND parent:tablet");
+        String title = filename.replaceAll("_", "");
+        SearchResultsCorpus corpus = new SearchResultsCorpus("type:sentence AND parent:" + title);
+        corpus.getParameters().setTermSelectionThreshold(1.0);
         corpus.load(repository);
 
         CmmProcess extraction = new CmmProcess();
@@ -51,7 +53,7 @@ public class ConceptMapExtract {
 
         ConceptMapResult result = extraction.getResults().get(0);
         ConceptMap conceptMap = result.getConceptMap();
-        conceptMap.writeToXML("./output.xml");
+        conceptMap.writeToXML("./" + filename);
     }
 
     public static void importDocumentIntoRepository(File documentFile, Repository repository) throws IOException {
