@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="approval" lemma="approval"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="articles" lemma="article"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="cause" lemma="cause"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="4" label="court" lemma="Court"/>
+  <concept id="5" label="court-minded mps"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="6" label="equivalent" lemma="Equivalent"/>
+  <concept id="7" label="equivalent-eight"/>
+  <concept id="8" label="few cases"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="government" lemma="government"/>
+  <concept id="10" label="material gain"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="11" label="mps" lemma="mp"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="outcome" lemma="outcome"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="part" lemma="part"/>
+  <concept id="14" label="political management"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="15" label="purpose" lemma="purpose"/>
+  <concept id="16" label="shuddering halt"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="17" label="squadrone" lemma="Squadrone"/>
+  <concept id="18" label="squadrone votes"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="success" lemma="success"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="support" lemma="support"/>
+  <concept id="21" label="twenty-five squadrone mps"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="union" lemma="union"/>
+  <concept id="23" label="union process"/>
+  <relationship id="1" linkingWord="of" source="15" sourceWord="purpose" target="6" targetWord="equivalent"/>
+  <relationship id="2" linkingWord="bribe been disappointing " source="11" sourceWord="mps" target="12" targetWord="outcome"/>
+  <relationship id="3" linkingWord="been bribe " source="15" sourceWord="purpose" target="11" targetWord="mps"/>
+  <relationship id="4" linkingWord="securing several " source="1" sourceWord="approval" target="2" targetWord="articles"/>
+  <relationship id="5" linkingWord="proved critical securing " source="18" sourceWord="squadrone votes" target="1" targetWord="approval"/>
+  <relationship id="6" linkingWord="voted benefiting " source="2" sourceWord="articles" target="7" targetWord="equivalent-eight"/>
+  <relationship id="7" linkingWord="these associated " source="7" sourceWord="equivalent-eight" target="17" targetWord="squadrone"/>
+  <relationship id="8" linkingWord="depended more " source="20" sourceWord="support" target="10" targetWord="material gain"/>
+  <relationship id="9" linkingWord="for" source="20" sourceWord="support" target="22" targetWord="union"/>
+  <relationship id="10" linkingWord="around with carry " source="21" sourceWord="twenty-five squadrone mps" target="9" targetWord="government"/>
+  <relationship id="11" linkingWord="spur attending voting " source="5" sourceWord="court-minded mps" target="3" targetWord="cause"/>
+  <relationship id="12" linkingWord="sympathetic to in " source="3" sourceWord="cause" target="8" targetWord="few cases"/>
+  <relationship id="13" linkingWord="was spur " source="14" sourceWord="political management" target="5" targetWord="court-minded mps"/>
+</conceptmap>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="10 %"/>
+  <concept id="2" label="140,000 miners"/>
+  <concept NER="DATE" POS="CD" Speaker="PER0" id="3" label="1920s" lemma="1920s"/>
+  <concept id="4" label="20 years"/>
+  <concept id="5" label="56,000 tons"/>
+  <concept id="6" label="750,000 tons"/>
+  <concept id="7" label="80,000 hands"/>
+  <concept id="8" label="borders woollen industry"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="catch" lemma="catch"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="cent" lemma="cent"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="11" label="clyde" lemma="Clyde"/>
+  <concept id="12" label="coal industry"/>
+  <concept id="13" label="dundee jute trade"/>
+  <concept NER="DATE" POS="NN" Speaker="PER0" id="14" label="end" lemma="end"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="15" label="england" lemma="England"/>
+  <concept id="16" label="greater part"/>
+  <concept id="17" label="late 1920s"/>
+  <concept id="18" label="less coal"/>
+  <concept id="19" label="one fifth"/>
+  <concept id="20" label="scottish farming"/>
+  <concept id="21" label="scottish unemployment"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="shipping" lemma="shipping"/>
+  <concept id="23" label="u.k"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="value" lemma="value"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="work" lemma="work"/>
+  <concept NER="DATE" POS="NN" Speaker="PER0" id="26" label="year" lemma="year"/>
+  <relationship id="1" linkingWord="of" source="14" sourceWord="end" target="3" targetWord="1920s"/>
+  <relationship id="2" linkingWord="launched launching " source="6" sourceWord="750,000 tons" target="5" targetWord="56,000 tons"/>
+  <relationship id="3" linkingWord="launching launched unemployed 69 " source="5" sourceWord="56,000 tons" target="10" targetWord="cent"/>
+  <relationship id="4" linkingWord="by" source="22" sourceWord="shipping" target="14" targetWord="end"/>
+  <relationship id="5" linkingWord="for" source="25" sourceWord="work" target="7" targetWord="80,000 hands"/>
+  <relationship id="6" linkingWord="finding producing " source="12" sourceWord="coal industry" target="18" targetWord="less coal"/>
+  <relationship id="7" linkingWord="of" source="19" sourceWord="one fifth" target="23" targetWord="u.k"/>
+  <relationship id="8" linkingWord="depressed was " source="13" sourceWord="dundee jute trade" target="8" targetWord="borders woollen industry"/>
+  <relationship id="9" linkingWord="for" source="8" sourceWord="borders woollen industry" target="16" targetWord="greater part"/>
+  <relationship id="10" linkingWord="of" source="16" sourceWord="greater part" target="26" targetWord="year"/>
+  <relationship id="11" linkingWord="was 1920s never fell " source="21" sourceWord="scottish unemployment" target="1" targetWord="10 %"/>
+  <relationship id="12" linkingWord="rising falling employed dropping value " source="15" sourceWord="england" target="9" targetWord="catch"/>
+  <relationship id="13" linkingWord="falling rising " source="17" sourceWord="late 1920s" target="15" targetWord="england"/>
+  <relationship id="14" linkingWord="of" source="24" sourceWord="value" target="20" targetWord="scottish farming"/>
+</conceptmap>

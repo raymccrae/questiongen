@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="1" label="advantages" lemma="advantage"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="alliance" lemma="alliance"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="country" lemma="country"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="4" label="court" lemma="Court"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="5" label="crowns" lemma="Crowns"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="6" label="disadvantages" lemma="disadvantage"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="empire" lemma="empire"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="8" label="england" lemma="England"/>
+  <concept NER="MISC" POS="NNP" Speaker="PER0" id="9" label="english" lemma="English"/>
+  <concept id="10" label="free access"/>
+  <concept id="11" label="hundred years"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="influence" lemma="influence"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="13" label="inhabitants" lemma="inhabitant"/>
+  <concept id="14" label="joint monarchy"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="kings" lemma="king"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="16" label="london" lemma="London"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="loss" lemma="loss"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="markets" lemma="market"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="nation" lemma="nation"/>
+  <concept id="20" label="one way"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="21" label="scots" lemma="Scots"/>
+  <concept id="22" label="scottish commerce"/>
+  <concept id="23" label="scottish economy"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="24" label="tariffs" lemma="tariff"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="terms" lemma="term"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="union" lemma="union"/>
+  <relationship id="1" linkingWord="incorporating unstable " source="26" sourceWord="union" target="23" targetWord="scottish economy"/>
+  <relationship id="2" linkingWord="union sensitive " source="5" sourceWord="crowns" target="21" targetWord="scots"/>
+  <relationship id="3" linkingWord="of" source="26" sourceWord="union" target="5" targetWord="crowns"/>
+  <relationship id="4" linkingWord="with" source="14" sourceWord="joint monarchy" target="8" targetWord="england"/>
+  <relationship id="5" linkingWord="in" source="4" sourceWord="court" target="16" targetWord="london"/>
+  <relationship id="6" linkingWord="of" source="6" sourceWord="disadvantages" target="24" targetWord="tariffs"/>
+  <relationship id="7" linkingWord="to" source="1" sourceWord="advantages" target="18" targetWord="markets"/>
+  <relationship id="8" linkingWord="for" source="1" sourceWord="advantages" target="22" targetWord="scottish commerce"/>
+  <relationship id="9" linkingWord="of" source="22" sourceWord="scottish commerce" target="10" targetWord="free access"/>
+  <relationship id="10" linkingWord="of" source="13" sourceWord="inhabitants" target="3" targetWord="country"/>
+  <relationship id="11" linkingWord="union incorporating " source="2" sourceWord="alliance" target="8" targetWord="england"/>
+  <relationship id="12" linkingWord="incorporating union " source="25" sourceWord="terms" target="2" targetWord="alliance"/>
+  <relationship id="13" linkingWord="for" source="20" sourceWord="one way" target="21" targetWord="scots"/>
+  <relationship id="14" linkingWord="restore was " source="20" sourceWord="one way" target="25" targetWord="terms"/>
+</conceptmap>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="MISC" POS="NNS" Speaker="PER0" id="1" label="addresses" lemma="address"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="awareness" lemma="awareness"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="country" lemma="country"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="democracy" lemma="democracy"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="event" lemma="event"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="expression" lemma="expression"/>
+  <concept id="7" label="favor"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="flood" lemma="flood"/>
+  <concept id="9" label="government policy"/>
+  <concept id="10" label="honor"/>
+  <concept id="11" label="important political issue"/>
+  <concept id="12" label="impressive reaction"/>
+  <concept NER="O" POS="NN" Speaker="29" id="13" label="independence" lemma="independence"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="14" label="issues" lemma="issue"/>
+  <concept NER="O" POS="NNP" Speaker="29" id="15" label="kingdom" lemma="Kingdom"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="16" label="matters" lemma="matter"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="milestone" lemma="milestone"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="none" lemma="none"/>
+  <concept id="19" label="not landowners"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="20" label="november" lemma="November"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="21" label="parliament" lemma="Parliament"/>
+  <concept id="22" label="political history"/>
+  <concept id="23" label="previous instance"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="24" label="shires" lemma="shire"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="time" lemma="time"/>
+  <concept id="26" label="widespread literacy"/>
+  <relationship id="1" linkingWord="of" source="23" sourceWord="previous instance" target="6" targetWord="expression"/>
+  <relationship id="2" linkingWord="on" source="23" sourceWord="previous instance" target="11" targetWord="important political issue"/>
+  <relationship id="3" linkingWord="protested contrary " source="1" sourceWord="addresses" target="10" targetWord="honor"/>
+  <relationship id="4" linkingWord="of" source="10" sourceWord="honor" target="15" targetWord="kingdom"/>
+  <relationship id="5" linkingWord="of" source="8" sourceWord="flood" target="1" targetWord="addresses"/>
+  <relationship id="6" linkingWord="to" source="1" sourceWord="addresses" target="21" targetWord="parliament"/>
+  <relationship id="7" linkingWord="known was " source="20" sourceWord="november" target="8" targetWord="flood"/>
+  <relationship id="8" linkingWord="from" source="21" sourceWord="parliament" target="24" targetWord="shires"/>
+  <relationship id="9" linkingWord="in" source="17" sourceWord="milestone" target="22" targetWord="political history"/>
+  <relationship id="10" linkingWord="of" source="26" sourceWord="widespread literacy" target="14" targetWord="issues"/>
+  <relationship id="11" linkingWord="not exist held had express " source="4" sourceWord="democracy" target="16" targetWord="matters"/>
+  <relationship id="12" linkingWord="not exist held had people " source="4" sourceWord="democracy" target="19" targetWord="not landowners"/>
+  <relationship id="13" linkingWord="remarkable not exist " source="25" sourceWord="time" target="4" targetWord="democracy"/>
+  <relationship id="14" linkingWord="of" source="16" sourceWord="matters" target="9" targetWord="government policy"/>
+  <relationship id="15" linkingWord="people had express " source="19" sourceWord="not landowners" target="16" targetWord="matters"/>
+  <relationship id="16" linkingWord="all opposed was " source="1" sourceWord="addresses" target="18" targetWord="none"/>
+  <relationship id="17" linkingWord="in" source="18" sourceWord="none" target="7" targetWord="favor"/>
+</conceptmap>

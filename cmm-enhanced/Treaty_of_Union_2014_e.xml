@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="1" label="america" lemma="America"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="benefit" lemma="benefit"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="3" label="bengal" lemma="Bengal"/>
+  <concept id="4" label="british colonies"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="5" label="canada" lemma="Canada"/>
+  <concept id="6" label="career openings"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="cases" lemma="case"/>
+  <concept id="8" label="colonial trade"/>
+  <concept id="9" label="crucial lifeline"/>
+  <concept id="10" label="customs officers"/>
+  <concept id="11" label="customs records"/>
+  <concept NER="DURATION" POS="NNS" Speaker="PER0" id="12" label="decades" lemma="decade"/>
+  <concept id="13" label="eager caledonians"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="14" label="elites" lemma="elite"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="15" label="employment" lemma="Employment"/>
+  <concept id="16" label="english naval protection"/>
+  <concept id="17" label="golden opportunity"/>
+  <concept id="18" label="increasing amounts"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="point" lemma="point"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="possibilities" lemma="possibility"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="result" lemma="result"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="22" label="scots" lemma="Scots"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="23" label="streams" lemma="stream"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="trade" lemma="trade"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="union" lemma="union"/>
+  <concept id="26" label="violent assaults"/>
+  <relationship id="1" linkingWord="from" source="19" sourceWord="point" target="5" targetWord="canada"/>
+  <relationship id="2" linkingWord="of" source="23" sourceWord="streams" target="13" targetWord="eager caledonians"/>
+  <relationship id="3" linkingWord="of" source="21" sourceWord="result" target="25" targetWord="union"/>
+  <relationship id="4" linkingWord="fundamental presenting landed " source="20" sourceWord="possibilities" target="14" targetWord="elites"/>
+  <relationship id="5" linkingWord="of" source="20" sourceWord="possibilities" target="25" targetWord="union"/>
+  <relationship id="6" linkingWord="in" source="22" sourceWord="scots" target="8" targetWord="colonial trade"/>
+  <relationship id="7" linkingWord="of" source="15" sourceWord="employment" target="22" targetWord="scots"/>
+  <relationship id="8" linkingWord="greater keen " source="6" sourceWord="career openings" target="22" targetWord="scots"/>
+  <relationship id="9" linkingWord="of" source="18" sourceWord="increasing amounts" target="7" targetWord="cases"/>
+  <relationship id="10" linkingWord="on" source="26" sourceWord="violent assaults" target="10" targetWord="customs officers"/>
+  <relationship id="11" linkingWord="with" source="24" sourceWord="trade" target="1" targetWord="america"/>
+  <relationship id="12" linkingWord="of" source="2" sourceWord="benefit" target="16" targetWord="english naval protection"/>
+  <relationship id="13" linkingWord="for" source="16" sourceWord="english naval protection" target="24" targetWord="trade"/>
+</conceptmap>

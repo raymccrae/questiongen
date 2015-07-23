@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="25 %"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="arms" lemma="arm"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="call" lemma="call"/>
+  <concept id="4" label="cannon fodder"/>
+  <concept id="5" label="compulsory military service"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="conscription" lemma="conscription"/>
+  <concept id="7" label="daily record"/>
+  <concept id="8" label="december 1914"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="decision" lemma="decision"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="10" label="editors" lemma="editor"/>
+  <concept id="11" label="foregone conclusion"/>
+  <concept NER="O" POS="RB" Speaker="PER1" id="12" label="forward" lemma="forward"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="issue" lemma="issue"/>
+  <concept id="14" label="january 1916"/>
+  <concept id="15" label="male labor force"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="16" label="matters" lemma="matter"/>
+  <concept NER="DURATION" POS="NN" Speaker="PER0" id="17" label="month" lemma="month"/>
+  <concept id="18" label="national registration act"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="19" label="numbers" lemma="number"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="20" label="october" lemma="October"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="outbreak" lemma="outbreak"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="press" lemma="press"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="recruitment" lemma="recruitment"/>
+  <concept id="24" label="serious side"/>
+  <concept id="25" label="slight fall"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="topic" lemma="topic"/>
+  <relationship id="1" linkingWord="introduce left " source="5" sourceWord="compulsory military service" target="11" targetWord="foregone conclusion"/>
+  <relationship id="2" linkingWord="left introduce " source="16" sourceWord="matters" target="5" targetWord="compulsory military service"/>
+  <relationship id="3" linkingWord="of" source="26" sourceWord="topic" target="6" targetWord="conscription"/>
+  <relationship id="4" linkingWord="to" source="24" sourceWord="serious side" target="13" targetWord="issue"/>
+  <relationship id="5" linkingWord="in" source="25" sourceWord="slight fall" target="23" targetWord="recruitment"/>
+  <relationship id="6" linkingWord="was meant " source="24" sourceWord="serious side" target="25" targetWord="slight fall"/>
+  <relationship id="7" linkingWord="meant raised " source="25" sourceWord="slight fall" target="26" targetWord="topic"/>
+  <relationship id="8" linkingWord="ran promoting " source="7" sourceWord="daily record" target="6" targetWord="conscription"/>
+  <relationship id="9" linkingWord="80,000 fell " source="17" sourceWord="month" target="14" targetWord="january 1916"/>
+  <relationship id="10" linkingWord="fell 80,000 " source="18" sourceWord="national registration act" target="17" targetWord="month"/>
+  <relationship id="11" linkingWord="responded signed " source="3" sourceWord="call" target="1" targetWord="25 %"/>
+  <relationship id="12" linkingWord="of" source="1" sourceWord="25 %" target="15" targetWord="male labor force"/>
+  <relationship id="13" linkingWord="to" source="3" sourceWord="call" target="2" targetWord="arms"/>
+  <relationship id="14" linkingWord="at" source="2" sourceWord="arms" target="21" targetWord="outbreak"/>
+  <relationship id="15" linkingWord="by" source="3" sourceWord="call" target="8" targetWord="december 1914"/>
+  <relationship id="16" linkingWord="seemed was " source="10" sourceWord="editors" target="4" targetWord="cannon fodder"/>
+  <relationship id="17" linkingWord="of" source="10" sourceWord="editors" target="12" targetWord="forward"/>
+  <relationship id="18" linkingWord="early from reported falling " source="20" sourceWord="october" target="19" targetWord="numbers"/>
+  <relationship id="19" linkingWord="reported from early " source="22" sourceWord="press" target="20" targetWord="october"/>
+</conceptmap>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="agreement" lemma="agreement"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="borders" lemma="border"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="crime" lemma="crime"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="4" label="customs" lemma="custom"/>
+  <concept id="5" label="edward i"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="6" label="england" lemma="England"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="fealty" lemma="fealty"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="homage" lemma="homage"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="king" lemma="king"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="kingdom" lemma="kingdom"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="11" label="kingdoms" lemma="kingdom"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="12" label="lands" lemma="land"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="13" label="laws" lemma="law"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="14" label="matters" lemma="matter"/>
+  <concept id="15" label="mutual friendship"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="16" label="name" lemma="name"/>
+  <concept NER="NUMBER" POS="NN" Speaker="PER0" id="17" label="one" lemma="one"/>
+  <concept id="18" label="other cause contrary"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="parliament" lemma="parliament"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="peoples" lemma="people"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="position" lemma="position"/>
+  <concept id="22" label="rightful boundaries"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="23" label="rights" lemma="rights"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="24" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="tenant-in-chief" lemma="tenant-in-chief"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="time" lemma="time"/>
+  <relationship id="1" linkingWord="separate divided kingdom " source="10" sourceWord="kingdom" target="6" targetWord="england"/>
+  <relationship id="2" linkingWord="kingdom divided " source="6" sourceWord="england" target="22" targetWord="rightful boundaries"/>
+  <relationship id="3" linkingWord="of" source="10" sourceWord="kingdom" target="24" targetWord="scotland"/>
+  <relationship id="4" linkingWord="of" source="4" sourceWord="customs" target="24" targetWord="scotland"/>
+  <relationship id="5" linkingWord="considered doing continue " source="11" sourceWord="kingdoms" target="15" targetWord="mutual friendship"/>
+  <relationship id="6" linkingWord="considered granted " source="11" sourceWord="kingdoms" target="16" targetWord="name"/>
+  <relationship id="7" linkingWord="granted preserved " source="16" sourceWord="name" target="23" targetWord="rights"/>
+  <relationship id="8" linkingWord="for" source="20" sourceWord="peoples" target="26" targetWord="time"/>
+  <relationship id="9" linkingWord="kingdom entered committed " source="1" sourceWord="agreement" target="3" targetWord="crime"/>
+  <relationship id="10" linkingWord="for" source="10" sourceWord="kingdom" target="1" targetWord="agreement"/>
+  <relationship id="11" linkingWord="held answer entered kingdom " source="17" sourceWord="one" target="1" targetWord="agreement"/>
+  <relationship id="12" linkingWord="held answer entered committed " source="17" sourceWord="one" target="3" targetWord="crime"/>
+  <relationship id="13" linkingWord="committed in " source="3" sourceWord="crime" target="18" targetWord="other cause contrary"/>
+  <relationship id="14" linkingWord="of" source="13" sourceWord="laws" target="10" targetWord="kingdom"/>
+  <relationship id="15" linkingWord="in committed " source="18" sourceWord="other cause contrary" target="13" targetWord="laws"/>
+  <relationship id="16" linkingWord="kingdom outwith " source="2" sourceWord="borders" target="14" targetWord="matters"/>
+  <relationship id="17" linkingWord="held outwith kingdom " source="19" sourceWord="parliament" target="2" targetWord="borders"/>
+  <relationship id="18" linkingWord="concerning" source="14" sourceWord="matters" target="10" targetWord="kingdom"/>
+  <relationship id="19" linkingWord="those live " source="21" sourceWord="position" target="10" targetWord="kingdom"/>
+  <relationship id="20" linkingWord="do pay " source="8" sourceWord="homage" target="12" targetWord="lands"/>
+  <relationship id="21" linkingWord="forced go kingdom do " source="25" sourceWord="tenant-in-chief" target="8" targetWord="homage"/>
+  <relationship id="22" linkingWord="of" source="9" sourceWord="king" target="24" targetWord="scotland"/>
+</conceptmap>

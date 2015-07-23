@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="1" label="birgham" lemma="Birgham"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="chief" lemma="chief"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="3" label="clergy" lemma="clergy"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="community" lemma="community"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="country" lemma="country"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="court" lemma="court"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="crime" lemma="crime"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="document" lemma="document"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="9" label="elections" lemma="election"/>
+  <concept id="10" label="endeavor"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="11" label="england" lemma="England"/>
+  <concept id="12" label="external interference"/>
+  <concept NER="MISC" POS="NNP" Speaker="PER0" id="13" label="guardians" lemma="Guardians"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="harmony" lemma="harmony"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="15" label="high-watermark" lemma="high-watermark"/>
+  <concept NER="O" POS="VB" Speaker="PER0" id="16" label="homage" lemma="homage"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="17" label="lands" lemma="land"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="law" lemma="law"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="19" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="20" label="scots" lemma="Scots"/>
+  <concept id="21" label="scots crown need"/>
+  <concept id="22" label="scottish kingdom"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="subjugation" lemma="subjugation"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="treaty" lemma="treaty"/>
+  <concept id="25" label="whole course"/>
+  <concept id="26" label="wise statesmanship"/>
+  <relationship id="1" linkingWord="of" source="24" sourceWord="treaty" target="1" targetWord="birgham"/>
+  <relationship id="2" linkingWord="by" source="15" sourceWord="high-watermark" target="13" targetWord="guardians"/>
+  <relationship id="3" linkingWord="called treaty " source="25" sourceWord="whole course" target="1" targetWord="birgham"/>
+  <relationship id="4" linkingWord="of" source="8" sourceWord="document" target="26" targetWord="wise statesmanship"/>
+  <relationship id="5" linkingWord="do not have answer " source="2" sourceWord="chief" target="6" targetWord="court"/>
+  <relationship id="6" linkingWord="were do " source="9" sourceWord="elections" target="2" targetWord="chief"/>
+  <relationship id="7" linkingWord="of" source="2" sourceWord="chief" target="21" targetWord="scots crown need"/>
+  <relationship id="8" linkingWord="to" source="9" sourceWord="elections" target="3" targetWord="clergy"/>
+  <relationship id="9" linkingWord="in" source="3" sourceWord="clergy" target="19" targetWord="scotland"/>
+  <relationship id="10" linkingWord="outside" source="6" sourceWord="court" target="5" targetWord="country"/>
+  <relationship id="11" linkingWord="accused sued " source="7" sourceWord="crime" target="18" targetWord="law"/>
+  <relationship id="12" linkingWord="were free " source="9" sourceWord="elections" target="12" targetWord="external interference"/>
+  <relationship id="13" linkingWord="for" source="16" sourceWord="homage" target="17" targetWord="lands"/>
+  <relationship id="14" linkingWord="was remain demanded " source="22" sourceWord="scottish kingdom" target="20" targetWord="scots"/>
+  <relationship id="15" linkingWord="demanded remain without " source="20" sourceWord="scots" target="23" targetWord="subjugation"/>
+  <relationship id="16" linkingWord="was remain without " source="22" sourceWord="scottish kingdom" target="23" targetWord="subjugation"/>
+  <relationship id="17" linkingWord="envisaged ruled " source="24" sourceWord="treaty" target="11" targetWord="england"/>
+</conceptmap>

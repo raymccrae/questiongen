@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="angus-the first headmistress"/>
+  <concept id="2" label="burt brothers"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="clothing" lemma="clothing"/>
+  <concept id="4" label="continuing impact"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="contribution" lemma="contribution"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="country" lemma="country"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="daughter" lemma="daughter"/>
+  <concept id="8" label="dunedin entrepreneurs"/>
+  <concept id="9" label="economic development"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="10" label="edinburgh" lemma="Edinburgh"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="11" label="education" lemma="Education"/>
+  <concept id="12" label="education act"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="fact" lemma="fact"/>
+  <concept id="14" label="first high school"/>
+  <concept id="15" label="girls open"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="16" label="glasgow" lemma="Glasgow"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="17" label="iron-merchant" lemma="iron-merchant"/>
+  <concept id="18" label="medical school"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="model" lemma="model"/>
+  <concept id="20" label="new zealand"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="21" label="over-represented" lemma="over-represented"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="science" lemma="science"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="23" label="scot" lemma="Scot"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="24" label="scots" lemma="scot"/>
+  <concept id="25" label="scots-born people"/>
+  <concept id="26" label="vast majority"/>
+  <relationship id="1" linkingWord="helps explain " source="18" sourceWord="medical school" target="4" targetWord="continuing impact"/>
+  <relationship id="2" linkingWord="of" source="4" sourceWord="continuing impact" target="25" targetWord="scots-born people"/>
+  <relationship id="3" linkingWord="for" source="19" sourceWord="model" target="12" targetWord="education act"/>
+  <relationship id="4" linkingWord="from" source="1" sourceWord="angus-the first headmistress" target="23" targetWord="scot"/>
+  <relationship id="5" linkingWord="of" source="7" sourceWord="daughter" target="17" targetWord="iron-merchant"/>
+  <relationship id="6" linkingWord="thanks_to" source="7" sourceWord="daughter" target="23" targetWord="scot"/>
+  <relationship id="7" linkingWord="for" source="14" sourceWord="first high school" target="15" targetWord="girls open"/>
+  <relationship id="8" linkingWord="those noted " source="21" sourceWord="over-represented" target="5" targetWord="contribution"/>
+  <relationship id="9" linkingWord="noted involved " source="5" sourceWord="contribution" target="22" targetWord="science"/>
+  <relationship id="10" linkingWord="around from came playing " source="10" sourceWord="edinburgh" target="9" targetWord="economic development"/>
+  <relationship id="11" linkingWord="came from around " source="26" sourceWord="vast majority" target="10" targetWord="edinburgh"/>
+  <relationship id="12" linkingWord="scots emigrated " source="26" sourceWord="vast majority" target="20" targetWord="new zealand"/>
+  <relationship id="13" linkingWord="of" source="26" sourceWord="vast majority" target="24" targetWord="scots"/>
+</conceptmap>

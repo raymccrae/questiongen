@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="6th cameron highlanders"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="attempt" lemma="attempt"/>
+  <concept id="3" label="awful hillside"/>
+  <concept id="4" label="brave old colonel"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="5" label="cameron" lemma="Cameron"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="enemy" lemma="enemy"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="7" label="evening" lemma="evening"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="hand" lemma="hand"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="help" lemma="help"/>
+  <concept id="10" label="hill 70"/>
+  <concept id="11" label="machine gun fire"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="motto" lemma="motto"/>
+  <concept id="13" label="murderous rifle"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="order" lemma="order"/>
+  <concept id="15" label="other weapon"/>
+  <concept id="16" label="promised reinforcements"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="regiment" lemma="regiment"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="reserves" lemma="reserve"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="ridge" lemma="ridge"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="shells" lemma="shell"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="situation" lemma="situation"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="sound" lemma="sound"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="stage" lemma="stage"/>
+  <concept id="24" label="third time"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="25" label="top" lemma="top"/>
+  <concept id="26" label="walking stick"/>
+  <relationship id="1" linkingWord="made desperate " source="25" sourceWord="top" target="16" targetWord="promised reinforcements"/>
+  <relationship id="2" linkingWord="top made " source="10" sourceWord="hill 70" target="13" targetWord="murderous rifle"/>
+  <relationship id="3" linkingWord="made top " source="22" sourceWord="sound" target="10" targetWord="hill 70"/>
+  <relationship id="4" linkingWord="of" source="25" sourceWord="top" target="10" targetWord="hill 70"/>
+  <relationship id="5" linkingWord="made crashed " source="13" sourceWord="murderous rifle" target="20" targetWord="shells"/>
+  <relationship id="6" linkingWord="than" source="15" sourceWord="other weapon" target="26" targetWord="walking stick"/>
+  <relationship id="7" linkingWord="at" source="21" sourceWord="situation" target="10" targetWord="hill 70"/>
+  <relationship id="8" linkingWord="numbered all knew all left " source="23" sourceWord="stage" target="1" targetWord="6th cameron highlanders"/>
+  <relationship id="9" linkingWord="many fell holding " source="3" sourceWord="awful hillside" target="12" targetWord="motto"/>
+  <relationship id="10" linkingWord="given attack many " source="24" sourceWord="third time" target="3" targetWord="awful hillside"/>
+  <relationship id="11" linkingWord="with" source="6" sourceWord="enemy" target="18" targetWord="reserves"/>
+  <relationship id="12" linkingWord="of" source="12" sourceWord="motto" target="17" targetWord="regiment"/>
+  <relationship id="13" linkingWord="drew made " source="7" sourceWord="evening" target="2" targetWord="attempt"/>
+  <relationship id="14" linkingWord="made win " source="2" sourceWord="attempt" target="19" targetWord="ridge"/>
+</conceptmap>

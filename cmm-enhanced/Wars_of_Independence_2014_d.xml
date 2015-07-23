@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="allegiance" lemma="allegiance"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="2" label="cambuskenneth" lemma="Cambuskenneth"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="date" lemma="date"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="4" label="edwards" lemma="Edwards"/>
+  <concept NER="MISC" POS="NNP" Speaker="PER0" id="5" label="english" lemma="English"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="6" label="feudatories" lemma="feudatory"/>
+  <concept NER="O" POS="VB" Speaker="PER0" id="7" label="homage" lemma="homage"/>
+  <concept id="8" label="increased confidence"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="9" label="knights" lemma="knight"/>
+  <concept id="10" label="many scottish barons"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="nationality" lemma="nationality"/>
+  <concept id="12" label="november 1314 bruce"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="opportunity" lemma="opportunity"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="14" label="parliament" lemma="Parliament"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="15" label="peace" lemma="peace"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="16" label="reconciliation" lemma="reconciliation"/>
+  <concept id="17" label="robert bruce"/>
+  <concept id="18" label="scottish landowners"/>
+  <concept id="19" label="scottish lands"/>
+  <concept id="20" label="scottish nobles"/>
+  <concept id="21" label="sole aim"/>
+  <concept id="22" label="two countries"/>
+  <concept id="23" label="two kings"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="victory" lemma="victory"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="war" lemma="war"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="wish" lemma="wish"/>
+  <relationship id="1" linkingWord="offered him " source="4" sourceWord="edwards" target="1" targetWord="allegiance"/>
+  <relationship id="2" linkingWord="him offered received " source="1" sourceWord="allegiance" target="15" targetWord="peace"/>
+  <relationship id="3" linkingWord="bannockburn after offered " source="10" sourceWord="many scottish barons" target="4" targetWord="edwards"/>
+  <relationship id="4" linkingWord="for" source="13" sourceWord="opportunity" target="16" targetWord="reconciliation"/>
+  <relationship id="5" linkingWord="in" source="6" sourceWord="feudatories" target="22" targetWord="two countries"/>
+  <relationship id="6" linkingWord="regain wished those do " source="19" sourceWord="scottish lands" target="7" targetWord="homage"/>
+  <relationship id="7" linkingWord="was do " source="21" sourceWord="sole aim" target="7" targetWord="homage"/>
+  <relationship id="8" linkingWord="failed offer " source="18" sourceWord="scottish landowners" target="1" targetWord="allegiance"/>
+  <relationship id="9" linkingWord="adjudged disinherited " source="14" sourceWord="parliament" target="18" targetWord="scottish landowners"/>
+</conceptmap>

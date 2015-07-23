@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="adequate funds"/>
+  <concept id="2" label="catholic irish"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="class" lemma="class"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="competition" lemma="competition"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="dependence" lemma="dependence"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="doubt" lemma="doubt"/>
+  <concept NER="O" POS="VBZ" Speaker="PER0" id="7" label="evils" lemma="evil"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="8" label="general" lemma="general"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="9" label="habits" lemma="habit"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="harvest" lemma="harvest"/>
+  <concept id="11" label="irish immigration"/>
+  <concept id="12" label="irish labourers"/>
+  <concept id="13" label="laboring poor"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="14" label="newcomers" lemma="newcomer"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="15" label="opinion" lemma="opinion"/>
+  <concept id="16" label="own poor"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="parish" lemma="parish"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="point" lemma="point"/>
+  <concept id="19" label="poor rates"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="presence" lemma="presence"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="wages" lemma="wages"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="wave" lemma="wave"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="work" lemma="work"/>
+  <concept NER="SET" POS="NN" Speaker="PER0" id="24" label="year" lemma="year"/>
+  <relationship id="1" linkingWord="said magnified arise " source="7" sourceWord="evils" target="11" targetWord="irish immigration"/>
+  <relationship id="2" linkingWord="are said " source="15" sourceWord="opinion" target="7" targetWord="evils"/>
+  <relationship id="3" linkingWord="have got " source="6" sourceWord="doubt" target="4" targetWord="competition"/>
+  <relationship id="4" linkingWord="from" source="4" sourceWord="competition" target="12" targetWord="irish labourers"/>
+  <relationship id="5" linkingWord="have done " source="6" sourceWord="doubt" target="23" targetWord="work"/>
+  <relationship id="6" linkingWord="of" source="23" sourceWord="work" target="17" targetWord="parish"/>
+  <relationship id="7" linkingWord="of" source="18" sourceWord="point" target="9" targetWord="habits"/>
+  <relationship id="8" linkingWord="in" source="14" sourceWord="newcomers" target="18" targetWord="point"/>
+  <relationship id="9" linkingWord="on" source="5" sourceWord="dependence" target="1" targetWord="adequate funds"/>
+  <relationship id="10" linkingWord="within" source="1" sourceWord="adequate funds" target="19" targetWord="poor rates"/>
+  <relationship id="11" linkingWord="invade are " source="2" sourceWord="catholic irish" target="3" targetWord="class"/>
+  <relationship id="12" linkingWord="wants principally restricted " source="2" sourceWord="catholic irish" target="5" targetWord="dependence"/>
+  <relationship id="13" linkingWord="restricted principally wants " source="22" sourceWord="wave" target="2" targetWord="catholic irish"/>
+  <relationship id="14" linkingWord="of" source="22" sourceWord="wave" target="11" targetWord="irish immigration"/>
+</conceptmap>

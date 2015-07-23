@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="500,000 tons"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="2" label="agriculture" lemma="Agriculture"/>
+  <concept id="3" label="artificial boom"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="4" label="beardmore" lemma="Beardmore"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="5" label="board" lemma="Board"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="6" label="cancellations" lemma="cancellation"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="census" lemma="census"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="8" label="clyde" lemma="Clyde"/>
+  <concept id="9" label="coal production"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="country" lemma="country"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="11" label="dalmuir" lemma="Dalmuir"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="decline" lemma="decline"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="13" label="dundee" lemma="Dundee"/>
+  <concept id="14" label="eastern europe"/>
+  <concept id="15" label="fishing industry"/>
+  <concept id="16" label="great deal"/>
+  <concept id="17" label="january 5"/>
+  <concept id="18" label="jute production"/>
+  <concept id="19" label="particular part"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="result" lemma="result"/>
+  <concept id="21" label="same fate"/>
+  <concept id="22" label="same reason"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="23" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="shipbuilding" lemma="shipbuilding"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="shipyard" lemma="shipyard"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="story" lemma="story"/>
+  <relationship id="1" linkingWord="in" source="26" sourceWord="story" target="23" targetWord="scotland"/>
+  <relationship id="2" linkingWord="happened left put " source="17" sourceWord="january 5" target="8" targetWord="clyde"/>
+  <relationship id="3" linkingWord="at" source="25" sourceWord="shipyard" target="11" targetWord="dalmuir"/>
+  <relationship id="4" linkingWord="dropped beginning pay " source="1" sourceWord="500,000 tons" target="3" targetWord="artificial boom"/>
+  <relationship id="5" linkingWord="dropped 170,000 " source="1" sourceWord="500,000 tons" target="20" targetWord="result"/>
+  <relationship id="6" linkingWord="of" source="20" sourceWord="result" target="6" targetWord="cancellations"/>
+  <relationship id="7" linkingWord="170,000 dropped beginning " source="20" sourceWord="result" target="8" targetWord="clyde"/>
+  <relationship id="8" linkingWord="on" source="24" sourceWord="shipbuilding" target="8" targetWord="clyde"/>
+  <relationship id="9" linkingWord="in" source="18" sourceWord="jute production" target="13" targetWord="dundee"/>
+  <relationship id="10" linkingWord="suffered result falling " source="9" sourceWord="coal production" target="14" targetWord="eastern europe"/>
+  <relationship id="11" linkingWord="suffered hit " source="9" sourceWord="coal production" target="15" targetWord="fishing industry"/>
+  <relationship id="12" linkingWord="for" source="21" sourceWord="same fate" target="22" targetWord="same reason"/>
+  <relationship id="13" linkingWord="of" source="19" sourceWord="particular part" target="10" targetWord="country"/>
+  <relationship id="14" linkingWord="not restricted widespread " source="12" sourceWord="decline" target="23" targetWord="scotland"/>
+  <relationship id="15" linkingWord="of" source="5" sourceWord="board" target="2" targetWord="agriculture"/>
+  <relationship id="16" linkingWord="carried board " source="7" sourceWord="census" target="2" targetWord="agriculture"/>
+  <relationship id="17" linkingWord="showed fallen " source="7" sourceWord="census" target="16" targetWord="great deal"/>
+</conceptmap>

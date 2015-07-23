@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="1" label="canada" lemma="Canada"/>
+  <concept id="2" label="depressed state"/>
+  <concept id="3" label="domestic work"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="doubt" lemma="doubt"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="employment" lemma="employment"/>
+  <concept id="6" label="experienced men"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="families" lemma="family"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="8" label="farmers" lemma="farmer"/>
+  <concept id="9" label="great interest"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="hunger" lemma="hunger"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="inability" lemma="inability"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="lack" lemma="lack"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="landing" lemma="landing"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="14" label="lewis" lemma="Lewis"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="men" lemma="man"/>
+  <concept NER="DURATION" POS="NN" Speaker="PER0" id="16" label="month" lemma="month"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="number" lemma="number"/>
+  <concept id="18" label="ontario agent"/>
+  <concept id="19" label="ontario government"/>
+  <concept id="20" label="own farms"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="owners" lemma="owner"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="pay" lemma="pay"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="prospect" lemma="prospect"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="scheme" lemma="scheme"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="trade" lemma="trade"/>
+  <concept id="26" label="very start"/>
+  <relationship id="1" linkingWord="taken emigrate " source="9" sourceWord="great interest" target="1" targetWord="canada"/>
+  <relationship id="2" linkingWord="of" source="24" sourceWord="scheme" target="19" targetWord="ontario government"/>
+  <relationship id="3" linkingWord="of" source="21" sourceWord="owners" target="20" targetWord="own farms"/>
+  <relationship id="4" linkingWord="earn 5 6 " source="6" sourceWord="experienced men" target="16" targetWord="month"/>
+  <relationship id="5" linkingWord="good earn " source="22" sourceWord="pay" target="6" targetWord="experienced men"/>
+  <relationship id="6" linkingWord="found find " source="5" sourceWord="employment" target="3" targetWord="domestic work"/>
+  <relationship id="7" linkingWord="owing satisfy " source="2" sourceWord="depressed state" target="10" targetWord="hunger"/>
+  <relationship id="8" linkingWord="authorised enlist owing " source="17" sourceWord="number" target="2" targetWord="depressed state"/>
+  <relationship id="9" linkingWord="of" source="2" sourceWord="depressed state" target="25" targetWord="trade"/>
+  <relationship id="10" linkingWord="finds treble " source="18" sourceWord="ontario agent" target="17" targetWord="number"/>
+</conceptmap>

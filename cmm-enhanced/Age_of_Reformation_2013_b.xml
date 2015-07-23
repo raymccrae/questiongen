@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="9th february"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="abbey" lemma="abbey"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="air" lemma="air"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="bed" lemma="bed"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="chance" lemma="chance"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="force" lemma="force"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="7" label="god" lemma="God"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="gunpowder" lemma="gunpowder"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="hand" lemma="hand"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="head" lemma="head"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="11" label="holyrood" lemma="Holyrood"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="house" lemma="house"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="13" label="instant" lemma="instant"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="14" label="king" lemma="King"/>
+  <concept id="15" label="last night"/>
+  <concept id="16" label="last week"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="17" label="lords" lemma="lord"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="masque" lemma="masque"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="19" label="midnight" lemma="midnight"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="mine" lemma="mine"/>
+  <concept id="21" label="most part"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="22" label="night" lemma="night"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="reason" lemma="reason"/>
+  <concept id="24" label="such force"/>
+  <concept id="25" label="two hours"/>
+  <concept id="26" label="wicked enterprise"/>
+  <relationship id="1" linkingWord="of" source="6" sourceWord="force" target="8" targetWord="gunpowder"/>
+  <relationship id="2" linkingWord="done appears " source="6" sourceWord="force" target="20" targetWord="mine"/>
+  <relationship id="3" linkingWord="in" source="18" sourceWord="masque" target="2" targetWord="abbey"/>
+  <relationship id="4" linkingWord="was believe chance put " source="5" sourceWord="chance" target="7" targetWord="god"/>
+  <relationship id="5" linkingWord="was not stay " source="5" sourceWord="chance" target="22" targetWord="night"/>
+  <relationship id="6" linkingWord="not stay was believe " source="22" sourceWord="night" target="5" targetWord="chance"/>
+  <relationship id="7" linkingWord="of" source="23" sourceWord="reason" target="18" targetWord="masque"/>
+  <relationship id="8" linkingWord="blown lying sleeping " source="3" sourceWord="air" target="4" targetWord="bed"/>
+  <relationship id="9" linkingWord="sleeping lying blown " source="4" sourceWord="bed" target="24" targetWord="such force"/>
+  <relationship id="10" linkingWord="after" source="25" sourceWord="two hours" target="19" targetWord="midnight"/>
+  <relationship id="11" linkingWord="in" source="26" sourceWord="wicked enterprise" target="9" targetWord="hand"/>
+  <relationship id="12" linkingWord="of" source="21" sourceWord="most part" target="16" targetWord="last week"/>
+  <relationship id="13" linkingWord="lay attended " source="21" sourceWord="most part" target="17" targetWord="lords"/>
+</conceptmap>

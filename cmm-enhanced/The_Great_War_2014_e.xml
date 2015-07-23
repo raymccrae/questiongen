@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="1" label="batons" lemma="baton"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="blows" lemma="blow"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="communism" lemma="communism"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="crowd" lemma="crowd"/>
+  <concept id="5" label="curious bystanders"/>
+  <concept id="6" label="emanuel shinwell"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="fears" lemma="fear"/>
+  <concept id="8" label="five months imprisonment"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="9" label="gallacher" lemma="Gallacher"/>
+  <concept id="10" label="george square"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="government" lemma="government"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="ground" lemma="ground"/>
+  <concept id="13" label="horrified reaction"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="14" label="kirkwood" lemma="Kirkwood"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="people" lemma="people"/>
+  <concept id="16" label="photographic evidence"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="police" lemma="police"/>
+  <concept id="18" label="police truncheons"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="possibility" lemma="possibility"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="prices" lemma="price"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="revolution" lemma="revolution"/>
+  <concept id="22" label="revolutionary plot"/>
+  <concept NER="O" POS="NN" Speaker="PER2" id="23" label="riot" lemma="riot"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="situation" lemma="situation"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="tramlines" lemma="tramline"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="violence" lemma="violence"/>
+  <relationship id="1" linkingWord="plagued fears " source="11" sourceWord="government" target="3" targetWord="communism"/>
+  <relationship id="2" linkingWord="brought seems " source="7" sourceWord="fears" target="11" targetWord="government"/>
+  <relationship id="3" linkingWord="of" source="7" sourceWord="fears" target="20" targetWord="prices"/>
+  <relationship id="4" linkingWord="seems taken " source="11" sourceWord="government" target="19" targetWord="possibility"/>
+  <relationship id="5" linkingWord="in" source="23" sourceWord="riot" target="10" targetWord="george square"/>
+  <relationship id="6" linkingWord="not planned erupted of " source="23" sourceWord="riot" target="22" targetWord="revolutionary plot"/>
+  <relationship id="7" linkingWord="not planned misread " source="23" sourceWord="riot" target="24" targetWord="situation"/>
+  <relationship id="8" linkingWord="misread not planned erupted " source="24" sourceWord="situation" target="26" targetWord="violence"/>
+  <relationship id="9" linkingWord="raised try clear " source="1" sourceWord="batons" target="25" targetWord="tramlines"/>
+  <relationship id="10" linkingWord="was try get " source="13" sourceWord="horrified reaction" target="4" targetWord="crowd"/>
+  <relationship id="11" linkingWord="provide able found sentenced " source="16" sourceWord="photographic evidence" target="8" targetWord="five months imprisonment"/>
+  <relationship id="12" linkingWord="sentenced incitement " source="8" sourceWord="five months imprisonment" target="23" targetWord="riot"/>
+  <relationship id="13" linkingWord="pacify beaten " source="4" sourceWord="crowd" target="12" targetWord="ground"/>
+  <relationship id="14" linkingWord="trying pacify " source="14" sourceWord="kirkwood" target="4" targetWord="crowd"/>
+</conceptmap>

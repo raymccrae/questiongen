@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="VB" Speaker="PER0" id="1" label="abstain" lemma="abstain"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="2" label="edinburgh" lemma="Edinburgh"/>
+  <concept id="3" label="elizabeth i"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="4" label="england" lemma="England"/>
+  <concept id="5" label="english arms"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="everything" lemma="everything"/>
+  <concept id="7" label="foreign soldiers"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="8" label="france" lemma="France"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="9" label="francis" lemma="Francis"/>
+  <concept id="10" label="francis ii"/>
+  <concept id="11" label="french envoys"/>
+  <concept id="12" label="great service"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="13" label="guise" lemma="Guise"/>
+  <concept id="14" label="john knox"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="15" label="july" lemma="July"/>
+  <concept id="16" label="june 1560"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="loyalty" lemma="loyalty"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="18" label="mary" lemma="Mary"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="19" label="midnight" lemma="midnight"/>
+  <concept id="20" label="most christian king"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="21" label="newcastle" lemma="Newcastle"/>
+  <concept id="22" label="principal clause"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="queen" lemma="queen"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="24" label="scotland" lemma="Scotland"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="25" label="scots" lemma="Scots"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="treaty" lemma="treaty"/>
+  <relationship id="1" linkingWord="stated were " source="22" sourceWord="principal clause" target="7" targetWord="foreign soldiers"/>
+  <relationship id="2" linkingWord="were withdraw " source="7" sourceWord="foreign soldiers" target="24" targetWord="scotland"/>
+  <relationship id="3" linkingWord="of" source="26" sourceWord="treaty" target="2" targetWord="edinburgh"/>
+  <relationship id="4" linkingWord="arranged signed " source="4" sourceWord="england" target="15" targetWord="july"/>
+  <relationship id="5" linkingWord="referred held " source="6" sourceWord="everything" target="12" targetWord="great service"/>
+  <relationship id="6" linkingWord="signed held " source="26" sourceWord="treaty" target="12" targetWord="great service"/>
+  <relationship id="7" linkingWord="acknowledged professed fulfil " source="20" sourceWord="most christian king" target="9" targetWord="francis"/>
+  <relationship id="8" linkingWord="professed acknowledged " source="25" sourceWord="scots" target="20" targetWord="most christian king"/>
+  <relationship id="9" linkingWord="sent moved " source="3" sourceWord="elizabeth i" target="2" targetWord="edinburgh"/>
+  <relationship id="10" linkingWord="sent negotiate " source="3" sourceWord="elizabeth i" target="11" targetWord="french envoys"/>
+  <relationship id="11" linkingWord="henceforth displaying " source="1" sourceWord="abstain" target="5" targetWord="english arms"/>
+  <relationship id="12" linkingWord="displaying those " source="5" sourceWord="english arms" target="24" targetWord="scotland"/>
+  <relationship id="13" linkingWord="of" source="23" sourceWord="queen" target="25" targetWord="scots"/>
+  <relationship id="14" linkingWord="mary died " source="13" sourceWord="guise" target="16" targetWord="june 1560"/>
+  <relationship id="15" linkingWord="of" source="18" sourceWord="mary" target="13" targetWord="guise"/>
+</conceptmap>

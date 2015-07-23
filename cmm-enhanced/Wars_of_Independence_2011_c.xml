@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="alive boys"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="army" lemma="army"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="battle" lemma="battle"/>
+  <concept id="4" label="certain scot"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="5" label="churches" lemma="church"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="death" lemma="death"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="end" lemma="end"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="8" label="england" lemma="England"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="9" label="falkirk" lemma="Falkirk"/>
+  <concept id="10" label="four quarters"/>
+  <concept id="11" label="great numbers"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="head" lemma="head"/>
+  <concept id="13" label="innumerable wickednesses"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="14" label="king" lemma="King"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="15" label="london" lemma="London"/>
+  <concept id="16" label="london bridge"/>
+  <concept id="17" label="merciless man"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="name" lemma="name"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="outcast" lemma="outcast"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="people" lemma="people"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="pity" lemma="pity"/>
+  <concept id="22" label="powerful army"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="robber" lemma="robber"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="24" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="25" label="scots" lemma="Scots"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="sword" lemma="sword"/>
+  <relationship id="1" linkingWord="sent four quarters " source="10" sourceWord="four quarters" target="24" targetWord="scotland"/>
+  <relationship id="2" linkingWord="of" source="10" sourceWord="four quarters" target="24" targetWord="scotland"/>
+  <relationship id="3" linkingWord="fixed set " source="12" sourceWord="head" target="16" targetWord="london bridge"/>
+  <relationship id="4" linkingWord="taken brought " source="13" sourceWord="innumerable wickednesses" target="14" targetWord="king"/>
+  <relationship id="5" linkingWord="collected fled " source="2" sourceWord="army" target="3" targetWord="battle"/>
+  <relationship id="6" linkingWord="collected king " source="2" sourceWord="army" target="8" targetWord="england"/>
+  <relationship id="7" linkingWord="collected seen not resist " source="2" sourceWord="army" target="22" targetWord="powerful army"/>
+  <relationship id="8" linkingWord="of" source="2" sourceWord="army" target="25" targetWord="scots"/>
+  <relationship id="9" linkingWord="fled leaving " source="3" sourceWord="battle" target="20" targetWord="people"/>
+  <relationship id="10" linkingWord="leaving slain " source="20" sourceWord="people" target="26" targetWord="sword"/>
+  <relationship id="11" linkingWord="of" source="7" sourceWord="end" target="17" targetWord="merciless man"/>
+  <relationship id="12" linkingWord="man burnt " source="23" sourceWord="robber" target="1" targetWord="alive boys"/>
+  <relationship id="13" linkingWord="by" source="18" sourceWord="name" target="19" targetWord="outcast"/>
+  <relationship id="14" linkingWord="from" source="19" sourceWord="outcast" target="21" targetWord="pity"/>
+</conceptmap>

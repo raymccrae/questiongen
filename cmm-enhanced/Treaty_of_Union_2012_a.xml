@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="DATE" POS="CD" Speaker="PER0" id="1" label="1690s" lemma="1690s"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="ally" lemma="ally"/>
+  <concept id="3" label="ambitious scheme"/>
+  <concept id="4" label="certain scottish goods"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="colony" lemma="colony"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="6" label="countries" lemma="country"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="crisis" lemma="crisis"/>
+  <concept id="8" label="damaging loss"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="9" label="darien" lemma="Darien"/>
+  <concept NER="DATE" POS="NN" Speaker="PER0" id="10" label="decade" lemma="decade"/>
+  <concept id="11" label="different result"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="disaster" lemma="disaster"/>
+  <concept id="13" label="economic abyss"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="edge" lemma="edge"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="effects" lemma="effect"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="16" label="england" lemma="England"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="erection" lemma="erection"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="export" lemma="export"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="19" label="france" lemma="France"/>
+  <concept id="20" label="french trade"/>
+  <concept id="21" label="harvest failures"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="history" lemma="history"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="nation" lemma="nation"/>
+  <concept id="24" label="profound political consequences"/>
+  <concept id="25" label="protective tariffs"/>
+  <concept id="26" label="south america"/>
+  <relationship id="1" linkingWord="of" source="14" sourceWord="edge" target="13" targetWord="economic abyss"/>
+  <relationship id="2" linkingWord="was have " source="13" sourceWord="economic abyss" target="24" targetWord="profound political consequences"/>
+  <relationship id="3" linkingWord="for" source="24" sourceWord="profound political consequences" target="22" targetWord="history"/>
+  <relationship id="4" linkingWord="of" source="18" sourceWord="export" target="4" targetWord="certain scottish goods"/>
+  <relationship id="5" linkingWord="by" source="25" sourceWord="protective tariffs" target="6" targetWord="countries"/>
+  <relationship id="6" linkingWord="of" source="10" sourceWord="decade" target="7" targetWord="crisis"/>
+  <relationship id="7" linkingWord="incorporating produced " source="16" sourceWord="england" target="10" targetWord="decade"/>
+  <relationship id="8" linkingWord="of" source="8" sourceWord="damaging loss" target="20" targetWord="french trade"/>
+  <relationship id="9" linkingWord="in" source="5" sourceWord="colony" target="26" targetWord="south america"/>
+  <relationship id="10" linkingWord="of" source="12" sourceWord="disaster" target="9" targetWord="darien"/>
+</conceptmap>

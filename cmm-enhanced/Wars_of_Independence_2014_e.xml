@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="1" label="associations" lemma="association"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="balliol" lemma="balliol"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="3" label="bannockburn" lemma="Bannockburn"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="battle" lemma="battle"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="5" label="bruce" lemma="Bruce"/>
+  <concept id="6" label="cambuskenneth abbey"/>
+  <concept NER="PERSON" POS="NN" Speaker="PER0" id="7" label="comyn" lemma="comyn"/>
+  <concept NER="O" POS="VBN" Speaker="who" id="8" label="disinherited" lemma="disinherit"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="end" lemma="end"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="10" label="england" lemma="England"/>
+  <concept id="11" label="english side"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="12" label="estates" lemma="estate"/>
+  <concept id="13" label="few battles"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="history" lemma="history"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="hopes" lemma="hope"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="16" label="king" lemma="King"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="land" lemma="land"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="landowners" lemma="landowner"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="19" label="lands" lemma="land"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="men" lemma="man"/>
+  <concept id="21" label="new class"/>
+  <concept id="22" label="new realities"/>
+  <concept id="23" label="next step"/>
+  <concept id="24" label="one side"/>
+  <concept id="25" label="other words"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="26" label="parliament" lemma="Parliament"/>
+  <relationship id="1" linkingWord="was continue " source="9" sourceWord="end" target="15" targetWord="hopes"/>
+  <relationship id="2" linkingWord="with" source="20" sourceWord="men" target="1" targetWord="associations"/>
+  <relationship id="3" linkingWord="refused accept " source="1" sourceWord="associations" target="22" targetWord="new realities"/>
+  <relationship id="4" linkingWord="of" source="21" sourceWord="new class" target="8" targetWord="disinherited"/>
+  <relationship id="5" linkingWord="on" source="20" sourceWord="men" target="11" targetWord="english side"/>
+  <relationship id="6" linkingWord="wished loyal " source="25" sourceWord="other words" target="16" targetWord="king"/>
+  <relationship id="7" linkingWord="in" source="20" sourceWord="men" target="25" targetWord="other words"/>
+  <relationship id="8" linkingWord="in" source="13" sourceWord="few battles" target="14" targetWord="history"/>
+  <relationship id="9" linkingWord="divided had choose " source="18" sourceWord="landowners" target="24" targetWord="one side"/>
+  <relationship id="10" linkingWord="held continued fight " source="17" sourceWord="land" target="16" targetWord="king"/>
+  <relationship id="11" linkingWord="fight continued held all lose " source="16" sourceWord="king" target="19" targetWord="lands"/>
+  <relationship id="12" linkingWord="passed lose all held " source="26" sourceWord="parliament" target="17" targetWord="land"/>
+  <relationship id="13" linkingWord="ready take " source="4" sourceWord="battle" target="23" targetWord="next step"/>
+</conceptmap>

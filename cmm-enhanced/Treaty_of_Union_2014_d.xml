@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="access" lemma="access"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="2" label="association" lemma="Association"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="attempt" lemma="attempt"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="4" label="breaches" lemma="breach"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="5" label="colonies" lemma="colony"/>
+  <concept id="6" label="continuing prosperity"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="delays" lemma="delay"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="effort" lemma="effort"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="9" label="empire" lemma="Empire"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="enterprise" lemma="enterprise"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="11" label="equivalent" lemma="Equivalent"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="12" label="favourable" lemma="favourable"/>
+  <concept id="13" label="golden opportunity"/>
+  <concept id="14" label="immediate reaction"/>
+  <concept id="15" label="largest commercial market"/>
+  <concept id="16" label="military force"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="offer" lemma="offer"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="opportunities" lemma="opportunity"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="parliament" lemma="parliament"/>
+  <concept id="20" label="personal advancement"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="scots" lemma="scot"/>
+  <concept id="22" label="scottish landowners"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="spirit" lemma="spirit"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="treaty" lemma="treaty"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="union" lemma="union"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="26" label="ways" lemma="way"/>
+  <relationship id="1" linkingWord="allowed free " source="2" sourceWord="association" target="1" targetWord="access"/>
+  <relationship id="2" linkingWord="with" source="2" sourceWord="association" target="16" targetWord="military force"/>
+  <relationship id="3" linkingWord="on" source="15" sourceWord="largest commercial market" target="17" targetWord="offer"/>
+  <relationship id="4" linkingWord="growing paying " source="4" sourceWord="breaches" target="11" targetWord="equivalent"/>
+  <relationship id="5" linkingWord="was growing " source="12" sourceWord="favourable" target="4" targetWord="breaches"/>
+  <relationship id="6" linkingWord="to" source="14" sourceWord="immediate reaction" target="25" targetWord="union"/>
+  <relationship id="7" linkingWord="of" source="23" sourceWord="spirit" target="24" targetWord="treaty"/>
+  <relationship id="8" linkingWord="realized presented " source="22" sourceWord="scottish landowners" target="9" targetWord="empire"/>
+  <relationship id="9" linkingWord="presented learned " source="9" sourceWord="empire" target="26" targetWord="ways"/>
+  <relationship id="10" linkingWord="of" source="26" sourceWord="ways" target="10" targetWord="enterprise"/>
+  <relationship id="11" linkingWord="for" source="13" sourceWord="golden opportunity" target="20" targetWord="personal advancement"/>
+  <relationship id="12" linkingWord="survived realized " source="25" sourceWord="union" target="22" targetWord="scottish landowners"/>
+  <relationship id="13" linkingWord="for" source="18" sourceWord="opportunities" target="21" targetWord="scots"/>
+  <relationship id="14" linkingWord="led debated " source="8" sourceWord="effort" target="19" targetWord="parliament"/>
+  <relationship id="15" linkingWord="led reverse " source="8" sourceWord="effort" target="25" targetWord="union"/>
+</conceptmap>

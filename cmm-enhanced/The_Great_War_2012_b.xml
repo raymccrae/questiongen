@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="15th division"/>
+  <concept id="2" label="absolute assurance"/>
+  <concept id="3" label="bank holiday crowd"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="beginning" lemma="beginning"/>
+  <concept NER="O" POS="NNS" Speaker="47" id="5" label="costs" lemma="cost"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="crest" lemma="crest"/>
+  <concept id="7" label="german guns"/>
+  <concept id="8" label="german machine gunners"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="ground" lemma="ground"/>
+  <concept id="10" label="hill 70"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="kind" lemma="kind"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="12" label="men" lemma="man"/>
+  <concept id="13" label="new bombardment"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="14" label="open" lemma="open"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="orders" lemma="order"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="16" label="pipes" lemma="pipe"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="promise" lemma="promise"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="redoubt" lemma="redoubt"/>
+  <concept NER="O" POS="NNS" Speaker="47" id="19" label="reinforcements" lemma="reinforcement"/>
+  <concept id="20" label="scottish troops"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="scream" lemma="scream"/>
+  <concept NER="NUMBER" POS="JJ" Speaker="PER0" id="22" label="seven-forty" lemma="seven-forty"/>
+  <concept NER="O" POS="JJR" Speaker="PER0" id="23" label="shriller" lemma="shriller"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="skirl" lemma="skirl"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="troops" lemma="troops"/>
+  <concept id="26" label="two assaulting brigades"/>
+  <relationship id="1" linkingWord="of" source="17" sourceWord="promise" target="19" targetWord="reinforcements"/>
+  <relationship id="2" linkingWord="of" source="4" sourceWord="beginning" target="13" targetWord="new bombardment"/>
+  <relationship id="3" linkingWord="were go press " source="15" sourceWord="orders" target="2" targetWord="absolute assurance"/>
+  <relationship id="4" linkingWord="held supporting " source="2" sourceWord="absolute assurance" target="25" targetWord="troops"/>
+  <relationship id="5" linkingWord="of" source="15" sourceWord="orders" target="20" targetWord="scottish troops"/>
+  <relationship id="6" linkingWord="on" source="18" sourceWord="redoubt" target="6" targetWord="crest"/>
+  <relationship id="7" linkingWord="knowing held " source="8" sourceWord="german machine gunners" target="12" targetWord="men"/>
+  <relationship id="8" linkingWord="of" source="24" sourceWord="skirl" target="16" targetWord="pipes"/>
+  <relationship id="9" linkingWord="than" source="23" sourceWord="shriller" target="21" targetWord="scream"/>
+  <relationship id="10" linkingWord="hold come " source="5" sourceWord="costs" target="19" targetWord="reinforcements"/>
+  <relationship id="11" linkingWord="of" source="11" sourceWord="kind" target="3" targetWord="bank holiday crowd"/>
+  <relationship id="12" linkingWord="of" source="26" sourceWord="two assaulting brigades" target="1" targetWord="15th division"/>
+  <relationship id="13" linkingWord="left were " source="22" sourceWord="seven-forty" target="14" targetWord="open"/>
+</conceptmap>

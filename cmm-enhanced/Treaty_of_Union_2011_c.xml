@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="article xv"/>
+  <concept id="2" label="attractive inducement"/>
+  <concept id="3" label="country party"/>
+  <concept id="4" label="court party"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="5" label="crucial" lemma="crucial"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="disarray" lemma="disarray"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="7" label="equivalent" lemma="Equivalent"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="8" label="events" lemma="event"/>
+  <concept id="9" label="exotic name"/>
+  <concept id="10" label="formidable political management machine"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="group" lemma="group"/>
+  <concept id="12" label="ill-fated darien company"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="13" label="investors" lemma="investor"/>
+  <concept id="14" label="key role"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="members" lemma="member"/>
+  <concept id="16" label="new party"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="order" lemma="order"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="outcome" lemma="outcome"/>
+  <concept id="19" label="overall position"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="20" label="parliament" lemma="Parliament"/>
+  <concept id="21" label="parliamentary opposition"/>
+  <concept id="22" label="small party"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="23" label="squadrone" lemma="Squadrone"/>
+  <concept id="24" label="squadrone volante"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="support" lemma="support"/>
+  <concept id="26" label="two dozen members"/>
+  <relationship id="1" linkingWord="some was used compensate " source="7" sourceWord="equivalent" target="12" targetWord="ill-fated darien company"/>
+  <relationship id="2" linkingWord="of" source="10" sourceWord="formidable political management machine" target="4" targetWord="court party"/>
+  <relationship id="3" linkingWord="were was " source="8" sourceWord="events" target="11" targetWord="group"/>
+  <relationship id="4" linkingWord="was have " source="11" sourceWord="group" target="14" targetWord="key role"/>
+  <relationship id="5" linkingWord="of" source="11" sourceWord="group" target="26" targetWord="two dozen members"/>
+  <relationship id="6" linkingWord="in" source="14" sourceWord="key role" target="18" targetWord="outcome"/>
+  <relationship id="7" linkingWord="to" source="2" sourceWord="attractive inducement" target="24" targetWord="squadrone volante"/>
+  <relationship id="8" linkingWord="had retain achieve " source="4" sourceWord="court party" target="17" targetWord="order"/>
+  <relationship id="9" linkingWord="of" source="15" sourceWord="members" target="23" targetWord="squadrone"/>
+  <relationship id="10" linkingWord="known emerged " source="9" sourceWord="exotic name" target="3" targetWord="country party"/>
+  <relationship id="11" linkingWord="emerged known " source="16" sourceWord="new party" target="9" targetWord="exotic name"/>
+  <relationship id="12" linkingWord="of" source="9" sourceWord="exotic name" target="24" targetWord="squadrone volante"/>
+</conceptmap>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="7500 souls"/>
+  <concept id="2" label="aforesaid king"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="age" lemma="age"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="4" label="april" lemma="April"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="5" label="balliol" lemma="Balliol"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="battle" lemma="battle"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="7" label="berwick" lemma="Berwick"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="8" label="bruce" lemma="Bruce"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="castle" lemma="castle"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="country" lemma="country"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="defeat" lemma="defeat"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="12" label="dunbar" lemma="Dunbar"/>
+  <concept id="13" label="dunbar castle"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="14" label="earl" lemma="Earl"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="15" label="england" lemma="England"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="16" label="graham" lemma="Graham"/>
+  <concept id="17" label="great many other knights"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="18" label="king" lemma="King"/>
+  <concept id="19" label="large force"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="party" lemma="party"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="sex" lemma="sex"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="sheep" lemma="sheep"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="23" label="supporters" lemma="supporter"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="town" lemma="town"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="war" lemma="war"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="warden" lemma="warden"/>
+  <relationship id="1" linkingWord="fought fell wounded " source="4" sourceWord="april" target="11" targetWord="defeat"/>
+  <relationship id="2" linkingWord="fought fled " source="4" sourceWord="april" target="13" targetWord="dunbar castle"/>
+  <relationship id="3" linkingWord="of" source="6" sourceWord="battle" target="12" targetWord="dunbar"/>
+  <relationship id="4" linkingWord="sparing put " source="21" sourceWord="sex" target="1" targetWord="7500 souls"/>
+  <relationship id="5" linkingWord="of" source="2" sourceWord="aforesaid king" target="15" targetWord="england"/>
+  <relationship id="6" linkingWord="put sparing " source="24" sourceWord="town" target="21" targetWord="sex"/>
+  <relationship id="7" linkingWord="of" source="18" sourceWord="king" target="15" targetWord="england"/>
+  <relationship id="8" linkingWord="considered king " source="23" sourceWord="supporters" target="10" targetWord="country"/>
+  <relationship id="9" linkingWord="this considered " source="25" sourceWord="war" target="18" targetWord="king"/>
+  <relationship id="10" linkingWord="of" source="23" sourceWord="supporters" target="20" targetWord="party"/>
+  <relationship id="11" linkingWord="of" source="26" sourceWord="warden" target="9" targetWord="castle"/>
+  <relationship id="12" linkingWord="70 betrayed handed king " source="14" sourceWord="earl" target="15" targetWord="england"/>
+  <relationship id="13" linkingWord="king handed " source="15" sourceWord="england" target="22" targetWord="sheep"/>
+</conceptmap>

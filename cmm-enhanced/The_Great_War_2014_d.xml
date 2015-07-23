@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="attack" lemma="attack"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="batons" lemma="baton"/>
+  <concept id="3" label="bloody friday"/>
+  <concept id="4" label="city chambers"/>
+  <concept id="5" label="clyde workers"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="6" label="committee" lemma="Committee"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="conflict" lemma="conflict"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="crowd" lemma="crowd"/>
+  <concept id="9" label="davie kirkwood"/>
+  <concept id="10" label="george square"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="11" label="glasgow" lemma="Glasgow"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="government" lemma="government"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="ground" lemma="ground"/>
+  <concept id="14" label="january 31st 1919"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="leaders" lemma="leader"/>
+  <concept id="16" label="lord provost"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="order" lemma="order"/>
+  <concept id="18" label="own dirty work"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="police" lemma="police"/>
+  <concept id="20" label="prearranged affair"/>
+  <concept id="21" label="sheer brutality"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="22" label="sounds" lemma="sound"/>
+  <concept id="23" label="strike committee"/>
+  <concept id="24" label="strike leaders"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="strikers" lemma="striker"/>
+  <concept id="26" label="willie gallacher"/>
+  <relationship id="1" linkingWord="with" source="20" sourceWord="prearranged affair" target="1" targetWord="attack"/>
+  <relationship id="2" linkingWord="on" source="1" sourceWord="attack" target="25" targetWord="strikers"/>
+  <relationship id="3" linkingWord="made thrown " source="1" sourceWord="attack" target="9" targetWord="davie kirkwood"/>
+  <relationship id="4" linkingWord="of" source="9" sourceWord="davie kirkwood" target="6" targetWord="committee"/>
+  <relationship id="5" linkingWord="by" source="21" sourceWord="sheer brutality" target="19" targetWord="police"/>
+  <relationship id="6" linkingWord="afraid do " source="12" sourceWord="government" target="18" targetWord="own dirty work"/>
+  <relationship id="7" linkingWord="returned meeting " source="15" sourceWord="leaders" target="16" targetWord="lord provost"/>
+  <relationship id="8" linkingWord="addressed returned " source="23" sourceWord="strike committee" target="15" targetWord="leaders"/>
+  <relationship id="9" linkingWord="of" source="26" sourceWord="willie gallacher" target="6" targetWord="committee"/>
+  <relationship id="10" linkingWord="restore urging " source="17" sourceWord="order" target="8" targetWord="crowd"/>
+  <relationship id="11" linkingWord="hearing rushed help restore " source="22" sourceWord="sounds" target="17" targetWord="order"/>
+  <relationship id="12" linkingWord="waiting kept ordered draw " source="4" sourceWord="city chambers" target="2" targetWord="batons"/>
+  <relationship id="13" linkingWord="draw disperse " source="2" sourceWord="batons" target="8" targetWord="crowd"/>
+  <relationship id="14" linkingWord="kept waiting " source="24" sourceWord="strike leaders" target="4" targetWord="city chambers"/>
+</conceptmap>

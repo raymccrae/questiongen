@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="1" label="april" lemma="April"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="assembly" lemma="assembly"/>
+  <concept id="3" label="chief towns"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="consent" lemma="consent"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="course" lemma="course"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="date" lemma="date"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="7" label="edinburgh" lemma="Edinburgh"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="8" label="february" lemma="February"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="freedom" lemma="freedom"/>
+  <concept id="10" label="general assembly"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="11" label="individuals" lemma="individual"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="king" lemma="king"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="13" label="laws" lemma="law"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="meeting" lemma="meeting"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="ministers" lemma="minister"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="16" label="objections" lemma="objection"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="pattern" lemma="pattern"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="18" label="perth" lemma="Perth"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="19" label="place" lemma="place"/>
+  <concept id="20" label="plain reluctance"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="politics" lemma="politics"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="power" lemma="power"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="preference" lemma="preference"/>
+  <concept id="24" label="st andrews"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="towns" lemma="town"/>
+  <concept id="26" label="traditional north"/>
+  <relationship id="1" linkingWord="conceded appointed " source="2" sourceWord="assembly" target="3" targetWord="chief towns"/>
+  <relationship id="2" linkingWord="appointed passed censure " source="3" sourceWord="chief towns" target="11" targetWord="individuals"/>
+  <relationship id="3" linkingWord="of" source="4" sourceWord="consent" target="12" targetWord="king"/>
+  <relationship id="4" linkingWord="curbing attack " source="5" sourceWord="course" target="13" targetWord="laws"/>
+  <relationship id="5" linkingWord="censure comment " source="11" sourceWord="individuals" target="21" targetWord="politics"/>
+  <relationship id="6" linkingWord="met appointed " source="8" sourceWord="february" target="1" targetWord="april"/>
+  <relationship id="7" linkingWord="at" source="1" sourceWord="april" target="24" targetWord="st andrews"/>
+  <relationship id="8" linkingWord="have showed had " source="2" sourceWord="assembly" target="15" targetWord="ministers"/>
+  <relationship id="9" linkingWord="showed have " source="20" sourceWord="plain reluctance" target="2" targetWord="assembly"/>
+  <relationship id="10" linkingWord="of" source="19" sourceWord="place" target="14" targetWord="meeting"/>
+  <relationship id="11" linkingWord="challenge hard showed had " source="22" sourceWord="power" target="15" targetWord="ministers"/>
+  <relationship id="12" linkingWord="from" source="15" sourceWord="ministers" target="26" targetWord="traditional north"/>
+  <relationship id="13" linkingWord="showed had ministers " source="20" sourceWord="plain reluctance" target="26" targetWord="traditional north"/>
+  <relationship id="14" linkingWord="for" source="23" sourceWord="preference" target="25" targetWord="towns"/>
+  <relationship id="15" linkingWord="of" source="6" sourceWord="date" target="2" targetWord="assembly"/>
+  <relationship id="16" linkingWord="bring chose admitted hard challenge right postpone " source="6" sourceWord="date" target="2" targetWord="assembly"/>
+  <relationship id="17" linkingWord="raise chose admitted hard challenge right postpone " source="16" sourceWord="objections" target="2" targetWord="assembly"/>
+  <relationship id="18" linkingWord="chose bring " source="12" sourceWord="king" target="6" targetWord="date"/>
+</conceptmap>

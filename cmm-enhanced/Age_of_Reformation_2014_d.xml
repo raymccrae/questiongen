@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="career stability"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="cases" lemma="case"/>
+  <concept id="3" label="disciplinary system"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="discipline" lemma="discipline"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="drunkenness" lemma="drunkenness"/>
+  <concept id="6" label="early 1560s"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="elders" lemma="elder"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="evidence" lemma="evidence"/>
+  <concept id="9" label="famous milestones"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="10" label="ministers" lemma="Ministers"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="11" label="ministry" lemma="ministry"/>
+  <concept id="12" label="minor offences"/>
+  <concept id="13" label="moral failings"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="need" lemma="need"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="ones" lemma="one"/>
+  <concept id="16" label="parish churches"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="17" label="parishes" lemma="parish"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="people" lemma="people"/>
+  <concept NER="O" POS="VBG" Speaker="PER0" id="19" label="preaching" lemma="preach"/>
+  <concept id="20" label="protestant doctrines"/>
+  <concept id="21" label="protestant ministers"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="psalm" lemma="psalm"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="role" lemma="role"/>
+  <concept id="24" label="scottish history"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="signs" lemma="sign"/>
+  <concept id="26" label="strict program"/>
+  <relationship id="1" linkingWord="of" source="26" sourceWord="strict program" target="4" targetWord="discipline"/>
+  <relationship id="2" linkingWord="such_as" source="12" sourceWord="minor offences" target="5" targetWord="drunkenness"/>
+  <relationship id="3" linkingWord="enjoyed educated disciplined " source="1" sourceWord="career stability" target="13" targetWord="moral failings"/>
+  <relationship id="4" linkingWord="educated enjoyed " source="21" sourceWord="protestant ministers" target="1" targetWord="career stability"/>
+  <relationship id="5" linkingWord="important spreading " source="23" sourceWord="role" target="20" targetWord="protestant doctrines"/>
+  <relationship id="6" linkingWord="of" source="23" sourceWord="role" target="22" targetWord="psalm"/>
+  <relationship id="7" linkingWord="are important " source="25" sourceWord="signs" target="23" targetWord="role"/>
+  <relationship id="8" linkingWord="achieved much aimed " source="16" sourceWord="parish churches" target="6" targetWord="early 1560s"/>
+  <relationship id="9" linkingWord="in" source="6" sourceWord="early 1560s" target="19" targetWord="preaching"/>
+  <relationship id="10" linkingWord="suggests accepted " source="8" sourceWord="evidence" target="3" targetWord="disciplinary system"/>
+  <relationship id="11" linkingWord="accepted content " source="3" sourceWord="disciplinary system" target="15" targetWord="ones"/>
+  <relationship id="12" linkingWord="in" source="9" sourceWord="famous milestones" target="24" targetWord="scottish history"/>
+</conceptmap>

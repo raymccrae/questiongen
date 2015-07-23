@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="area" lemma="area"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="assistant" lemma="assistant"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="commerce" lemma="commerce"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="4" label="dunedin" lemma="Dunedin"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="5" label="edinburgh" lemma="Edinburgh"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="education" lemma="education"/>
+  <concept id="7" label="efficient manner"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="8" label="emigrants" lemma="emigrant"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="enterprise" lemma="enterprise"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="field" lemma="field"/>
+  <concept id="11" label="fifty hands"/>
+  <concept id="12" label="finest retail business"/>
+  <concept id="13" label="geological survey"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="health" lemma="health"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="15" label="immigrant" lemma="immigrant"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="16" label="land" lemma="land"/>
+  <concept id="17" label="local population"/>
+  <concept id="18" label="new zealand"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="19" label="otago" lemma="Otago"/>
+  <concept id="20" label="premier scientific society"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="21" label="scot" lemma="Scot"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="22" label="scotland" lemma="Scotland"/>
+  <concept id="23" label="three years"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="type" lemma="type"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="wages" lemma="wages"/>
+  <concept id="26" label="welcome one"/>
+  <relationship id="1" linkingWord="in" source="17" sourceWord="local population" target="7" targetWord="efficient manner"/>
+  <relationship id="2" linkingWord="of" source="14" sourceWord="health" target="17" targetWord="local population"/>
+  <relationship id="3" linkingWord="made setting " source="16" sourceWord="land" target="1" targetWord="area"/>
+  <relationship id="4" linkingWord="not only in " source="16" sourceWord="land" target="3" targetWord="commerce"/>
+  <relationship id="5" linkingWord="of" source="10" sourceWord="field" target="6" targetWord="education"/>
+  <relationship id="6" linkingWord="of" source="3" sourceWord="commerce" target="19" targetWord="otago"/>
+  <relationship id="7" linkingWord="done commerce " source="9" sourceWord="enterprise" target="19" targetWord="otago"/>
+  <relationship id="8" linkingWord="of" source="24" sourceWord="type" target="15" targetWord="immigrant"/>
+  <relationship id="9" linkingWord="in" source="2" sourceWord="assistant" target="22" targetWord="scotland"/>
+  <relationship id="10" linkingWord="owns employs " source="12" sourceWord="finest retail business" target="11" targetWord="fifty hands"/>
+  <relationship id="11" linkingWord="employs owns pays # 250 weekly " source="11" sourceWord="fifty hands" target="25" targetWord="wages"/>
+  <relationship id="12" linkingWord="not all made " source="8" sourceWord="emigrants" target="26" targetWord="welcome one"/>
+  <relationship id="13" linkingWord="in" source="26" sourceWord="welcome one" target="16" targetWord="land"/>
+  <relationship id="14" linkingWord="scot born arrived " source="5" sourceWord="edinburgh" target="4" targetWord="dunedin"/>
+  <relationship id="15" linkingWord="arrived born conduct " source="4" sourceWord="dunedin" target="13" targetWord="geological survey"/>
+  <relationship id="16" linkingWord="arrived born appointed found " source="4" sourceWord="dunedin" target="13" targetWord="geological survey"/>
+  <relationship id="17" linkingWord="arrived born appointed later " source="4" sourceWord="dunedin" target="23" targetWord="three years"/>
+  <relationship id="18" linkingWord="scot born conduct " source="5" sourceWord="edinburgh" target="13" targetWord="geological survey"/>
+  <relationship id="19" linkingWord="scot born appointed found " source="5" sourceWord="edinburgh" target="13" targetWord="geological survey"/>
+  <relationship id="20" linkingWord="from" source="21" sourceWord="scot" target="5" targetWord="edinburgh"/>
+  <relationship id="21" linkingWord="scot born appointed later " source="5" sourceWord="edinburgh" target="23" targetWord="three years"/>
+  <relationship id="22" linkingWord="conduct born appointed found geological survey " source="13" sourceWord="geological survey" target="18" targetWord="new zealand"/>
+  <relationship id="23" linkingWord="of" source="13" sourceWord="geological survey" target="18" targetWord="new zealand"/>
+  <relationship id="24" linkingWord="conduct born appointed found managing " source="13" sourceWord="geological survey" target="20" targetWord="premier scientific society"/>
+  <relationship id="25" linkingWord="conduct born appointed later " source="13" sourceWord="geological survey" target="23" targetWord="three years"/>
+  <relationship id="26" linkingWord="later appointed found " source="23" sourceWord="three years" target="13" targetWord="geological survey"/>
+  <relationship id="27" linkingWord="geological survey found managing " source="18" sourceWord="new zealand" target="20" targetWord="premier scientific society"/>
+</conceptmap>

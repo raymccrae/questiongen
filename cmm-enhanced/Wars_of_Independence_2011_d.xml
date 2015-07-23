@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="1" label="arrows" lemma="arrow"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="band" lemma="band"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="battle" lemma="battle"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="capture" lemma="capture"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="5" label="death" lemma="death"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="6" label="discharges" lemma="discharge"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="7" label="elderslie" lemma="Elderslie"/>
+  <concept id="8" label="english garrison"/>
+  <concept id="9" label="english justiciar"/>
+  <concept id="10" label="english mounted knights"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="11" label="falkirk" lemma="Falkirk"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="head" lemma="head"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="help" lemma="help"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="horse" lemma="horse"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="15" label="laird" lemma="laird"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="16" label="lanark" lemma="Lanark"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="liberty" lemma="liberty"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="18" label="mentieth" lemma="Mentieth"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="19" label="miles" lemma="mile"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="mistress" lemma="mistress"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="outlaws" lemma="outlaw"/>
+  <concept id="22" label="ragman rolls"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="revenge" lemma="revenge"/>
+  <concept id="24" label="sir john stewart"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="tail" lemma="tail"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="victory" lemma="victory"/>
+  <relationship id="1" linkingWord="of" source="6" sourceWord="discharges" target="1" targetWord="arrows"/>
+  <relationship id="2" linkingWord="for" source="26" sourceWord="victory" target="10" targetWord="english mounted knights"/>
+  <relationship id="3" linkingWord="of" source="12" sourceWord="head" target="2" targetWord="band"/>
+  <relationship id="4" linkingWord="killed set " source="23" sourceWord="revenge" target="12" targetWord="head"/>
+  <relationship id="5" linkingWord="of" source="8" sourceWord="english garrison" target="16" targetWord="lanark"/>
+  <relationship id="6" linkingWord="dragged smithfield put " source="19" sourceWord="miles" target="5" targetWord="death"/>
+  <relationship id="7" linkingWord="of" source="25" sourceWord="tail" target="14" targetWord="horse"/>
+  <relationship id="8" linkingWord="at" source="19" sourceWord="miles" target="25" targetWord="tail"/>
+  <relationship id="9" linkingWord="of" source="15" sourceWord="laird" target="7" targetWord="elderslie"/>
+  <relationship id="10" linkingWord="not signed outlawed " source="22" sourceWord="ragman rolls" target="9" targetWord="english justiciar"/>
+  <relationship id="11" linkingWord="remained betrayed " source="17" sourceWord="liberty" target="24" targetWord="sir john stewart"/>
+  <relationship id="12" linkingWord="of" source="24" sourceWord="sir john stewart" target="18" targetWord="mentieth"/>
+</conceptmap>

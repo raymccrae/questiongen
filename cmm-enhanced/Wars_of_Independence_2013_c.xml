@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="7000 inhabitants"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="2" label="april" lemma="April"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="3" label="berwick" lemma="Berwick"/>
+  <concept id="4" label="besieged castle"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="5" label="borders" lemma="border"/>
+  <concept NER="ORGANIZATION" POS="NNPS" Speaker="PER0" id="6" label="bruces" lemma="Bruces"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="campaign" lemma="campaign"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="course" lemma="course"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="danger" lemma="danger"/>
+  <concept id="10" label="disappointed scottish nobles"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="11" label="dunbar" lemma="Dunbar"/>
+  <concept NER="PERSON" POS="NNP" Speaker="PER0" id="12" label="edward" lemma="Edward"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="13" label="england" lemma="England"/>
+  <concept id="14" label="english king"/>
+  <concept id="15" label="ensuing battle"/>
+  <concept id="16" label="experienced army"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="fight" lemma="fight"/>
+  <concept id="18" label="full force"/>
+  <concept id="19" label="king john"/>
+  <concept id="20" label="large army"/>
+  <concept NER="DATE" POS="NNP" Speaker="PER0" id="21" label="march" lemma="March"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="outset" lemma="outset"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="23" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NNPS" Speaker="PER0" id="24" label="scots" lemma="Scots"/>
+  <concept id="25" label="small scottish force"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="town" lemma="town"/>
+  <relationship id="1" linkingWord="carried using " source="7" sourceWord="campaign" target="18" targetWord="full force"/>
+  <relationship id="2" linkingWord="to" source="7" sourceWord="campaign" target="23" targetWord="scotland"/>
+  <relationship id="3" linkingWord="of" source="18" sourceWord="full force" target="16" targetWord="experienced army"/>
+  <relationship id="4" linkingWord="feared included " source="5" sourceWord="borders" target="6" targetWord="bruces"/>
+  <relationship id="5" linkingWord="from" source="5" sourceWord="borders" target="10" targetWord="disappointed scottish nobles"/>
+  <relationship id="6" linkingWord="this included " source="8" sourceWord="course" target="6" targetWord="bruces"/>
+  <relationship id="7" linkingWord="at" source="15" sourceWord="ensuing battle" target="11" targetWord="dunbar"/>
+  <relationship id="8" linkingWord="of" source="4" sourceWord="besieged castle" target="11" targetWord="dunbar"/>
+  <relationship id="9" linkingWord="relieve attempted absent " source="4" sourceWord="besieged castle" target="19" targetWord="king john"/>
+  <relationship id="10" linkingWord="attempted relieve " source="25" sourceWord="small scottish force" target="4" targetWord="besieged castle"/>
+  <relationship id="11" linkingWord="made slaughtering " source="20" sourceWord="large army" target="1" targetWord="7000 inhabitants"/>
+  <relationship id="12" linkingWord="of" source="26" sourceWord="town" target="3" targetWord="berwick"/>
+  <relationship id="13" linkingWord="30 made " source="21" sourceWord="march" target="20" targetWord="large army"/>
+</conceptmap>

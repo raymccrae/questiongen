@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="1914 bengal"/>
+  <concept id="2" label="alisdair forbes"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="3" label="bengal" lemma="Bengal"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="boom" lemma="boom"/>
+  <concept id="5" label="broughty ferry"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="confidence" lemma="confidence"/>
+  <concept id="7" label="country estates"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="display" lemma="display"/>
+  <concept NER="ORGANIZATION" POS="NNP" Speaker="PER0" id="9" label="dundee" lemma="Dundee"/>
+  <concept id="10" label="elegant suburbs"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="11" label="empire" lemma="Empire"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="employment" lemma="employment"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="example" lemma="example"/>
+  <concept id="14" label="exporting jute"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="families" lemma="family"/>
+  <concept id="16" label="first world war"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="handful" lemma="handful"/>
+  <concept id="18" label="indian textile trade"/>
+  <concept id="19" label="jute industry"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="20" label="levels" lemma="level"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="money" lemma="money"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="22" label="prices" lemma="price"/>
+  <concept id="23" label="producing sand bags"/>
+  <concept id="24" label="scottish producers"/>
+  <concept id="25" label="serious competitors"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="wealth" lemma="wealth"/>
+  <relationship id="1" linkingWord="for" source="25" sourceWord="serious competitors" target="24" targetWord="scottish producers"/>
+  <relationship id="2" linkingWord="from" source="21" sourceWord="money" target="11" targetWord="empire"/>
+  <relationship id="3" linkingWord="helped landed " source="21" sourceWord="money" target="15" targetWord="families"/>
+  <relationship id="4" linkingWord="of" source="17" sourceWord="handful" target="15" targetWord="families"/>
+  <relationship id="5" linkingWord="used purchase " source="2" sourceWord="alisdair forbes" target="7" targetWord="country estates"/>
+  <relationship id="6" linkingWord="money used " source="18" sourceWord="indian textile trade" target="2" targetWord="alisdair forbes"/>
+  <relationship id="7" linkingWord="used money " source="13" sourceWord="example" target="18" targetWord="indian textile trade"/>
+  <relationship id="8" linkingWord="from" source="21" sourceWord="money" target="18" targetWord="indian textile trade"/>
+  <relationship id="9" linkingWord="in" source="20" sourceWord="levels" target="19" targetWord="jute industry"/>
+  <relationship id="10" linkingWord="fell fell " source="22" sourceWord="prices" target="20" targetWord="levels"/>
+  <relationship id="11" linkingWord="near" source="5" sourceWord="broughty ferry" target="9" targetWord="dundee"/>
+  <relationship id="12" linkingWord="of" source="8" sourceWord="display" target="26" targetWord="wealth"/>
+  <relationship id="13" linkingWord="jute mills worked " source="9" sourceWord="dundee" target="23" targetWord="producing sand bags"/>
+</conceptmap>

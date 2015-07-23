@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept id="1" label="best way"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="2" label="brothers" lemma="brother"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="3" label="canada" lemma="Canada"/>
+  <concept id="4" label="cheap land"/>
+  <concept id="5" label="circumstances-i"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="family" lemma="family"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="farm" lemma="farm"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="farmer" lemma="farmer"/>
+  <concept id="9" label="insane person"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="land" lemma="land"/>
+  <concept id="11" label="mental anxiety"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="mind" lemma="mind"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="money" lemma="money"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="14" label="morning" lemma="morning"/>
+  <concept id="15" label="much land"/>
+  <concept NER="TIME" POS="NN" Speaker="PER0" id="16" label="night" lemma="night"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="17" label="noonday" lemma="noonday"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="18" label="part" lemma="part"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="19" label="parts" lemma="part"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="20" label="scotland" lemma="Scotland"/>
+  <concept id="21" label="short time"/>
+  <concept id="22" label="slightest hesitation"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="sun" lemma="sun"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="value" lemma="value"/>
+  <concept NER="SET" POS="NN" Speaker="PER0" id="25" label="year" lemma="year"/>
+  <relationship id="1" linkingWord="say unemployed lies " source="5" sourceWord="circumstances-i" target="3" targetWord="canada"/>
+  <relationship id="2" linkingWord="lies unemployed say better unable upon worry occupying acts " source="3" sourceWord="canada" target="18" targetWord="part"/>
+  <relationship id="3" linkingWord="support unable better say " source="6" sourceWord="family" target="5" targetWord="circumstances-i"/>
+  <relationship id="4" linkingWord="occupying worry upon unable better say " source="7" sourceWord="farm" target="5" targetWord="circumstances-i"/>
+  <relationship id="5" linkingWord="occupying worry upon unable support " source="7" sourceWord="farm" target="6" targetWord="family"/>
+  <relationship id="6" linkingWord="support unable upon worry occupying acts " source="6" sourceWord="family" target="18" targetWord="part"/>
+  <relationship id="7" linkingWord="acts occupying " source="8" sourceWord="farmer" target="7" targetWord="farm"/>
+  <relationship id="8" linkingWord="occupying struggling " source="7" sourceWord="farm" target="14" targetWord="morning"/>
+  <relationship id="9" linkingWord="upon unable better say unemployed " source="12" sourceWord="mind" target="8" targetWord="farmer"/>
+  <relationship id="10" linkingWord="declaring acts " source="22" sourceWord="slightest hesitation" target="8" targetWord="farmer"/>
+  <relationship id="11" linkingWord="of" source="18" sourceWord="part" target="9" targetWord="insane person"/>
+  <relationship id="12" linkingWord="with" source="16" sourceWord="night" target="11" targetWord="mental anxiety"/>
+  <relationship id="13" linkingWord="struggling occupying worry upon " source="14" sourceWord="morning" target="12" targetWord="mind"/>
+  <relationship id="14" linkingWord="struggling occupying acts " source="14" sourceWord="morning" target="18" targetWord="part"/>
+  <relationship id="15" linkingWord="at" source="23" sourceWord="sun" target="17" targetWord="noonday"/>
+  <relationship id="16" linkingWord="declaring appears " source="22" sourceWord="slightest hesitation" target="23" targetWord="sun"/>
+  <relationship id="17" linkingWord="for" source="1" sourceWord="best way" target="2" targetWord="brothers"/>
+  <relationship id="18" linkingWord="is buying " source="1" sourceWord="best way" target="10" targetWord="land"/>
+  <relationship id="19" linkingWord="in" source="21" sourceWord="short time" target="4" targetWord="cheap land"/>
+</conceptmap>

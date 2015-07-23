@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="benefit" lemma="benefit"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="charity" lemma="charity"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="3" label="contact" lemma="contact"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="country" lemma="country"/>
+  <concept id="5" label="deprived thousands"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="doubt" lemma="doubt"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="7" label="efforts" lemma="effort"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="8" label="employment" lemma="employment"/>
+  <concept id="9" label="greatest numbers"/>
+  <concept id="10" label="hard work"/>
+  <concept id="11" label="increasing poverty"/>
+  <concept NER="MISC" POS="NNP" Speaker="PER0" id="12" label="irish" lemma="Irish"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="13" label="jails" lemma="jail"/>
+  <concept NER="O" POS="JJ" Speaker="PER0" id="14" label="latter" lemma="latter"/>
+  <concept id="15" label="own country"/>
+  <concept id="16" label="past ten years"/>
+  <concept id="17" label="poor rates"/>
+  <concept id="18" label="proper channels"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="19" label="railways" lemma="railway"/>
+  <concept NER="O" POS="RB" Speaker="PER0" id="20" label="rapidly" lemma="rapidly"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="21" label="scotch" lemma="Scotch"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="22" label="scotland" lemma="Scotland"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="23" label="sources" lemma="source"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="24" label="wages" lemma="wages"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="25" label="wealth" lemma="wealth"/>
+  <concept id="26" label="working people"/>
+  <relationship id="1" linkingWord="formed opened " source="10" sourceWord="hard work" target="23" targetWord="sources"/>
+  <relationship id="2" linkingWord="of" source="23" sourceWord="sources" target="25" targetWord="wealth"/>
+  <relationship id="3" linkingWord="keep redouble let keep scotland " source="7" sourceWord="efforts" target="21" targetWord="scotch"/>
+  <relationship id="4" linkingWord="for" source="22" sourceWord="scotland" target="21" targetWord="scotch"/>
+  <relationship id="5" linkingWord="in" source="11" sourceWord="increasing poverty" target="15" targetWord="own country"/>
+  <relationship id="6" linkingWord="with" source="3" sourceWord="contact" target="21" targetWord="scotch"/>
+  <relationship id="7" linkingWord="of" source="5" sourceWord="deprived thousands" target="26" targetWord="working people"/>
+  <relationship id="8" linkingWord="directed swallowed filled " source="2" sourceWord="charity" target="13" targetWord="jails"/>
+  <relationship id="9" linkingWord="increasing swallowed directed " source="17" sourceWord="poor rates" target="2" targetWord="charity"/>
+  <relationship id="10" linkingWord="increasing swallowed filled " source="17" sourceWord="poor rates" target="13" targetWord="jails"/>
+  <relationship id="11" linkingWord="swallowed increasing " source="20" sourceWord="rapidly" target="17" targetWord="poor rates"/>
+  <relationship id="12" linkingWord="irish inundated " source="16" sourceWord="past ten years" target="4" targetWord="country"/>
+  <relationship id="13" linkingWord="during" source="12" sourceWord="irish" target="16" targetWord="past ten years"/>
+</conceptmap>

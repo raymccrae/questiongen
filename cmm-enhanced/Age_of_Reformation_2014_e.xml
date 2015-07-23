@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="O" POS="NN" Speaker="PER0" id="1" label="admission" lemma="admission"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="2" label="church" lemma="church"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="3" label="commandments" lemma="commandment"/>
+  <concept id="4" label="common heart"/>
+  <concept id="5" label="common swearing"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="6" label="confession" lemma="confession"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="7" label="congregation" lemma="congregation"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="8" label="deacons" lemma="deacon"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="9" label="discipline" lemma="discipline"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="drunkenness" lemma="drunkenness"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="11" label="elders" lemma="elder"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="election" lemma="election"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="13" label="examination" lemma="examination"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="14" label="faith" lemma="faith"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="15" label="faults" lemma="fault"/>
+  <concept NER="O" POS="VBG" Speaker="PER0" id="16" label="fighting" lemma="fight"/>
+  <concept NER="O" POS="NNP" Speaker="PER0" id="17" label="god" lemma="God"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="18" label="individuals" lemma="individual"/>
+  <concept NER="MISC" POS="NN" Speaker="PER0" id="19" label="law" lemma="law"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="20" label="minister" lemma="minister"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="21" label="persons" lemma="person"/>
+  <concept NER="MISC" POS="NNS" Speaker="PER0" id="22" label="psalms" lemma="psalm"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="23" label="sin" lemma="sin"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="society" lemma="society"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="things" lemma="thing"/>
+  <concept id="26" label="year individuals"/>
+  <relationship id="1" linkingWord="such_as" source="15" sourceWord="faults" target="10" targetWord="drunkenness"/>
+  <relationship id="2" linkingWord="called admit " source="15" sourceWord="faults" target="23" targetWord="sin"/>
+  <relationship id="3" linkingWord="of" source="2" sourceWord="church" target="17" targetWord="god"/>
+  <relationship id="4" linkingWord="encouraged god able " source="21" sourceWord="persons" target="4" targetWord="common heart"/>
+  <relationship id="5" linkingWord="learn encouraged " source="22" sourceWord="psalms" target="17" targetWord="god"/>
+  <relationship id="6" linkingWord="encouraged learn " source="21" sourceWord="persons" target="22" targetWord="psalms"/>
+  <relationship id="7" linkingWord="encouraged god sung " source="21" sourceWord="persons" target="22" targetWord="psalms"/>
+  <relationship id="8" linkingWord="give rehearse " source="6" sourceWord="confession" target="3" targetWord="commandments"/>
+  <relationship id="9" linkingWord="of" source="3" sourceWord="commandments" target="19" targetWord="law"/>
+  <relationship id="10" linkingWord="rehearse give declare " source="3" sourceWord="commandments" target="25" targetWord="things"/>
+  <relationship id="11" linkingWord="minister stand give " source="11" sourceWord="elders" target="6" targetWord="confession"/>
+  <relationship id="12" linkingWord="stand minister " source="26" sourceWord="year individuals" target="11" targetWord="elders"/>
+  <relationship id="13" linkingWord="stand give declare " source="20" sourceWord="minister" target="25" targetWord="things"/>
+  <relationship id="14" linkingWord="of" source="24" sourceWord="society" target="2" targetWord="church"/>
+  <relationship id="15" linkingWord="appear received " source="18" sourceWord="individuals" target="24" targetWord="society"/>
+</conceptmap>

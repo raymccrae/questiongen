@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><conceptmap>
+  <concept NER="DATE" POS="CD" Speaker="PER0" id="1" label="1915" lemma="1915"/>
+  <concept id="2" label="anti-conscription rallies"/>
+  <concept id="3" label="august 20,000"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="4" label="belief" lemma="belief"/>
+  <concept id="5" label="brisk business"/>
+  <concept id="6" label="cockburn street"/>
+  <concept id="7" label="committed anti-war protestors sylvia pankhurst"/>
+  <concept id="8" label="compulsory military service"/>
+  <concept id="9" label="compulsory service"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="10" label="conscription" lemma="conscription"/>
+  <concept NER="DURATION" POS="NN" Speaker="PER0" id="11" label="day" lemma="day"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="12" label="declaration" lemma="declaration"/>
+  <concept NER="LOCATION" POS="NNP" Speaker="PER0" id="13" label="edinburgh" lemma="Edinburgh"/>
+  <concept NER="DATE" POS="NN" Speaker="PER0" id="14" label="end" lemma="end"/>
+  <concept id="15" label="first weekend"/>
+  <concept id="16" label="increasing concerns"/>
+  <concept id="17" label="july 1915"/>
+  <concept id="18" label="military services act"/>
+  <concept id="19" label="national registration act"/>
+  <concept id="20" label="national registration scheme"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="21" label="news" lemma="news"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="22" label="number" lemma="number"/>
+  <concept id="23" label="possible service"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="24" label="recruitment" lemma="recruitment"/>
+  <concept NER="O" POS="NNS" Speaker="PER0" id="25" label="volunteers" lemma="volunteer"/>
+  <concept NER="O" POS="NN" Speaker="PER0" id="26" label="war" lemma="war"/>
+  <relationship id="1" linkingWord="inevitable resulting " source="9" sourceWord="compulsory service" target="18" targetWord="military services act"/>
+  <relationship id="2" linkingWord="proved inevitable " source="20" sourceWord="national registration scheme" target="9" targetWord="compulsory service"/>
+  <relationship id="3" linkingWord="proved continued " source="20" sourceWord="national registration scheme" target="24" targetWord="recruitment"/>
+  <relationship id="4" linkingWord="of" source="14" sourceWord="end" target="3" targetWord="august 20,000"/>
+  <relationship id="5" linkingWord="doing processed " source="5" sourceWord="brisk business" target="14" targetWord="end"/>
+  <relationship id="6" linkingWord="began fall " source="22" sourceWord="number" target="1" targetWord="1915"/>
+  <relationship id="7" linkingWord="of" source="22" sourceWord="number" target="25" targetWord="volunteers"/>
+  <relationship id="8" linkingWord="enlisted came " source="15" sourceWord="first weekend" target="21" targetWord="news"/>
+  <relationship id="9" linkingWord="of" source="15" sourceWord="first weekend" target="26" targetWord="war"/>
+  <relationship id="10" linkingWord="maintain opposed " source="4" sourceWord="belief" target="10" targetWord="conscription"/>
+  <relationship id="11" linkingWord="helped maintain " source="23" sourceWord="possible service" target="4" targetWord="belief"/>
+  <relationship id="12" linkingWord="of" source="19" sourceWord="national registration act" target="17" targetWord="july 1915"/>
+  <relationship id="13" linkingWord="required register " source="19" sourceWord="national registration act" target="23" targetWord="possible service"/>
+  <relationship id="14" linkingWord="held end " source="2" sourceWord="anti-conscription rallies" target="1" targetWord="1915"/>
+  <relationship id="15" linkingWord="of" source="14" sourceWord="end" target="1" targetWord="1915"/>
+  <relationship id="16" linkingWord="introduced were held " source="8" sourceWord="compulsory military service" target="2" targetWord="anti-conscription rallies"/>
+  <relationship id="17" linkingWord="were introduced " source="16" sourceWord="increasing concerns" target="8" targetWord="compulsory military service"/>
+</conceptmap>
