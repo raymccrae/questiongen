@@ -32,11 +32,15 @@ import java.util.Map;
 public class ConceptMapExtract {
 
     public static void main(String[] args) throws Exception {
+        File outputDir = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced");
+        File ccmFolder  = new File("/Users/raymond/IdeaProjects/questiongen/cmm");
+        File stanfordFolder = new File("/Users/raymond/IdeaProjects/questiongen/stanford");
+
 //        extractConceptMap("Age_of_Reformation_2012_a");
 //        invokeNLP(new File("/Users/raymond/Documents/OpenUniversity/T802/samples/tablet.txt"));
-        enrichConceptMapWithStanford(
-                new File("/Users/raymond/Documents/OpenUniversity/T802/tml/output.xml"),
-                new File("/Users/raymond/Documents/OpenUniversity/T802/stanford-corenlp-full-2015-01-30/tablet.txt.xml"));
+//        enrichConceptMapWithStanford(
+//                new File("/Users/raymond/Documents/OpenUniversity/T802/tml/output.xml"),
+//                new File("/Users/raymond/Documents/OpenUniversity/T802/stanford-corenlp-full-2015-01-30/tablet.txt.xml"));
     }
 
     public static void extractConceptMap(String filename) throws Exception {
@@ -77,7 +81,7 @@ public class ConceptMapExtract {
         System.out.println("exit code " + exitValue);
     }
 
-    public static void enrichConceptMapWithStanford(File conceptMap, File stanfordFile) throws IOException, SAXException, ParserConfigurationException, TransformerException {
+    public static void enrichConceptMapWithStanford(File conceptMap, File stanfordFile, File outputDir) throws IOException, SAXException, ParserConfigurationException, TransformerException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
 
@@ -114,7 +118,8 @@ public class ConceptMapExtract {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(conceptMapDocument);
-        StreamResult result = new StreamResult(new File("/Users/raymond/Documents/OpenUniversity/T802/tml/enhance.xml"));
+        File enhancedFile = new File(outputDir, conceptMap.getName() + ".xml");
+        StreamResult result = new StreamResult(enhancedFile);
         transformer.transform(source, result);
     }
 
