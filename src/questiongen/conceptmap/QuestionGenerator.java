@@ -65,7 +65,7 @@ public class QuestionGenerator {
             concepts.put(id, concept);
         }
 
-        NodeList relationshipNodeList = conceptMapDocument.getElementsByTagNameNS(null, "relationship");
+        NodeList relationshipNodeList = conceptMapDocument.getElementsByTagName("relationship");
         for (int i = 0; i < relationshipNodeList.getLength(); i++) {
             Element relationshipNode = (Element) relationshipNodeList.item(i);
 
