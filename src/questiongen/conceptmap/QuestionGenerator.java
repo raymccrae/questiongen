@@ -18,6 +18,22 @@ import java.util.*;
  */
 public class QuestionGenerator {
 
+    private static final String CXL_XML_NAMESPACE = "http://cmap.ihmc.us/xml/cmap/";
+
+    public static void main(String[] args) {
+        QuestionGenerator qg = new QuestionGenerator();
+        File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Age_of_Reformation.cxl");
+        try {
+            Collection<Concept> concepts = qg.readCXLFile(cxlFile, SourceLocation.None);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+    }
+
     public Collection<Concept> readTMLFile(File tmlFile, SourceLocation location) throws IOException, SAXException, ParserConfigurationException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
@@ -28,7 +44,7 @@ public class QuestionGenerator {
 
     public Collection<Concept> parseTMLDocument(Document conceptMapDocument, SourceLocation location) {
         Map<Integer, Concept> concepts = new HashMap<Integer, Concept>();
-        NodeList conceptNodeList = conceptMapDocument.getElementsByTagNameNS(null, "concept");
+        NodeList conceptNodeList = conceptMapDocument.getElementsByTagName("concept");
         for (int i = 0; i < conceptNodeList.getLength(); i++) {
             Element conceptNode = (Element) conceptNodeList.item(i);
 
@@ -72,12 +88,12 @@ public class QuestionGenerator {
         DocumentBuilder builder = factory.newDocumentBuilder();
 
         Document conceptMapDocument = builder.parse(cxlFile);
-        return parseTMLDocument(conceptMapDocument, location);
+        return parseCXLDocument(conceptMapDocument, location);
     }
 
     public Collection<Concept>parseCXLDocument(Document conceptMapDocument, SourceLocation location) {
         Map<String, Concept> concepts = new HashMap<String, Concept>();
-        NodeList conceptNodeList = conceptMapDocument.getElementsByTagNameNS(null, "concept");
+        NodeList conceptNodeList = conceptMapDocument.getElementsByTagName("concept");
         for (int i = 0; i < conceptNodeList.getLength(); i++) {
             Element conceptNode = (Element) conceptNodeList.item(i);
 
@@ -94,7 +110,7 @@ public class QuestionGenerator {
         }
 
         Map<String, List<String>> linkingPhases = new HashMap<String, List<String>>();
-        NodeList linkingList = conceptMapDocument.getElementsByTagNameNS(null, "linking-phrase");
+        NodeList linkingList = conceptMapDocument.getElementsByTagName("linking-phrase");
         for (int i = 0; i < linkingList.getLength(); i++) {
             Element linkingNode = (Element) linkingList.item(i);
             String linkingId = linkingNode.getAttribute("id");
@@ -103,9 +119,12 @@ public class QuestionGenerator {
 
             List<String> phases = new LinkedList<String>();
             phases.add(label);
-            String[] alternatives = linkingNode.getAttribute("long-comment").split("\n");
-            for (String alternative : alternatives) {
-                phases.add(alternative);
+
+            if (linkingNode.hasAttribute("long-comment")) {
+                String[] alternatives = linkingNode.getAttribute("long-comment").split("\n");
+                for (String alternative : alternatives) {
+                    phases.add(alternative);
+                }
             }
 
             linkingPhases.put(linkingId, phases);
@@ -114,7 +133,7 @@ public class QuestionGenerator {
         Map<String, List<String>> forwardConnections = new HashMap<String, List<String>>();
 //        Map<String, List<String>> reverseConnections = new HashMap<String, List<String>>();
 
-        NodeList connectionNodeList = conceptMapDocument.getElementsByTagNameNS(null, "connection");
+        NodeList connectionNodeList = conceptMapDocument.getElementsByTagName("connection");
         for (int i = 0; i < connectionNodeList.getLength(); i++) {
             Element connectionNode = (Element) connectionNodeList.item(i);
             String fromId = connectionNode.getAttribute("from-id");
