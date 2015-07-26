@@ -21,6 +21,10 @@ public class Concept {
         this.sourceLocation = location;
         this.alternativeTerms = new HashSet<String>();
         this.relationshipList = new LinkedList<Relationship>();
+
+        if (attributes != null) {
+            addAlternativeTerm(attributes.getLemma());
+        }
     }
 
     public String getTitle() {
