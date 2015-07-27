@@ -22,9 +22,14 @@ public class QuestionGenerator {
 
     public static void main(String[] args) {
         QuestionGenerator qg = new QuestionGenerator();
+
+        File tmlFile1 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_a.xml");
+        File tmlFile2 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_b.xml");
         File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Age_of_Reformation.cxl");
         try {
-            Collection<Concept> concepts = qg.readCXLFile(cxlFile, SourceLocation.None);
+//            Collection<Concept> concepts = qg.readCXLFile(cxlFile, SourceLocation.None);
+//            Collection<Concept> concepts = qg.readTMLFile(tmlFile1, SourceLocation.SourceA);
+            qg.process(tmlFile1, tmlFile2, cxlFile);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SAXException e) {
@@ -32,6 +37,51 @@ public class QuestionGenerator {
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
         }
+    }
+
+    public void process(File sourceAFile, File sourceBFile, File manualFile) throws ParserConfigurationException, SAXException, IOException {
+        Collection<Concept> sourceAConcepts = readTMLFile(sourceAFile, SourceLocation.SourceA);
+        Collection<Concept> sourceBConcepts = readTMLFile(sourceBFile, SourceLocation.SourceB);
+        Collection<Concept> manualConcepts  = readCXLFile(manualFile, SourceLocation.None);
+
+
+        Map<String, Concept> termConceptMap = new HashMap<String, Concept>();
+        for (Concept c : manualConcepts) {
+            termConceptMap.put(c.getTitle(), c);
+            for (String altTerm : c.getAlternativeTerms()) {
+                termConceptMap.put(altTerm, c);
+            }
+        }
+
+        for (Concept cA : sourceAConcepts) {
+            if (termConceptMap.containsKey(cA.getTitle())) {
+                Concept c = termConceptMap.get(cA.getTitle());
+                c.mergeConcept(cA);
+            }
+
+            for (String altTerm : cA.getAlternativeTerms()) {
+                if (termConceptMap.containsKey(altTerm)) {
+                    Concept c = termConceptMap.get(altTerm);
+                    c.mergeConcept(cA);
+                }
+            }
+        }
+
+        for (Concept cB : sourceBConcepts) {
+            if (termConceptMap.containsKey(cB.getTitle())) {
+                Concept c = termConceptMap.get(cB.getTitle());
+                c.mergeConcept(cB);
+            }
+
+            for (String altTerm : cB.getAlternativeTerms()) {
+                if (termConceptMap.containsKey(altTerm)) {
+                    Concept c = termConceptMap.get(altTerm);
+                    c.mergeConcept(cB);
+                }
+            }
+        }
+
+        System.out.println();
     }
 
     public Collection<Concept> readTMLFile(File tmlFile, SourceLocation location) throws IOException, SAXException, ParserConfigurationException {
@@ -100,9 +150,12 @@ public class QuestionGenerator {
             String title = conceptNode.getAttribute("label");
             title = title.replace('\n', ' ');
             Concept concept = new Concept(title, null, location);
-            String[] alternatives = conceptNode.getAttribute("long-comment").split("\n");
-            for (String alternative : alternatives) {
-                concept.addAlternativeTerm(alternative);
+
+            if (conceptNode.hasAttribute("long-comment")) {
+                String[] alternatives = conceptNode.getAttribute("long-comment").split("\n");
+                for (String alternative : alternatives) {
+                    concept.addAlternativeTerm(alternative);
+                }
             }
 
             String conceptId = conceptNode.getAttribute("id");

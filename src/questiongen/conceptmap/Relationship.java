@@ -16,7 +16,7 @@ public class Relationship {
     public Relationship(Concept sourceConcept, Concept targetConcept, String linkingTerm) {
         this.sourceConcept = sourceConcept;
         this.targetConcept = targetConcept;
-        this.linkingTerm = linkingTerm;
+        this.linkingTerm = linkingTerm.toLowerCase();
         this.alternativeTerms = new HashSet<String>();
 
         sourceConcept.addRelationship(this);
@@ -39,6 +39,6 @@ public class Relationship {
     }
 
     public void addAlternativeTerm(String alternativeTerm) {
-        alternativeTerms.add(alternativeTerm);
+        alternativeTerms.add(alternativeTerm.toLowerCase());
     }
 }

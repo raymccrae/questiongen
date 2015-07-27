@@ -1,9 +1,6 @@
 package questiongen.conceptmap;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by raymond on 26/06/2015.
@@ -13,14 +10,14 @@ public class Concept {
     private ConceptAttributes attributes;
     private SourceLocation sourceLocation;
     private Set<String> alternativeTerms;
-    private List<Relationship> relationshipList;
+    private Set<Relationship> relationshipSet;
 
     public Concept(String title, ConceptAttributes attributes, SourceLocation location) {
-        this.title = title;
+        this.title = title.toLowerCase();
         this.attributes = attributes;
         this.sourceLocation = location;
         this.alternativeTerms = new HashSet<String>();
-        this.relationshipList = new LinkedList<Relationship>();
+        this.relationshipSet = new HashSet<Relationship>();
 
         if (attributes != null) {
             addAlternativeTerm(attributes.getLemma());
@@ -35,11 +32,37 @@ public class Concept {
         return sourceLocation;
     }
 
+    public Set<String> getAlternativeTerms() {
+        return Collections.unmodifiableSet(alternativeTerms);
+    }
+
     public void addAlternativeTerm(String term) {
-        alternativeTerms.add(term);
+        alternativeTerms.add(term.toLowerCase());
+    }
+
+    public Set<Relationship> getRelationshipSet() {
+        return Collections.unmodifiableSet(relationshipSet);
     }
 
     public void addRelationship(Relationship relationship) {
-        relationshipList.add(relationship);
+        relationshipSet.add(relationship);
+    }
+
+    public void mergeConcept(Concept concept) {
+        addAlternativeTerm(concept.getTitle());
+        for (String term : concept.getAlternativeTerms()) {
+            addAlternativeTerm(term);
+        }
+
+        relationshipSet.addAll(concept.relationshipSet);
+
+        if ((sourceLocation == SourceLocation.SourceA && concept.sourceLocation == SourceLocation.SourceB) ||
+                (sourceLocation == SourceLocation.SourceB && concept.sourceLocation == SourceLocation.SourceA) ||
+                (concept.sourceLocation == SourceLocation.SourceBoth)) {
+            sourceLocation = SourceLocation.SourceBoth;
+        }
+        else if (sourceLocation == SourceLocation.None) {
+            sourceLocation = concept.sourceLocation;
+        }
     }
 }
