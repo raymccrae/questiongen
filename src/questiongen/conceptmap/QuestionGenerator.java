@@ -27,8 +27,6 @@ public class QuestionGenerator {
         File tmlFile2 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_b.xml");
         File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Age_of_Reformation.cxl");
         try {
-//            Collection<Concept> concepts = qg.readCXLFile(cxlFile, SourceLocation.None);
-//            Collection<Concept> concepts = qg.readTMLFile(tmlFile1, SourceLocation.SourceA);
             qg.process(tmlFile1, tmlFile2, cxlFile);
         } catch (IOException e) {
             e.printStackTrace();
@@ -184,7 +182,6 @@ public class QuestionGenerator {
         }
 
         Map<String, List<String>> forwardConnections = new HashMap<String, List<String>>();
-//        Map<String, List<String>> reverseConnections = new HashMap<String, List<String>>();
 
         NodeList connectionNodeList = conceptMapDocument.getElementsByTagName("connection");
         for (int i = 0; i < connectionNodeList.getLength(); i++) {
@@ -201,14 +198,6 @@ public class QuestionGenerator {
                 forwardConnections.put(fromId, list);
             }
 
-//            if (reverseConnections.containsKey(toId)) {
-//                reverseConnections.get(toId).add(fromId);
-//            }
-//            else {
-//                List<String> list = new LinkedList<String>();
-//                list.add(fromId);
-//                reverseConnections.put(toId, list);
-//            }
         }
 
         for (String id : forwardConnections.keySet()) {

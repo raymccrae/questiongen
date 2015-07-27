@@ -64,5 +64,9 @@ public class Concept {
         else if (sourceLocation == SourceLocation.None) {
             sourceLocation = concept.sourceLocation;
         }
+
+        if (attributes == null) {
+            attributes = concept.attributes;
+        }
     }
 }
