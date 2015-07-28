@@ -69,4 +69,18 @@ public class Concept {
             attributes = concept.attributes;
         }
     }
+
+
+
+    public void reduceRelationships(SourceLocation location) {
+        List<Relationship> relationshipsToRemove = new LinkedList<Relationship>();
+
+        for (Relationship r : relationshipSet) {
+            if (r.getTargetConcept().getSourceLocation() != location) {
+                relationshipsToRemove.add(r);
+            }
+        }
+
+        relationshipSet.removeAll(relationshipsToRemove);
+    }
 }

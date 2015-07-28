@@ -79,7 +79,11 @@ public class QuestionGenerator {
             }
         }
 
-        System.out.println();
+        Collection<Concept> matchedConcepts = filterMatchingConcepts(manualConcepts);
+
+        printMatchBothSides(manualConcepts);
+        System.out.println("===========================================");
+        printMatchOneSide(manualConcepts);
     }
 
     public Collection<Concept> readTMLFile(File tmlFile, SourceLocation location) throws IOException, SAXException, ParserConfigurationException {
@@ -229,6 +233,40 @@ public class QuestionGenerator {
         }
 
         return concepts.values();
+    }
+
+    Collection<Concept> filterMatchingConcepts(Collection<Concept> concepts) {
+        LinkedList<Concept> matchingConcepts = new LinkedList<Concept>();
+        for (Concept c : concepts) {
+            if (c.getSourceLocation() == SourceLocation.SourceBoth) {
+                matchingConcepts.add(c);
+//                c.reduceRelationships(SourceLocation.SourceBoth);
+            }
+        }
+
+        return matchingConcepts;
+    }
+
+    public void printMatchBothSides(Collection<Concept> concepts) {
+        for (Concept source : concepts) {
+            for (Relationship relationship : source.getRelationshipSet()) {
+                Concept target = relationship.getTargetConcept();
+                if (target.getSourceLocation() == SourceLocation.SourceBoth) {
+                    System.out.println("[" + source.getTitle() + "] [" + relationship.getLinkingTerm() + "] [" + target.getTitle() + "]");
+                }
+            }
+        }
+    }
+
+    public void printMatchOneSide(Collection<Concept> concepts) {
+        for (Concept source : concepts) {
+            for (Relationship relationship : source.getRelationshipSet()) {
+                Concept target = relationship.getTargetConcept();
+                if (target.getSourceLocation() == SourceLocation.SourceA || target.getSourceLocation() == SourceLocation.SourceB) {
+                    System.out.println("[" +source.getTitle() + "] [" + relationship.getLinkingTerm() + "] [" + target.getTitle() + "]");
+                }
+            }
+        }
     }
 
 }
