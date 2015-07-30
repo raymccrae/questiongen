@@ -49,9 +49,9 @@ public class QuestionGenerator {
 
         Collection<Concept> matchedConcepts = filterMatchingConcepts(manualConcepts);
 
-        printMatchBothSides(manualConcepts);
+        printMatchBothSides(matchedConcepts);
         System.out.println("===========================================");
-        printMatchOneSide(manualConcepts);
+        printMatchOneSide(matchedConcepts);
     }
 
     private void mergeConcepts(Collection<Concept> fromConcepts, Collection<Concept> toConcepts) {
