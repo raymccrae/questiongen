@@ -70,8 +70,6 @@ public class Concept {
         }
     }
 
-
-
     public void reduceRelationships(SourceLocation location) {
         List<Relationship> relationshipsToRemove = new LinkedList<Relationship>();
 
@@ -82,5 +80,44 @@ public class Concept {
         }
 
         relationshipSet.removeAll(relationshipsToRemove);
+    }
+
+    public String getDebugDescription() {
+        StringBuilder description = new StringBuilder();
+        description.append("[");
+        description.append(title);
+
+
+        description.append("(");
+        description.append(getSourceString());
+        if (attributes != null) {
+            description.append(":");
+            description.append(attributes.ner);
+        }
+
+        description.append(")");
+        description.append("]");
+        return description.toString();
+    }
+
+    public String getSourceString() {
+        String result = null;
+
+        switch (sourceLocation) {
+            case None:
+                result = "None";
+                break;
+            case SourceA:
+                result = "A";
+                break;
+            case SourceB:
+                result = "B";
+                break;
+            case SourceBoth:
+                result = "Both";
+                break;
+        }
+
+        return result;
     }
 }
