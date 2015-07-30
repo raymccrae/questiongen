@@ -244,7 +244,7 @@ public class QuestionGenerator {
             for (Relationship relationship : source.getRelationshipSet()) {
                 Concept target = relationship.getTargetConcept();
                 if (target.getSourceLocation() == SourceLocation.SourceBoth) {
-                    System.out.println(source.getDebugDescription() + " [" + relationship.getLinkingTerm() + "] " + target.getDebugDescription());
+                    System.out.println(source.getDebugDescription() + " [" + relationship.getLinkingTerm() + "] " + target.getDebugDescription() + " : " + relationship.getRanking());
                 }
             }
         }
@@ -255,7 +255,7 @@ public class QuestionGenerator {
             for (Relationship relationship : source.getRelationshipSet()) {
                 Concept target = relationship.getTargetConcept();
                 if (target.getSourceLocation() == SourceLocation.SourceA || target.getSourceLocation() == SourceLocation.SourceB) {
-                    System.out.println(source.getDebugDescription() + " [" + relationship.getLinkingTerm() + "] " + target.getDebugDescription());
+                    System.out.println(source.getDebugDescription() + " [" + relationship.getLinkingTerm() + "] " + target.getDebugDescription()  + " : " + relationship.getRanking());
                 }
             }
         }

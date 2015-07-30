@@ -32,6 +32,16 @@ public class Concept {
         return sourceLocation;
     }
 
+    public String getNER() {
+        String ner = null;
+
+        if (attributes != null) {
+            ner = attributes.ner;
+        }
+
+        return ner;
+    }
+
     public Set<String> getAlternativeTerms() {
         return Collections.unmodifiableSet(alternativeTerms);
     }

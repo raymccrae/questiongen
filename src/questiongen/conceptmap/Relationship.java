@@ -41,4 +41,29 @@ public class Relationship {
     public void addAlternativeTerm(String alternativeTerm) {
         alternativeTerms.add(alternativeTerm.toLowerCase().trim());
     }
+
+    public int getRanking() {
+        int rank = 0;
+        String sourceNER = sourceConcept.getNER();
+        String targetNER = targetConcept.getNER();
+
+        if (sourceConcept.getSourceLocation() == SourceLocation.SourceBoth)
+            rank += 10;
+
+        if (sourceNER != null) {
+            rank += 5;
+
+            if (!sourceNER.equals("O"))
+                rank += 20;
+        }
+
+        if (targetNER != null) {
+            rank += 5;
+
+            if (!targetNER.equals("O"))
+                rank += 20;
+        }
+
+        return rank;
+    }
 }
