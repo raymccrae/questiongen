@@ -17,13 +17,13 @@
             <vcard:FN>Raymond McCrae</vcard:FN>
             <vcard:EMAIL>rmccrae@me.com</vcard:EMAIL>
         </dcterms:rightsHolder>
-        <dcterms:created>2015-07-28T21:56:57+01:00</dcterms:created>
-        <dcterms:modified>2015-07-28T21:56:57+01:00</dcterms:modified>
+        <dcterms:created>2015-07-25T13:44:40+01:00</dcterms:created>
+        <dcterms:modified>2015-07-30T23:33:20+01:00</dcterms:modified>
         <dc:language>en</dc:language>
         <dc:format>x-cmap/x-storable</dc:format>
         <dc:publisher>FIHMC CmapTools 5.06</dc:publisher>
-        <dc:extent>10285 bytes</dc:extent>
-        <dc:source>cmap:1NM2H90XL-17Y8WYB-1:1NM2H92CW-Q6MHDR-Z:1P8DLRYM9-1QD9HVM-M2</dc:source>
+        <dc:extent>10499 bytes</dc:extent>
+        <dc:source>cmap:1NFDZ3YFH-2BBP41L-1:1NFDZ404Y-FRLLYZ-Z:1P82GYR9Y-2DVB9WB-5J</dc:source>
     </res-meta>
     <map width="1437" height="1022">
         <concept-list>
@@ -36,7 +36,7 @@
             <concept id="1P82J5Z1P-2B565GS-Q7" label="England"/>
             <concept id="1P82VZMZV-13Q0YFB-1VW" label="Thanksgiving service"/>
             <concept id="1P82WC0Q7-24S6HM3-2QP" label="English arms"/>
-            <concept id="1P82JLLZV-FY838Y-18M" label="King Francis II"/>
+            <concept id="1P82JLLZV-FY838Y-18M" label="King Francis II" short-comment="" long-comment="christian king francis&#xa;king francis&#xa;francis&#xa;francis ii"/>
             <concept id="1P82S6V3H-2CNH0W8-199" label="military forces" short-comment="" long-comment="foreign soldiers&#xa;soldiers&#xa;soldier"/>
             <concept id="1P82GZQ8N-SLSGRS-67" label="The King"/>
             <concept id="1P82HV4C9-751GP9-CG" label="Political comment"/>
@@ -264,7 +264,7 @@
             </style-sheet>
         </style-sheet-list>
         <extra-graphical-properties-list>
-            <properties-list id="1P8DLRYM9-1QD9HVM-M2">
+            <properties-list id="1P82GYR9Y-2DVB9WB-5J">
                 <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
             </properties-list>
         </extra-graphical-properties-list>
