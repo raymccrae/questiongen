@@ -43,15 +43,27 @@ public class QuestionGenerator {
         Collection<Concept> manualConcepts  = readCXLFile(manualFile, SourceLocation.None);
 
 
+        mergeConcepts(sourceAConcepts, manualConcepts);
+        mergeConcepts(sourceBConcepts, manualConcepts);
+        mergeConcepts(sourceBConcepts, sourceAConcepts);
+
+        Collection<Concept> matchedConcepts = filterMatchingConcepts(manualConcepts);
+
+        printMatchBothSides(manualConcepts);
+        System.out.println("===========================================");
+        printMatchOneSide(manualConcepts);
+    }
+
+    private void mergeConcepts(Collection<Concept> fromConcepts, Collection<Concept> toConcepts) {
         Map<String, Concept> termConceptMap = new HashMap<String, Concept>();
-        for (Concept c : manualConcepts) {
+        for (Concept c : toConcepts) {
             termConceptMap.put(c.getTitle(), c);
             for (String altTerm : c.getAlternativeTerms()) {
                 termConceptMap.put(altTerm, c);
             }
         }
 
-        for (Concept cA : sourceAConcepts) {
+        for (Concept cA : fromConcepts) {
             if (termConceptMap.containsKey(cA.getTitle())) {
                 Concept c = termConceptMap.get(cA.getTitle());
                 c.mergeConcept(cA);
@@ -64,26 +76,6 @@ public class QuestionGenerator {
                 }
             }
         }
-
-        for (Concept cB : sourceBConcepts) {
-            if (termConceptMap.containsKey(cB.getTitle())) {
-                Concept c = termConceptMap.get(cB.getTitle());
-                c.mergeConcept(cB);
-            }
-
-            for (String altTerm : cB.getAlternativeTerms()) {
-                if (termConceptMap.containsKey(altTerm)) {
-                    Concept c = termConceptMap.get(altTerm);
-                    c.mergeConcept(cB);
-                }
-            }
-        }
-
-        Collection<Concept> matchedConcepts = filterMatchingConcepts(manualConcepts);
-
-        printMatchBothSides(manualConcepts);
-        System.out.println("===========================================");
-        printMatchOneSide(manualConcepts);
     }
 
     public Collection<Concept> readTMLFile(File tmlFile, SourceLocation location) throws IOException, SAXException, ParserConfigurationException {
