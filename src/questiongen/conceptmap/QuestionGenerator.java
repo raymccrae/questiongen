@@ -23,9 +23,12 @@ public class QuestionGenerator {
     public static void main(String[] args) {
         QuestionGenerator qg = new QuestionGenerator();
 
-        File tmlFile1 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_a.xml");
-        File tmlFile2 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_b.xml");
-        File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Age_of_Reformation.cxl");
+//        File tmlFile1 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_a.xml");
+//        File tmlFile2 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Age_of_Reformation_2012_b.xml");
+//        File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Age_of_Reformation.cxl");
+        File tmlFile1 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Wars_of_Independence_2014_d.xml");
+        File tmlFile2 = new File("/Users/raymond/IdeaProjects/questiongen/cmm-enhanced/Wars_of_Independence_2014_e.xml");
+        File cxlFile = new File("/Users/raymond/IdeaProjects/questiongen/manual-cmm/Wars_of_Independence.cxl");
         try {
             qg.process(tmlFile1, tmlFile2, cxlFile);
         } catch (IOException e) {
@@ -52,6 +55,21 @@ public class QuestionGenerator {
         printMatchBothSides(matchedConcepts);
         System.out.println("===========================================");
         printMatchOneSide(matchedConcepts);
+        System.out.println("===========================================");
+
+        Collection<Relationship> matchingRelationships = matchingRelationshipsBothSides(matchedConcepts);
+        Collection<String> questions = generateMatchBothSidesQuestions(matchingRelationships);
+        for (String question : questions) {
+            System.out.println(question);
+        }
+
+        System.out.println("===========================================");
+
+        Collection<Relationship> onesidedRelationships = matchingRelationshipsOneSide(matchedConcepts);
+        Collection<String> differQuestions = generateMatcOneSidesQuestions(onesidedRelationships);
+        for (String question : differQuestions) {
+            System.out.println(question);
+        }
     }
 
     private void mergeConcepts(Collection<Concept> fromConcepts, Collection<Concept> toConcepts) {
@@ -239,6 +257,36 @@ public class QuestionGenerator {
         return matchingConcepts;
     }
 
+    public Collection<Relationship> matchingRelationshipsBothSides(Collection<Concept> concepts) {
+        LinkedList<Relationship> relationships = new LinkedList<Relationship>();
+
+        for (Concept source : concepts) {
+            for (Relationship relationship : source.getRelationshipSet()) {
+                Concept target = relationship.getTargetConcept();
+                if (target.getSourceLocation() == SourceLocation.SourceBoth) {
+                    relationships.add(relationship);
+                }
+            }
+        }
+
+        return relationships;
+    }
+
+    public Collection<Relationship> matchingRelationshipsOneSide(Collection<Concept> concepts) {
+        LinkedList<Relationship> relationships = new LinkedList<Relationship>();
+
+        for (Concept source : concepts) {
+            for (Relationship relationship : source.getRelationshipSet()) {
+                Concept target = relationship.getTargetConcept();
+                if (target.getSourceLocation() == SourceLocation.SourceA || target.getSourceLocation() == SourceLocation.SourceB) {
+                    relationships.add(relationship);
+                }
+            }
+        }
+
+        return relationships;
+    }
+
     public void printMatchBothSides(Collection<Concept> concepts) {
         for (Concept source : concepts) {
             for (Relationship relationship : source.getRelationshipSet()) {
@@ -261,4 +309,44 @@ public class QuestionGenerator {
         }
     }
 
+    public Collection<String> generateMatchBothSidesQuestions(Collection<Relationship> relationships) {
+        List<String> questions = new LinkedList<String>();
+
+        for (Relationship relationship : relationships) {
+            String question = "Both sources agree, " +
+                    relationship.getSourceConcept().getTitle() +
+                    " " +
+                    relationship.getLinkingTerm() +
+                    " " +
+                    relationship.getTargetConcept().getTitle() +
+                    ". Are the underlaying reasons the same?";
+            questions.add(question);
+        }
+
+        return questions;
+    }
+
+    public Collection<String> generateMatcOneSidesQuestions(Collection<Relationship> relationships) {
+        List<String> questions = new LinkedList<String>();
+
+        for (Relationship relationship : relationships) {
+            String source = relationship.getTargetConcept().getSourceLocation() == SourceLocation.SourceA ? "Source A" : "Source B";
+            String otherSource = relationship.getTargetConcept().getSourceLocation() == SourceLocation.SourceA ? "Source B" : "Source A";
+
+            String question = "From " +
+                    source +
+                    ", " +
+                    relationship.getSourceConcept().getTitle() +
+                    " " +
+                    relationship.getLinkingTerm() +
+                    " " +
+                    relationship.getTargetConcept().getTitle() +
+                    ". Why does this differ from the account in " +
+                    otherSource +
+                    "?";
+            questions.add(question);
+        }
+
+        return questions;
+    }
 }
