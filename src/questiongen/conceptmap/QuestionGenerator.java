@@ -319,7 +319,7 @@ public class QuestionGenerator {
                     relationship.getLinkingTerm() +
                     " " +
                     relationship.getTargetConcept().getTitle() +
-                    ". Are the underlaying reasons the same?";
+                    ". Are the underlying reasons the same?";
             questions.add(question);
         }
 
